@@ -21,17 +21,19 @@ We implement a few extensions to it in the `lib/rx` directory.  These extensions
 
 ## Command Line
 
-### Fetch
+### Carelink
+
+#### Fetch
 You can fetch raw data from carelink with
 
 ```bash
-./bin/mmcsv fetch -u <username> -p <password> -d <num_days> stdout
+./bin/carelink/mmcsv fetch -u <username> -p <password> -d <num_days> stdout
 ```
 
-### Parse
+#### Parse
 You can parse raw data fetched from carelink with
 
 ``` bash
-node bin/parse.js <csv_file_to_parse>
+node bin/carelink/parse.js <csv_file_to_parse>
 ```
 

@@ -15,27 +15,27 @@
  * == BSD2 LICENSE ==
  */
 
-var es = require('event-stream');
-function fetch (opts) {
-  var mmcsv = require('../lib/index.js');
-  var out = es.through( );
-  if (!opts.username || !opts.password || !opts.days) {
-    if (!opts.username) {
-      console.error('Missing --username');
-    }
-    if (!opts.password) {
-      console.error('Missing --password');
-    }
-    if (isNaN(opts.days)) {
-      console.error('Set --days to the number of days to fetch');
-    }
-    console.error(opts.help( ));
-    process.exit(1);
-  }
-  opts.daysAgo = opts.days;
-  if (opts.json) {
-    out = es.pipeline(out, mmcsv.parse.all( ), es.stringify( ));
-  }
-  mmcsv.carelink.fetch(opts).pipe(out).pipe(process.stdout);
-}
-module.exports = fetch;
+/*
+ * A stupid utility to parse a file.  Pass the file you want parsed to this script as the first argument
+ */
+
+// Require this to get things registered with rx
+require('../.');
+
+var fs = require('fs');
+
+var rx = require('rx');
+
+var carelink = require('../.');
+
+var file = process.argv[2];
+
+rx.Node.fromStream(fs.createReadStream(file))
+  .apply(carelink.fromCsv)
+  .subscribe(
+  function (e) {
+    console.log('%j', e);
+  },
+  function (err) {
+    throw err;
+  });
