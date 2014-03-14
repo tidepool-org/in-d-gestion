@@ -30,6 +30,7 @@
   },
   "dependencies": {
     "amoeba": "0.0.7",
+    "async": "0.2.10",
     "common": "0.2.5",
     "csv-streamify": "0.9.0",
     "event-stream": "3.1.0",

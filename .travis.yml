@@ -4,7 +4,7 @@ script:
   - echo 'Welcome!'
   - node_modules/.bin/mocha --verbose -R tap test
   - node_modules/.bin/mocha --verbose -R 'travis-cov' test
-  - node_modules/.bin/mocha -R mocha-lcov-reporter test | node_modules/.bin/coveralls
+  - node_modules/.bin/mocha -R mocha-lcov-reporter test | node_modules/coveralls/bin/coveralls.js
   - node_modules/.bin/mocha -R html-cov test > test/coverage.html
   - TZ=UTC node_modules/.bin/mocha --verbose -R tap test
   - TZ=PST node_modules/.bin/mocha --verbose -R tap test
