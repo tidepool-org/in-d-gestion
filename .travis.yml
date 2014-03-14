@@ -1,6 +1,7 @@
 
 language: node_js
 script:
+  - echo 'Welcome!'
   - node_modules/.bin/mocha --verbose -R tap test
   - node_modules/.bin/mocha --verbose -R 'travis-cov' test
   - node_modules/.bin/mocha -R mocha-lcov-reporter test | node_modules/.bin/coveralls
