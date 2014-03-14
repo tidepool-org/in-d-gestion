@@ -4,16 +4,20 @@
   "description": "Library for ingestion of data from various vendor-specific sources into the Tidepool.org platform for diabetes data",
   "main": "lib/index.js",
   "repository": "https://github.com/tidepool-org/in-d-gestion.git",
-  "author": [{
-	"name": "Jamie Bate",
-	"email": "jamie@tidepool.org"
-  },{
-"name": "Ben West",
-"email": "bewest@gmail.com"
-},{
-	"name": "Eric Tschetter",
-	"email": "cheddar@tidepool.org"
-}],
+  "author": [
+    {
+      "name": "Jamie Bate",
+      "email": "jamie@tidepool.org"
+    },
+    {
+      "name": "Ben West",
+      "email": "bewest@gmail.com"
+    },
+    {
+      "name": "Eric Tschetter",
+      "email": "cheddar@tidepool.org"
+    }
+  ],
   "license": "BSD-2",
   "files": [
     "lib"
