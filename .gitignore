@@ -1,7 +1,6 @@
 lib-cov
 *.seed
 *.log
-*.csv
 *.dat
 *.out
 *.pid
@@ -11,5 +10,11 @@ pids
 logs
 results
 
+coverage.html
+test/coverage.html
+
 npm-debug.log
 node_modules
+
+.idea
+*.iml

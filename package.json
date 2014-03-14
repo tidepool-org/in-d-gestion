@@ -1,0 +1,46 @@
+{
+  "name": "in-d-gestion",
+  "version": "0.0.0",
+  "description": "Library for ingestion of data from various vendor-specific sources into the Tidepool.org platform for diabetes data",
+  "main": "lib/index.js",
+  "repository": "https://github.com/tidepool-org/in-d-gestion.git",
+  "author": [{
+	"name": "Jamie Bate",
+	"email": "jamie@tidepool.org"
+  },{
+"name": "Ben West",
+"email": "bewest@gmail.com"
+},{
+	"name": "Eric Tschetter",
+	"email": "cheddar@tidepool.org"
+}],
+  "license": "BSD-2",
+  "files": [
+    "lib"
+  ],
+  "config": {
+    "blanket": {
+      "pattern": "/lib",
+      "data-cover-never": "node_modules"
+    }
+  },
+  "dependencies": {
+    "amoeba": "0.0.7",
+    "common": "0.2.5",
+    "csv-streamify": "0.9.0",
+    "event-stream": "3.1.0",
+    "lodash": "2.4.1",
+    "moment": "2.5.1",
+    "optimist": "0.6.0",
+    "request": "2.33.0",
+    "rx": "2.2.13"
+  },
+  "devDependencies": {
+    "blanket": "1.1.6",
+    "coveralls": "2.6.1",
+    "mocha": "1.17.1",
+    "mocha-lcov-reporter": "0.0.1",
+    "salinity": "0.0.5",
+    "travis-cov": "0.2.4"
+  }
+}
