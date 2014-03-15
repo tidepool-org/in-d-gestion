@@ -4,7 +4,7 @@
  * == BSD2 LICENSE ==
  */
 
-var ingestion = require('../../lib');
+var ingestion = require('../..');
 var fs = require('fs');
 
 var argv = require('optimist');
