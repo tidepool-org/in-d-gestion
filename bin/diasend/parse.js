@@ -15,6 +15,25 @@
  * == BSD2 LICENSE ==
  */
 
-exports.carelink = require('./carelink');
+/*
+ * A stupid utility to parse a file.  Pass the file you want parsed to this script as the first argument
+ */
 
-exports.diasend = require('./diasend');
+var fs = require('fs');
+
+var rx = require('rx');
+
+var ingestion = require('../..');
+
+var file = process.argv[2];
+
+rx.Node.fromStream(fs.createReadStream(file))
+    .apply(ingestion.diasend.fromXls)
+    .subscribe(
+    function (e) {
+      console.log('%j', e);
+    },
+    function (err) {
+      console.error(err.stack);
+      throw err;
+    });

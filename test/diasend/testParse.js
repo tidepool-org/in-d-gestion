@@ -24,8 +24,8 @@ var indigestion = require('../../lib');
 
 function testParser(dir) {
   it('should parse as expected', function (done) {
-    rx.Node.fromStream(fs.createReadStream(dir + '/input.csv'))
-      .apply(indigestion.carelink.fromCsv)
+    rx.Node.fromStream(fs.createReadStream(dir + '/input.xls'))
+      .apply(indigestion.diasend.fromXls)
       .toArray()
       .subscribe(
       function(e) {
@@ -40,12 +40,6 @@ function testParser(dir) {
   });
 }
 
-describe('carelink/parse', function () {
-  describe('withSettingsChanges', function(){
-    testParser(__dirname + '/../resources/carelink/parse/withSettingsChanges');
-  });
-
-  describe('withoutSettingsChanges', function(){
-    testParser(__dirname + '/../resources/carelink/parse/withoutSettingsChanges');
-  });
+describe('diasend/parse', function () {
+  testParser(__dirname + '/../resources/diasend/parse');
 });

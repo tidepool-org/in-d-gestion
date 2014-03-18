@@ -19,23 +19,21 @@
  * A stupid utility to parse a file.  Pass the file you want parsed to this script as the first argument
  */
 
-// Require this to get things registered with rx
-require('../.');
-
 var fs = require('fs');
 
 var rx = require('rx');
 
-var carelink = require('../.');
+var ingestion = require('../..');
 
 var file = process.argv[2];
 
 rx.Node.fromStream(fs.createReadStream(file))
-  .apply(carelink.fromCsv)
+  .apply(ingestion.carelink.fromCsv)
   .subscribe(
   function (e) {
     console.log('%j', e);
   },
   function (err) {
+    console.error(err.stack);
     throw err;
   });
