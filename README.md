@@ -37,3 +37,19 @@ You can parse raw data fetched from carelink with
 node bin/carelink/parse.js <csv_file_to_parse>
 ```
 
+### Diasend
+
+#### Fetch
+You can fetch data from diasend with
+
+```bash
+node bin/diasend/fetch.js -u <username> -p <password> -d <num_days> stdout
+```
+
+#### Parse
+You can parse data fetched from diasend with
+
+``` bash
+node bin/diasend/parse.js <xls_file_to_parse>
+```
+
