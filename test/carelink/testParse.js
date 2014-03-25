@@ -18,14 +18,12 @@
 var fs = require('fs');
 
 var expect = require('salinity').expect;
-var rx = require('rx');
 
 var indigestion = require('../../lib');
 
 function testParser(dir) {
   it('should parse as expected', function (done) {
-    rx.Node.fromStream(fs.createReadStream(dir + '/input.csv'))
-      .apply(indigestion.carelink.fromCsv)
+    indigestion.carelink.parse(fs.createReadStream(dir + '/input.csv'))
       .toArray()
       .subscribe(
       function(e) {

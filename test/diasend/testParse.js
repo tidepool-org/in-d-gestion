@@ -18,14 +18,12 @@
 var fs = require('fs');
 
 var expect = require('salinity').expect;
-var rx = require('rx');
 
 var indigestion = require('../../lib');
 
 function testParser(dir) {
   it('should parse as expected', function (done) {
-    rx.Node.fromStream(fs.createReadStream(dir + '/input.xls'))
-      .apply(indigestion.diasend.fromXls)
+    indigestion.diasend.parse(fs.createReadStream(dir + '/input.xls'))
       .toArray()
       .subscribe(
       function(e) {

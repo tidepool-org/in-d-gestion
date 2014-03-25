@@ -40,6 +40,7 @@ argv = argv
            });
 var opts = argv.argv;
 opts.name = opts._.shift();
+opts.daysAgo = opts.days;
 
 if (!opts.name || !opts.username || !opts.password) {
   argv.showHelp();

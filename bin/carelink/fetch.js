@@ -33,6 +33,8 @@ function fetch (opts) {
     process.exit(1);
   }
   opts.daysAgo = opts.days;
-  ingestion.carelink.fetch(opts).pipe(out).pipe(process.stdout);
+  ingestion.carelink.fetch(opts, function(err, stream){
+    stream.pipe(out).pipe(process.stdout);
+  });
 }
 module.exports = fetch;
