@@ -16,5 +16,7 @@ test/coverage.html
 npm-debug.log
 node_modules
 
+.DS_Store
+
 .idea
 *.iml
