@@ -1,39 +1,39 @@
 [
-  {"type":"smbg","deviceTime":"2014-03-13T00:20:00","value":5.1,"units":"mmol/L","deviceId":"72-25142-16 (Animas Vibe)","id":"2kjkuoe4pnrq8q39cgkcugh330ummufg","source":"diasend"},
-  {"type":"smbg","deviceTime":"2014-03-13T03:28:00","value":5.5,"units":"mmol/L","deviceId":"72-25142-16 (Animas Vibe)","id":"cmd14h5k3pc03i6erh4gnui797tn1tos","source":"diasend"},
-  {"type":"smbg","deviceTime":"2014-03-13T05:09:00","value":5.6,"units":"mmol/L","deviceId":"72-25142-16 (Animas Vibe)","id":"2e18g3gtu9trhmcgv8m8q5iegkik3e8u","source":"diasend"},
-  {"type":"smbg","deviceTime":"2014-03-13T07:38:00","value":12.9,"units":"mmol/L","deviceId":"72-25142-16 (Animas Vibe)","id":"ab78u3rddk23mkp1jc5q3duuarj4jk4r","source":"diasend"},
-  {"type":"smbg","deviceTime":"2014-03-13T08:52:00","value":5.8,"units":"mmol/L","deviceId":"72-25142-16 (Animas Vibe)","id":"pdujq2msolob6qqa2s6nelb3g0180q4a","source":"diasend"},
-  {"type":"smbg","deviceTime":"2014-03-13T22:26:00","value":3.1,"units":"mmol/L","deviceId":"72-25142-16 (Animas Vibe)","id":"5fr2703j514s3js6nrdecsdk95f0f4dp","source":"diasend"},
-  {"type":"smbg","deviceTime":"2014-03-13T23:52:00","value":16.3,"units":"mmol/L","deviceId":"72-25142-16 (Animas Vibe)","id":"d3qf1u3jhc563hs73d1vgpp0kp71lgrn","source":"diasend"},
-  {"type":"smbg","deviceTime":"2014-03-14T00:58:00","value":13.7,"units":"mmol/L","deviceId":"72-25142-16 (Animas Vibe)","id":"g7rg1lqtlu9utdouis4qbaqfr22a0hu6","source":"diasend"},
-  {"type":"smbg","deviceTime":"2014-03-14T01:10:00","value":7.5,"units":"mmol/L","deviceId":"72-25142-16 (Animas Vibe)","id":"un603hfn6gv5cprb1knia99d6olbg5ri","source":"diasend"},
-  {"type":"cbg","deviceTime":"2014-03-13T22:26:00","value":2.8,"units":"mmol/L","deviceId":"72-25142-16 (Animas Vibe)","id":"s19n65s47fnl15s8nrdce35fev90evqk","source":"diasend"},
-  {"type":"cbg","deviceTime":"2014-03-13T22:31:00","value":3.1,"units":"mmol/L","deviceId":"72-25142-16 (Animas Vibe)","id":"8m07aarum7hl83rssn9qutdqr7157h6j","source":"diasend"},
-  {"type":"cbg","deviceTime":"2014-03-13T22:36:00","value":3,"units":"mmol/L","deviceId":"72-25142-16 (Animas Vibe)","id":"khsgjbqtvbrmn9gsi3dkip6rsqoqf4n7","source":"diasend"},
-  {"type":"cbg","deviceTime":"2014-03-14T00:51:00","value":11.9,"units":"mmol/L","deviceId":"72-25142-16 (Animas Vibe)","id":"kidcfcp5ep8f9bslpohlecknbfmuh0ie","source":"diasend"},
-  {"type":"cbg","deviceTime":"2014-03-14T00:56:00","value":10.9,"units":"mmol/L","deviceId":"72-25142-16 (Animas Vibe)","id":"fgmm4792i8jffspr8ukl6vv5pf1f25gk","source":"diasend"},
-  {"type":"cbg","deviceTime":"2014-03-14T01:01:00","value":9.6,"units":"mmol/L","deviceId":"72-25142-16 (Animas Vibe)","id":"nvc889h5enbhcglhkdlu2ap63ojss3op","source":"diasend"},
-  {"type":"cbg","deviceTime":"2014-03-14T03:26:00","value":3.4,"units":"mmol/L","deviceId":"72-25142-16 (Animas Vibe)","id":"lno26gamsr1d8r7aah50urobjoac3oac","source":"diasend"},
-  {"type":"cbg","deviceTime":"2014-03-14T03:31:00","value":3.2,"units":"mmol/L","deviceId":"72-25142-16 (Animas Vibe)","id":"jb2ccv2mn9u3agunuegagurn6cdoj033","source":"diasend"},
-  {"type":"cbg","deviceTime":"2014-03-14T06:01:00","value":8.3,"units":"mmol/L","deviceId":"72-25142-16 (Animas Vibe)","id":"3d79vqs7ippt10d2sdonpr0nr7bhml23","source":"diasend"},
-  {"type":"cbg","deviceTime":"2014-03-14T06:06:00","value":8.3,"units":"mmol/L","deviceId":"72-25142-16 (Animas Vibe)","id":"5qjg6gfd2jdueegb6mq64kuu84a8qcr7","source":"diasend"},
-  {"type":"wizard","deviceTime":"2014-03-13T00:20:00","deviceId":"72-25142-16 (Animas Vibe)","payload":{"carbInput":22,"carbUnits":"grams"},"id":"696njgka14aufshsj59e2tbl8sk575cc","source":"diasend"},
-  {"type":"bolus","subType":"normal","deviceTime":"2014-03-13T00:20:00","value":1.85,"deviceId":"72-25142-16 (Animas Vibe)","id":"3s5jkh7tskfk1gq75imasobka59mlca2","source":"diasend"},
-  {"type":"wizard","deviceTime":"2014-03-13T03:28:00","deviceId":"72-25142-16 (Animas Vibe)","payload":{"carbInput":14,"carbUnits":"grams"},"id":"c7tfq06ktj6njobju15s08i4k7i6pssp","source":"diasend"},
-  {"type":"bolus","subType":"normal","deviceTime":"2014-03-13T03:28:00","value":1.25,"deviceId":"72-25142-16 (Animas Vibe)","id":"73rigmi2srm8aqgdtcs3tfjlikfb4dvv","source":"diasend"},
-  {"type":"wizard","deviceTime":"2014-03-13T05:09:00","deviceId":"72-25142-16 (Animas Vibe)","payload":{"carbInput":16,"carbUnits":"grams"},"id":"jfdrfughne07vmed1c0ovcfpr3mna917","source":"diasend"},
-  {"type":"bolus","subType":"normal","deviceTime":"2014-03-13T05:09:00","value":1.35,"deviceId":"72-25142-16 (Animas Vibe)","id":"23deb6fb798t75mkh61mk6dvo1i8l8qe","source":"diasend"},
-  {"type":"bolus","subType":"normal","deviceTime":"2014-03-13T07:38:00","value":3.25,"deviceId":"72-25142-16 (Animas Vibe)","id":"ngdgriaifaiuebikgtsg4364rtqnv8g9","source":"diasend"},
-  {"type":"wizard","deviceTime":"2014-03-13T08:52:00","deviceId":"72-25142-16 (Animas Vibe)","payload":{"carbInput":42,"carbUnits":"grams"},"id":"jhfsdtc5bqjhaqfpk7fc07u6fptr9hgo","source":"diasend"},
-  {"type":"bolus","subType":"normal","deviceTime":"2014-03-13T08:52:00","value":3.5,"deviceId":"72-25142-16 (Animas Vibe)","id":"5bt63m0t73hjrfcafdq491jq6dnhpt4s","source":"diasend"},
-  {"type":"wizard","deviceTime":"2014-03-13T22:26:00","deviceId":"72-25142-16 (Animas Vibe)","payload":{"carbInput":30,"carbUnits":"grams"},"id":"tg825bvpm6gpt5cde6a6pclad8ciqtl7","source":"diasend"},
-  {"type":"bolus","subType":"normal","deviceTime":"2014-03-13T22:26:00","value":1.2,"deviceId":"72-25142-16 (Animas Vibe)","id":"svg93iotjkjd5ql9jq6oi3rbebkla7i3","source":"diasend"},
-  {"type":"bolus","subType":"normal","deviceTime":"2014-03-13T23:52:00","value":4.4,"deviceId":"72-25142-16 (Animas Vibe)","id":"of26dhb6a1nbp5tvhcli2s6qdfbuppu9","source":"diasend"},
-  {"type":"wizard","deviceTime":"2014-03-14T00:58:00","deviceId":"72-25142-16 (Animas Vibe)","payload":{"carbInput":26,"carbUnits":"grams"},"id":"k385hrj3kqcaf7ce2h02d8cu538j86rn","source":"diasend"},
-  {"type":"bolus","subType":"normal","deviceTime":"2014-03-14T00:58:00","value":3.4,"deviceId":"72-25142-16 (Animas Vibe)","id":"vo63cicqf2227278j6ke1ptpehtluda5","source":"diasend"},
-  {"type":"wizard","deviceTime":"2014-03-14T01:10:00","deviceId":"72-25142-16 (Animas Vibe)","payload":{"carbInput":24,"carbUnits":"grams"},"id":"p6iem1odrb8nmet8iv05r9bp6uhhmsju","source":"diasend"},
-  {"type":"bolus","subType":"normal","deviceTime":"2014-03-14T01:10:00","value":2,"deviceId":"72-25142-16 (Animas Vibe)","id":"bp2i80hqmkrqombalfk0i1dm5mnbnlsu","source":"diasend"},
+  {"type":"smbg","deviceTime":"2014-03-13T00:20:00","value":5.1,"units":"mmol/L","deviceId":"72-25142-16 (Animas Vibe)","source":"diasend"},
+  {"type":"smbg","deviceTime":"2014-03-13T03:28:00","value":5.5,"units":"mmol/L","deviceId":"72-25142-16 (Animas Vibe)","source":"diasend"},
+  {"type":"smbg","deviceTime":"2014-03-13T05:09:00","value":5.6,"units":"mmol/L","deviceId":"72-25142-16 (Animas Vibe)","source":"diasend"},
+  {"type":"smbg","deviceTime":"2014-03-13T07:38:00","value":12.9,"units":"mmol/L","deviceId":"72-25142-16 (Animas Vibe)","source":"diasend"},
+  {"type":"smbg","deviceTime":"2014-03-13T08:52:00","value":5.8,"units":"mmol/L","deviceId":"72-25142-16 (Animas Vibe)","source":"diasend"},
+  {"type":"smbg","deviceTime":"2014-03-13T22:26:00","value":3.1,"units":"mmol/L","deviceId":"72-25142-16 (Animas Vibe)","source":"diasend"},
+  {"type":"smbg","deviceTime":"2014-03-13T23:52:00","value":16.3,"units":"mmol/L","deviceId":"72-25142-16 (Animas Vibe)","source":"diasend"},
+  {"type":"smbg","deviceTime":"2014-03-14T00:58:00","value":13.7,"units":"mmol/L","deviceId":"72-25142-16 (Animas Vibe)","source":"diasend"},
+  {"type":"smbg","deviceTime":"2014-03-14T01:10:00","value":7.5,"units":"mmol/L","deviceId":"72-25142-16 (Animas Vibe)","source":"diasend"},
+  {"type":"cbg","deviceTime":"2014-03-13T22:26:00","value":2.8,"units":"mmol/L","deviceId":"72-25142-16 (Animas Vibe)","source":"diasend"},
+  {"type":"cbg","deviceTime":"2014-03-13T22:31:00","value":3.1,"units":"mmol/L","deviceId":"72-25142-16 (Animas Vibe)","source":"diasend"},
+  {"type":"cbg","deviceTime":"2014-03-13T22:36:00","value":3,"units":"mmol/L","deviceId":"72-25142-16 (Animas Vibe)","source":"diasend"},
+  {"type":"cbg","deviceTime":"2014-03-14T00:51:00","value":11.9,"units":"mmol/L","deviceId":"72-25142-16 (Animas Vibe)","source":"diasend"},
+  {"type":"cbg","deviceTime":"2014-03-14T00:56:00","value":10.9,"units":"mmol/L","deviceId":"72-25142-16 (Animas Vibe)","source":"diasend"},
+  {"type":"cbg","deviceTime":"2014-03-14T01:01:00","value":9.6,"units":"mmol/L","deviceId":"72-25142-16 (Animas Vibe)","source":"diasend"},
+  {"type":"cbg","deviceTime":"2014-03-14T03:26:00","value":3.4,"units":"mmol/L","deviceId":"72-25142-16 (Animas Vibe)","source":"diasend"},
+  {"type":"cbg","deviceTime":"2014-03-14T03:31:00","value":3.2,"units":"mmol/L","deviceId":"72-25142-16 (Animas Vibe)","source":"diasend"},
+  {"type":"cbg","deviceTime":"2014-03-14T06:01:00","value":8.3,"units":"mmol/L","deviceId":"72-25142-16 (Animas Vibe)","source":"diasend"},
+  {"type":"cbg","deviceTime":"2014-03-14T06:06:00","value":8.3,"units":"mmol/L","deviceId":"72-25142-16 (Animas Vibe)","source":"diasend"},
+  {"type":"wizard","deviceTime":"2014-03-13T00:20:00","deviceId":"72-25142-16 (Animas Vibe)","payload":{"carbInput":22,"carbUnits":"grams"},"source":"diasend"},
+  {"type":"bolus","subType":"normal","deviceTime":"2014-03-13T00:20:00","value":1.85,"deviceId":"72-25142-16 (Animas Vibe)","source":"diasend"},
+  {"type":"wizard","deviceTime":"2014-03-13T03:28:00","deviceId":"72-25142-16 (Animas Vibe)","payload":{"carbInput":14,"carbUnits":"grams"},"source":"diasend"},
+  {"type":"bolus","subType":"normal","deviceTime":"2014-03-13T03:28:00","value":1.25,"deviceId":"72-25142-16 (Animas Vibe)","source":"diasend"},
+  {"type":"wizard","deviceTime":"2014-03-13T05:09:00","deviceId":"72-25142-16 (Animas Vibe)","payload":{"carbInput":16,"carbUnits":"grams"},"source":"diasend"},
+  {"type":"bolus","subType":"normal","deviceTime":"2014-03-13T05:09:00","value":1.35,"deviceId":"72-25142-16 (Animas Vibe)","source":"diasend"},
+  {"type":"bolus","subType":"normal","deviceTime":"2014-03-13T07:38:00","value":3.25,"deviceId":"72-25142-16 (Animas Vibe)","source":"diasend"},
+  {"type":"wizard","deviceTime":"2014-03-13T08:52:00","deviceId":"72-25142-16 (Animas Vibe)","payload":{"carbInput":42,"carbUnits":"grams"},"source":"diasend"},
+  {"type":"bolus","subType":"normal","deviceTime":"2014-03-13T08:52:00","value":3.5,"deviceId":"72-25142-16 (Animas Vibe)","source":"diasend"},
+  {"type":"wizard","deviceTime":"2014-03-13T22:26:00","deviceId":"72-25142-16 (Animas Vibe)","payload":{"carbInput":30,"carbUnits":"grams"},"source":"diasend"},
+  {"type":"bolus","subType":"normal","deviceTime":"2014-03-13T22:26:00","value":1.2,"deviceId":"72-25142-16 (Animas Vibe)","source":"diasend"},
+  {"type":"bolus","subType":"normal","deviceTime":"2014-03-13T23:52:00","value":4.4,"deviceId":"72-25142-16 (Animas Vibe)","source":"diasend"},
+  {"type":"wizard","deviceTime":"2014-03-14T00:58:00","deviceId":"72-25142-16 (Animas Vibe)","payload":{"carbInput":26,"carbUnits":"grams"},"source":"diasend"},
+  {"type":"bolus","subType":"normal","deviceTime":"2014-03-14T00:58:00","value":3.4,"deviceId":"72-25142-16 (Animas Vibe)","source":"diasend"},
+  {"type":"wizard","deviceTime":"2014-03-14T01:10:00","deviceId":"72-25142-16 (Animas Vibe)","payload":{"carbInput":24,"carbUnits":"grams"},"source":"diasend"},
+  {"type":"bolus","subType":"normal","deviceTime":"2014-03-14T01:10:00","value":2,"deviceId":"72-25142-16 (Animas Vibe)","source":"diasend"},
   {
     "type":"settings",
     "deviceTime":"2014-03-13T00:00:00",
@@ -54,7 +54,6 @@
     "insulinSensitivity": [ { "amount": 2.3, "start": 0 } ],
     "bgTarget":[ { "low": 5, "high": 5, "start": 0 } ],
     "deviceId":"72-25142-16 (Animas Vibe)",
-    "id":"fre584b1sbgg9vnohpb16mi3crfd4k1d",
     "source": "diasend"
   },
   {
@@ -65,7 +64,6 @@
     "value": 0.65,
     "deviceId": "72-25142-16 (Animas Vibe)",
     "duration": 14400000,
-    "id": "f0gpeudde9ufod5d3q5j4do64a6csnjf",
     "source": "diasend"
   },
   {
@@ -76,7 +74,6 @@
     "value": 0.6,
     "deviceId": "72-25142-16 (Animas Vibe)",
     "duration": 14400000,
-    "id": "90iubl5btk6a9voet3bd434p6opkk7si",
     "source": "diasend"
   },
   {
@@ -87,7 +84,6 @@
     "value": 0.725,
     "deviceId": "72-25142-16 (Animas Vibe)",
     "duration": 14400000,
-    "id": "kvi4itn7ppk8e2eg4vuat0j146fv05g7",
     "source": "diasend"
   },
   {
@@ -98,7 +94,6 @@
     "deliveryType": "temp",
     "duration": 660000,
     "annotations": [{ "code": "diasend/temp-basal-fabrication" }],
-    "id": "2aqpntnm8rn63cd0fmvt7l54ddk1kaq9",
     "source": "diasend"
   },
   {
@@ -109,7 +104,6 @@
     "deliveryType": "temp",
     "duration": 480000,
     "annotations": [{ "code": "diasend/temp-basal-fabrication" }],
-    "id": "auan62l3qlp53ja6oc05e64flupdo6f2",
     "source": "diasend"
   },
   {
@@ -120,7 +114,6 @@
     "value": 0.775,
     "deviceId": "72-25142-16 (Animas Vibe)",
     "duration": 43200000,
-    "id": "bvieon9chdss578s3426redccef34fiq",
     "source": "diasend"
   },
   {
@@ -131,7 +124,6 @@
     "value": 0.65,
     "deviceId": "72-25142-16 (Animas Vibe)",
     "duration": 14400000,
-    "id": "dlegoblgsqpr33ob4ddq02h1mdv4mskt",
     "source": "diasend"
   },
   {
@@ -142,7 +134,6 @@
     "value": 0.6,
     "deviceId": "72-25142-16 (Animas Vibe)",
     "duration": 14400000,
-    "id": "7358honas6tf10pq0vba40sa3elv1okn",
     "source": "diasend"
   },
   {
@@ -153,7 +144,6 @@
     "deliveryType": "temp",
     "duration": 5520000,
     "annotations": [{ "code": "diasend/temp-basal-fabrication" }],
-    "id": "p51u3d5grd807bvkf5kchuqoh5fr8ld6",
     "source": "diasend"
   }
 ]
