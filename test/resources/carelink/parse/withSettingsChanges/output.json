@@ -93,21 +93,40 @@
     "source": "carelink"
   },
   {
+    "type": "settings",
+    "deviceTime": "2014-03-14T00:00:00",
+    "deviceId": "Paradigm Revel - 723",
+    "bgTarget": [],
+    "carbRatio": [],
+    "insulinSensitivity": [],
+    "units": {
+      "bg": "mg dL"
+    },
+    "basalSchedules": {
+      "pattern b": [],
+      "pattern a": [],
+      "standard": [{ "rate": 0.8, "start": 0 }]
+    },
+    "activeBasalSchedule": "standard",
+    "annotations": [{ "code": "basal-changed-settings" }],
+    "source": "carelink"
+  },
+  {
+    "type": "basal",
+    "deliveryType": "scheduled",
+    "deviceTime": "2014-03-14T00:00:00",
+    "scheduleName": "standard",
+    "value": 0.8,
+    "deviceId": "Paradigm Revel - 723",
+    "source": "carelink"
+  },
+  {
     "type": "basal",
     "deliveryType": "temp",
     "deviceTime": "2014-03-14T00:28:56",
     "deviceId": "Paradigm Revel - 723",
     "percent": 70,
     "duration": 7200000,
-    "source": "carelink"
-  },
-  {
-    "type": "basal",
-    "deliveryType": "scheduled",
-    "deviceTime": "2014-03-14T00:29:03",
-    "scheduleName": "standard",
-    "value": 0.8,
-    "deviceId": "Paradigm Revel - 723",
     "source": "carelink"
   },
   {
