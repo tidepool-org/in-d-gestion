@@ -1,6 +1,6 @@
 {
   "name": "in-d-gestion",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "Library for ingestion of data from various vendor-specific sources into the Tidepool.org platform for diabetes data",
   "main": "lib/index.js",
   "repository": "https://github.com/tidepool-org/in-d-gestion.git",
