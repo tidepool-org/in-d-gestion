@@ -45,9 +45,10 @@
                      { "rate": 0.725, "start": 28800000 },
                      { "rate": 0.775, "start": 43200000 }
       ],
-      "Program 2": [ { "rate": 0, "start": 0 } ],
-      "Program 3": [ { "rate": 0, "start": 0 } ],
-      "Program 4": [ { "rate": 0,"start": 0 } ]
+      "Program 2": [ { "rate": 0.5, "start": 0 },
+                     { "rate": 1.35, "start": 7200000 }],
+      "Program 3": [],
+      "Program 4": []
     },
     "carbRatio": [ { "amount": 12, "start": 0 },
                    { "amount": 15, "start": 36000000 } ],
