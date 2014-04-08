@@ -44,6 +44,7 @@
   "devDependencies": {
     "blanket": "1.1.6",
     "coveralls": "2.8.0",
+    "jshint": "2.4.3",
     "mocha": "1.17.1",
     "mocha-lcov-reporter": "0.0.1",
     "salinity": "0.0.5",
