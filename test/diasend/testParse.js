@@ -30,14 +30,15 @@ function testParser(dir) {
       function(e) {
         var expectation = JSON.parse(fs.readFileSync(dir + '/output.json'));
 
-        // Assert that we have a number of uniques ids equal to the number of elements
-        // This is to make the removal of ids from our verification check a bit more safe
-        expect(_.uniq(e, 'id')).length(e.length);
-
         // Remove the _id field as it gets tedious to change as code changes happen
         var actualsNoId = e.map(function (element) { return _.omit(element, 'id'); });
 
         expect(actualsNoId).deep.equals(expectation);
+
+        // Assert that we have a number of uniques ids equal to the number of elements
+        // This is to make the removal of ids from our verification check a bit more safe
+        expect(_.uniq(e, 'id')).length(e.length);
+
         done();
       },
       function(err) {

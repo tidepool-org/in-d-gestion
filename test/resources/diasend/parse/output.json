@@ -69,6 +69,16 @@
   },
   {
     "type": "basal",
+    "deviceTime": "2014-03-13T02:00:00",
+    "deliveryType": "scheduled",
+    "scheduleName": "Program 2",
+    "value": 1.35,
+    "deviceId": "72-25142-16 (Animas Vibe)",
+    "duration": 79200000,
+    "source": "diasend"
+  },
+  {
+    "type": "basal",
     "deviceTime": "2014-03-13T04:00:00",
     "deliveryType": "scheduled",
     "scheduleName": "Program 1",
@@ -93,7 +103,7 @@
     "value": 0,
     "deviceId": "72-25142-16 (Animas Vibe)",
     "deliveryType": "temp",
-    "duration": 660000,
+    "duration": 180000,
     "annotations": [{ "code": "diasend/temp-basal-fabrication" }],
     "source": "diasend"
   },
