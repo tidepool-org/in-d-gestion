@@ -14,6 +14,9 @@
  * not, you can obtain one from Tidepool Project at tidepool.org.
  * == BSD2 LICENSE ==
  */
+'use strict';
+
+/* jshint expr: true */
 
 var expect = require('salinity').expect;
 var rx = require('rx');
@@ -159,7 +162,7 @@ var expectFailure = [
       { type: 'bolus', subType: 'dual/square', payload: '1234', uploadId: '1', uploadSeqNum: 24, deviceId: 'abc' }
     ]
   ]
-]
+];
 
 describe('carelink/bolusJoiner.js', function () {
   describe('success!?', function(){

@@ -27,8 +27,7 @@ var ingestion = require('../..');
 
 var file = process.argv[2];
 
-rx.Node.fromStream(fs.createReadStream(file))
-    .apply(ingestion.diasend.fromXls)
+ingestion.diasend.parse(fs.createReadStream(file))
     .subscribe(
     function (e) {
       console.log('%j', e);

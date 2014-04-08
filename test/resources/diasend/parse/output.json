@@ -45,9 +45,10 @@
                      { "rate": 0.725, "start": 28800000 },
                      { "rate": 0.775, "start": 43200000 }
       ],
-      "Program 2": [ { "rate": 0, "start": 0 } ],
-      "Program 3": [ { "rate": 0, "start": 0 } ],
-      "Program 4": [ { "rate": 0,"start": 0 } ]
+      "Program 2": [ { "rate": 0.5, "start": 0 },
+                     { "rate": 1.35, "start": 7200000 }],
+      "Program 3": [],
+      "Program 4": []
     },
     "carbRatio": [ { "amount": 12, "start": 0 },
                    { "amount": 15, "start": 36000000 } ],
@@ -64,6 +65,16 @@
     "value": 0.65,
     "deviceId": "72-25142-16 (Animas Vibe)",
     "duration": 14400000,
+    "source": "diasend"
+  },
+  {
+    "type": "basal",
+    "deviceTime": "2014-03-13T02:00:00",
+    "deliveryType": "scheduled",
+    "scheduleName": "Program 2",
+    "value": 1.35,
+    "deviceId": "72-25142-16 (Animas Vibe)",
+    "duration": 79200000,
     "source": "diasend"
   },
   {
@@ -92,7 +103,7 @@
     "value": 0,
     "deviceId": "72-25142-16 (Animas Vibe)",
     "deliveryType": "temp",
-    "duration": 660000,
+    "duration": 180000,
     "annotations": [{ "code": "diasend/temp-basal-fabrication" }],
     "source": "diasend"
   },
