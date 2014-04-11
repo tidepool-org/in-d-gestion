@@ -28,7 +28,7 @@
   {"type":"wizard","deviceTime":"2014-03-13T08:52:00","deviceId":"72-25142-16 (Animas Vibe)","payload":{"carbInput":42,"carbUnits":"grams"},"source":"diasend"},
   {"type":"bolus","subType":"normal","deviceTime":"2014-03-13T08:52:00","value":3.5,"deviceId":"72-25142-16 (Animas Vibe)","source":"diasend"},
   {"type":"wizard","deviceTime":"2014-03-13T22:26:00","deviceId":"72-25142-16 (Animas Vibe)","payload":{"carbInput":30,"carbUnits":"grams"},"source":"diasend"},
-  {"type":"bolus","subType":"normal","deviceTime":"2014-03-13T22:26:00","value":1.2,"deviceId":"72-25142-16 (Animas Vibe)","source":"diasend"},
+  {"type":"bolus","subType":"square","deviceTime":"2014-03-13T22:26:00","value":1.2,"duration":3600000,"deviceId":"72-25142-16 (Animas Vibe)","source":"diasend"},
   {"type":"bolus","subType":"normal","deviceTime":"2014-03-13T23:52:00","value":4.4,"deviceId":"72-25142-16 (Animas Vibe)","source":"diasend"},
   {"type":"wizard","deviceTime":"2014-03-14T00:58:00","deviceId":"72-25142-16 (Animas Vibe)","payload":{"carbInput":26,"carbUnits":"grams"},"source":"diasend"},
   {"type":"bolus","subType":"normal","deviceTime":"2014-03-14T00:58:00","value":3.4,"deviceId":"72-25142-16 (Animas Vibe)","source":"diasend"},
