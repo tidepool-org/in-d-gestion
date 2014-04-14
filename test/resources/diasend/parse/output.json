@@ -36,7 +36,7 @@
   {"type":"bolus","subType":"normal","deviceTime":"2014-03-14T01:10:00","value":2,"deviceId":"72-25142-16 (Animas Vibe)","source":"diasend"},
   {
     "type":"settings",
-    "deviceTime":"2014-03-13T00:00:00",
+    "deviceTime":"2014-03-14T06:28:00",
     "activeBasalSchedule":"Program 1",
     "units": { "bg":"mmol/L" },
     "basalSchedules": {
