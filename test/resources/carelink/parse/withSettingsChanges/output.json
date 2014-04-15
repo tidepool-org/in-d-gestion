@@ -75,6 +75,15 @@
     "source": "carelink"
   },
   {
+    "type": "basal",
+    "deliveryType": "temp",
+    "deviceTime": "2014-03-13T03:27:14",
+    "deviceId": "Paradigm Revel - 723",
+    "value": 0.55,
+    "duration": 7200000,
+    "source": "carelink"
+  },
+  {
     "type": "settings",
     "deviceTime": "2014-03-13T11:51:05",
     "deviceId": "Paradigm Revel - 723",
