@@ -28,7 +28,18 @@
   {"type":"wizard","deviceTime":"2014-03-13T08:52:00","deviceId":"72-25142-16 (Animas Vibe)","payload":{"carbInput":42,"carbUnits":"grams"},"source":"diasend"},
   {"type":"bolus","subType":"normal","deviceTime":"2014-03-13T08:52:00","value":3.5,"deviceId":"72-25142-16 (Animas Vibe)","source":"diasend"},
   {"type":"wizard","deviceTime":"2014-03-13T22:26:00","deviceId":"72-25142-16 (Animas Vibe)","payload":{"carbInput":30,"carbUnits":"grams"},"source":"diasend"},
-  {"type":"bolus","subType":"square","deviceTime":"2014-03-13T22:26:00","value":1.2,"duration":3600000,"deviceId":"72-25142-16 (Animas Vibe)","source":"diasend"},
+  {
+    "type":"bolus",
+    "subType":"square",
+    "deviceTime":"2014-03-13T22:26:00",
+    "value":1.2,
+    "duration":3600000,
+    "deviceId":"72-25142-16 (Animas Vibe)",
+    "annotation": {
+      "code": "diasend/extended-boluses"
+    },
+    "source":"diasend"
+  },
   {"type":"bolus","subType":"normal","deviceTime":"2014-03-13T23:52:00","value":4.4,"deviceId":"72-25142-16 (Animas Vibe)","source":"diasend"},
   {"type":"wizard","deviceTime":"2014-03-14T00:58:00","deviceId":"72-25142-16 (Animas Vibe)","payload":{"carbInput":26,"carbUnits":"grams"},"source":"diasend"},
   {"type":"bolus","subType":"normal","deviceTime":"2014-03-14T00:58:00","value":3.4,"deviceId":"72-25142-16 (Animas Vibe)","source":"diasend"},
@@ -36,7 +47,7 @@
   {"type":"bolus","subType":"normal","deviceTime":"2014-03-14T01:10:00","value":2,"deviceId":"72-25142-16 (Animas Vibe)","source":"diasend"},
   {
     "type":"settings",
-    "deviceTime":"2014-03-14T06:28:00",
+    "deviceTime":"2014-03-20T01:00:00",
     "activeBasalSchedule":"Program 1",
     "units": { "bg":"mmol/L" },
     "basalSchedules": {
@@ -47,7 +58,8 @@
       ],
       "Program 2": [ { "rate": 0.5, "start": 0 },
                      { "rate": 1.35, "start": 7200000 }],
-      "Program 3": [],
+      "Program 3": [ { "rate": 187, "start": 0 },
+                     { "rate": 187, "start": 3600000 }],
       "Program 4": []
     },
     "carbRatio": [ { "amount": 12, "start": 0 },
@@ -163,8 +175,18 @@
     "value": 0,
     "deviceId": "72-25142-16 (Animas Vibe)",
     "deliveryType": "temp",
-    "duration": 5520000,
-    "annotations": [{ "code": "diasend/temp-basal-fabrication" }],
+    "duration": 86400000,
+    "annotations": [{ "code": "diasend/temp-basal-fabrication" }, { "code": "diasend/temp-limit-24hrs" }],
+    "source": "diasend"
+  },
+  {
+    "type": "basal",
+    "deviceTime": "2014-03-20T01:00:00",
+    "value": 187,
+    "deviceId": "72-25142-16 (Animas Vibe)",
+    "deliveryType": "scheduled",
+    "scheduleName": "Program 3",
+    "duration": 432000000,
     "source": "diasend"
   }
 ]
