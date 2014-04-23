@@ -173,8 +173,8 @@
     "value": 0,
     "deviceId": "72-25142-16 (Animas Vibe)",
     "deliveryType": "temp",
-    "duration": 86400000,
-    "annotations": [{ "code": "diasend/temp-basal-fabrication" }, { "code": "diasend/temp-limit-24hrs" }],
+    "duration": 432000000,
+    "annotations": [{ "code": "diasend/temp-basal-fabrication" }, { "code": "diasend/temp-duration-truncated" }],
     "source": "diasend"
   },
   {
