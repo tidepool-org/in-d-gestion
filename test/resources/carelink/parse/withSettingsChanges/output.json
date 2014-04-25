@@ -90,7 +90,7 @@
     "scheduleName": "standard",
     "value": 0.65,
     "deviceId": "Paradigm Revel - 723",
-    "annotations": [{ "code": "basal/off-schedule-rate" }],
+    "annotations": [{ "code": "carelink/basal/off-schedule-rate" }],
     "source": "carelink"
   },
   {
@@ -127,7 +127,7 @@
     "scheduleName": "standard",
     "value": 0.8,
     "deviceId": "Paradigm Revel - 723",
-    "annotations": [{ "code": "basal/off-schedule-rate" }],
+    "annotations": [{ "code": "carelink/basal/off-schedule-rate" }],
     "source": "carelink"
   },
   {
