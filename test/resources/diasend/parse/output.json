@@ -35,7 +35,7 @@
     "value":1.2,
     "duration":3600000,
     "deviceId":"72-25142-16 (Animas Vibe)",
-    "annotations": [{ "code": "diasend/extended-boluses" }],
+    "annotations": [{ "code": "diasend/bolus/extended" }],
     "source":"diasend"
   },
   {"type":"bolus","subType":"normal","deviceTime":"2014-03-13T23:52:00","value":4.4,"deviceId":"72-25142-16 (Animas Vibe)","source":"diasend"},
