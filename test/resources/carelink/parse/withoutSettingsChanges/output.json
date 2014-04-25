@@ -152,7 +152,7 @@
     "value": 0.75,
     "duration": 7200000,
     "deviceId": "Paradigm Revel - 723",
-    "annotations": [{ "code": "carelink/temp-percent-create-scheduled" }],
+    "annotations": [{ "code": "carelink/basal/temp-percent-create-scheduled" }],
     "source": "carelink"
   },
   {
@@ -163,7 +163,7 @@
     "value": 0.85,
     "duration": 3600000,
     "deviceId": "Paradigm Revel - 723",
-    "annotations": [{ "code": "carelink/temp-percent-create-scheduled" }],
+    "annotations": [{ "code": "carelink/basal/temp-percent-create-scheduled" }],
     "source": "carelink"
   },
   {
@@ -183,7 +183,7 @@
     "value": 0.9,
     "duration": 3600000,
     "deviceId": "Paradigm Revel - 723",
-    "annotations": [{ "code": "carelink/temp-percent-create-scheduled" }],
+    "annotations": [{ "code": "carelink/basal/temp-percent-create-scheduled" }],
     "source": "carelink"
   },
   {
@@ -194,7 +194,7 @@
     "value": 0.9,
     "duration": 3600000,
     "deviceId": "Paradigm Revel - 723",
-    "annotations": [{ "code": "carelink/temp-percent-create-scheduled" }],
+    "annotations": [{ "code": "carelink/basal/temp-percent-create-scheduled" }],
     "source": "carelink"
   },
   {
