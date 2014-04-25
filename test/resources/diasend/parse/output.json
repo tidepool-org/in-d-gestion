@@ -114,7 +114,7 @@
     "deviceId": "72-25142-16 (Animas Vibe)",
     "deliveryType": "temp",
     "duration": 180000,
-    "annotations": [{ "code": "diasend/temp-basal-fabrication" }],
+    "annotations": [{ "code": "diasend/basal/temp-basal-fabrication" }],
     "source": "diasend"
   },
   {
@@ -134,7 +134,7 @@
     "value": 0.465,
     "deviceId": "72-25142-16 (Animas Vibe)",
     "duration": 4500000,
-    "annotations": [{ "code": "diasend/temp-basal-fabrication" }],
+    "annotations": [{ "code": "diasend/basal/temp-basal-fabrication" }],
     "source": "diasend"
   },
   {
@@ -154,7 +154,7 @@
     "value": 0.39,
     "deviceId": "72-25142-16 (Animas Vibe)",
     "duration": 14400000,
-    "annotations": [{ "code": "diasend/temp-basal-fabrication" }],
+    "annotations": [{ "code": "diasend/basal/temp-basal-fabrication" }],
     "source": "diasend"
   },
   {
@@ -174,7 +174,7 @@
     "deviceId": "72-25142-16 (Animas Vibe)",
     "deliveryType": "temp",
     "duration": 432000000,
-    "annotations": [{ "code": "diasend/temp-basal-fabrication" }, { "code": "diasend/basal/temp-duration-truncated" }],
+    "annotations": [{ "code": "diasend/basal/temp-basal-fabrication" }, { "code": "diasend/basal/temp-duration-truncated" }],
     "source": "diasend"
   },
   {
