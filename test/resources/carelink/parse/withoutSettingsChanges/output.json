@@ -223,5 +223,39 @@
     "deviceId": "Paradigm Veo - 723",
     "tempId": "682gvv1l1bp2hd7a3o6abfe3jd8ht817",
     "source": "carelink"
+  },
+  {
+    "type": "deviceMeta",
+    "subType": "status",
+    "status": "suspended",
+    "deviceTime": "2014-03-14T15:42:38",
+    "deviceId": "Paradigm Revel - 723",
+    "source": "carelink"
+  },
+  {
+    "type": "deviceMeta",
+    "subType": "status",
+    "status": "resume",
+    "deviceTime": "2014-03-14T15:42:52",
+    "deviceId": "Paradigm Revel - 723",
+    "joinKey": "jre151pomesortm8lt8qhanmat9ufava",
+    "source": "carelink"
+  },
+  {
+    "type": "deviceMeta",
+    "subType": "status",
+    "status": "suspended",
+    "deviceTime": "2014-03-14T15:40:47",
+    "deviceId": "Paradigm Revel - 723",
+    "source": "carelink"
+  },
+  {
+    "type": "deviceMeta",
+    "subType": "status",
+    "status": "resume",
+    "deviceTime": "2014-03-14T15:51:39",
+    "deviceId": "Paradigm Revel - 723",
+    "joinKey": "qpr90t62hjcrdihab1jd9occ43q1941c",
+    "source": "carelink"
   }
 ]

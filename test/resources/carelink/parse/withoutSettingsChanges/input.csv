@@ -10,6 +10,10 @@ Index,Date,Time,Timestamp,New Device Time,BG Reading (mg/dL),Linked BG Meter ID,
 671,3/13/14,03:27:14,3/13/14 03:27:14,,,,0.55,Rate,02:00:00,,,,,,,,,,,,,,,,,,,,,,,,ChangeTempBasal,"RATE=0.55, DURATION=7200000, ACTION_REQUESTOR=pump",12580489840,53021863,143,Paradigm Revel - 723
 751,3/13/14,04:48:12,3/13/14 04:48:12,,,,0,Percent,00:00:00,,,,,,,,,,,,,,,,,,,,,,,,ChangeTempBasalPercent,"PERCENT_OF_RATE=0, DURATION=0, ACTION_REQUESTOR=rf_diagnostic",11558134500,52641527,396,Paradigm Veo - 754
 753,3/13/14,04:49:11,3/13/14 04:49:11,,,,0,Percent,00:00:00,,,,,,,,,,,,,,,,,,,,,,,,ChangeTempBasalPercent,"PERCENT_OF_RATE=0, DURATION=0, ACTION_REQUESTOR=rf_diagnostic",11558134498,52641527,394,Paradigm Veo - 754
+21955,3/14/14,15:40:47,3/14/14 15:40:47,,,,,,,,,,,,,Suspended,,,,,,,,,,,,,,,,,ChangeSuspendEnable,"ENABLE=user_suspend, ACTION_REQUESTOR=pump, PRE_ENABLE=null",12750972860,53118738,96,Paradigm Revel - 723
+21958,3/14/14,15:42:38,3/14/14 15:42:38,,,,,,,,,,,,,Suspended,,,,,,,,,,,,,,,,,ChangeSuspendEnable,"ENABLE=user_suspend, ACTION_REQUESTOR=pump, PRE_ENABLE=null",12750926202,53021863,103,Paradigm Revel - 723
+21960,3/14/14,15:42:52,3/14/14 15:42:52,,,,,,,,,,,,,Resume,,,,,,,,,,,,,,,,,ChangeSuspendEnable,"ENABLE=normal_pumping, ACTION_REQUESTOR=rf_diagnostic, PRE_ENABLE=null",12750926201,53021863,102,Paradigm Revel - 723
+22158,3/14/14,15:51:39,3/14/14 15:51:39,,,,,,,,,,,,,Resume,,,,,,,,,,,,,,,,,ChangeSuspendEnable,"ENABLE=normal_pumping, ACTION_REQUESTOR=pump, PRE_ENABLE=null",12800346654,53136995,453,Paradigm Revel - 723
 124,3/13/14,20:17:54,3/13/14 20:17:54,,,,,,,Normal,5.4,5.4,,,,,,,,,,,,,,,,,,,,,BolusNormal,"AMOUNT=5.4, CONCENTRATION=null, PROGRAMMED_AMOUNT=5.4, ACTION_REQUESTOR=paradigm link or b key, ENABLE=true, IS_DUAL_COMPONENT=false, UNABSORBED_INSULIN_TOTAL=1",11528764588,53021863,191,Paradigm Revel - 723
 126,3/13/14,21:03:51,3/13/14 21:03:51,,,,,,,,,,,,,,,,,,,,,,,,,,90,,,,CalBGForPH,"AMOUNT=90, ACTION_REQUESTOR=paradigm link or b key",11528764587,53021863,190,Paradigm Revel - 723
 2770,3/13/14,23:35:12,3/13/14 23:35:12,,,,,,,Dual/Normal,3.6,3.6,,,,,,,,,,,,,,,,,,,,,BolusNormal,"AMOUNT=3.6, CONCENTRATION=null, PROGRAMMED_AMOUNT=3.6, ACTION_REQUESTOR=pump, ENABLE=true, IS_DUAL_COMPONENT=true, UNABSORBED_INSULIN_TOTAL=null",12354037665,53021863,424,Paradigm Revel - 723
@@ -53,4 +57,5 @@ Index,Date,Time,Timestamp,New Device Time,BG Reading (mg/dL),Linked BG Meter ID,
 9112,3/15/14,22:21:19,3/15/14 22:21:19,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,CurrentInsulinSensitivity,"PATTERN_DATUM=12498293597, INDEX=0, AMOUNT=65, START_TIME=0",12498293598,53021863,67,Paradigm Revel - 723
 9113,3/15/14,22:21:19,3/15/14 22:21:19,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,CurrentInsulinSensitivity,"PATTERN_DATUM=12498293597, INDEX=1, AMOUNT=45, START_TIME=18000000",12498293599,53021863,68,Paradigm Revel - 723
 9114,3/15/14,22:21:19,3/15/14 22:21:19,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,CurrentInsulinSensitivity,"PATTERN_DATUM=12498293597, INDEX=2, AMOUNT=65, START_TIME=82800000",12498293600,53021863,69,Paradigm Revel - 723
+
 
