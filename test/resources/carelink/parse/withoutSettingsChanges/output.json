@@ -228,6 +228,23 @@
     "type": "deviceMeta",
     "subType": "status",
     "status": "suspended",
+    "deviceTime": "2014-03-14T10:08:19",
+    "deviceId": "Paradigm Revel - 723",
+    "source": "carelink"
+  },
+  {
+    "type": "deviceMeta",
+    "subType": "status",
+    "status": "resume",
+    "deviceTime": "2014-03-14T10:11:06",
+    "deviceId": "Paradigm Revel - 723",
+    "joinKey": "tt2f91m1n1n6h3ki5ut3merlft6osbdp",
+    "source": "carelink"
+  },
+  {
+    "type": "deviceMeta",
+    "subType": "status",
+    "status": "suspended",
     "deviceTime": "2014-03-14T15:42:38",
     "deviceId": "Paradigm Revel - 723",
     "source": "carelink"
@@ -256,6 +273,14 @@
     "deviceTime": "2014-03-14T15:51:39",
     "deviceId": "Paradigm Revel - 723",
     "joinKey": "73bmuc9u8uupglhffk6og5a0rl1sco8v",
+    "source": "carelink"
+  },
+  {
+    "type": "deviceMeta",
+    "subType": "status",
+    "status": "suspended",
+    "deviceTime": "2014-03-14T05:48:38",
+    "deviceId": "Paradigm Veo - 723",
     "source": "carelink"
   }
 ]
