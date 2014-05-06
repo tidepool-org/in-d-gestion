@@ -284,5 +284,24 @@
     },
     "activeBasalSchedule": "standard",
     "source": "carelink"
+  },
+  {
+    "type": "deviceMeta",
+    "subType": "status",
+    "status": "suspended",
+    "reason": "alarm",
+    "deviceTime": "2014-03-13T15:40:32",
+    "deviceId": "Paradigm Revel - 723",
+    "source": "carelink"
+  },
+  {
+    "type": "deviceMeta",
+    "subType": "status",
+    "status": "resumed",
+    "reason": "user_override",
+    "deviceTime": "2014-03-13T15:40:43",
+    "deviceId": "Paradigm Revel - 723",
+    "joinKey": "e7k7dk13oai64pc367h5q8ecc1bfir0v",
+    "source": "carelink"
   }
 ]

@@ -228,6 +228,7 @@
     "type": "deviceMeta",
     "subType": "status",
     "status": "suspended",
+    "reason": "manual",
     "deviceTime": "2014-03-14T10:08:19",
     "deviceId": "Paradigm Revel - 723",
     "source": "carelink"
@@ -235,7 +236,8 @@
   {
     "type": "deviceMeta",
     "subType": "status",
-    "status": "resume",
+    "status": "resumed",
+    "reason": "manual",
     "deviceTime": "2014-03-14T10:11:06",
     "deviceId": "Paradigm Revel - 723",
     "joinKey": "tt2f91m1n1n6h3ki5ut3merlft6osbdp",
@@ -245,6 +247,7 @@
     "type": "deviceMeta",
     "subType": "status",
     "status": "suspended",
+    "reason": "manual",
     "deviceTime": "2014-03-14T15:42:38",
     "deviceId": "Paradigm Revel - 723",
     "source": "carelink"
@@ -252,7 +255,8 @@
   {
     "type": "deviceMeta",
     "subType": "status",
-    "status": "resume",
+    "status": "resumed",
+    "reason": "manual",
     "deviceTime": "2014-03-14T15:42:52",
     "deviceId": "Paradigm Revel - 723",
     "joinKey": "a2fnsie6e4k7gveiqb8ff5uoqm22b0go",
@@ -262,6 +266,7 @@
     "type": "deviceMeta",
     "subType": "status",
     "status": "suspended",
+    "reason": "manual",
     "deviceTime": "2014-03-14T15:40:47",
     "deviceId": "Paradigm Revel - 723",
     "source": "carelink"
@@ -269,7 +274,8 @@
   {
     "type": "deviceMeta",
     "subType": "status",
-    "status": "resume",
+    "status": "resumed",
+    "reason": "manual",
     "deviceTime": "2014-03-14T15:51:39",
     "deviceId": "Paradigm Revel - 723",
     "joinKey": "73bmuc9u8uupglhffk6og5a0rl1sco8v",
@@ -279,6 +285,7 @@
     "type": "deviceMeta",
     "subType": "status",
     "status": "suspended",
+    "reason": "manual",
     "deviceTime": "2014-03-14T05:48:38",
     "deviceId": "Paradigm Veo - 723",
     "source": "carelink"
