@@ -248,6 +248,15 @@
     "subType": "status",
     "status": "suspended",
     "reason": "manual",
+    "deviceTime": "2014-03-14T15:40:47",
+    "deviceId": "Paradigm Revel - 723",
+    "source": "carelink"
+  },
+  {
+    "type": "deviceMeta",
+    "subType": "status",
+    "status": "suspended",
+    "reason": "manual",
     "deviceTime": "2014-03-14T15:42:38",
     "deviceId": "Paradigm Revel - 723",
     "source": "carelink"
@@ -265,20 +274,10 @@
   {
     "type": "deviceMeta",
     "subType": "status",
-    "status": "suspended",
-    "reason": "manual",
-    "deviceTime": "2014-03-14T15:40:47",
-    "deviceId": "Paradigm Revel - 723",
-    "source": "carelink"
-  },
-  {
-    "type": "deviceMeta",
-    "subType": "status",
     "status": "resumed",
     "reason": "manual",
     "deviceTime": "2014-03-14T15:51:39",
     "deviceId": "Paradigm Revel - 723",
-    "joinKey": "73bmuc9u8uupglhffk6og5a0rl1sco8v",
     "source": "carelink"
   },
   {
