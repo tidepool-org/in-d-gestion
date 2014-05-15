@@ -208,23 +208,6 @@
     "source": "carelink"
   },
   {
-    "type": "basal",
-    "deliveryType": "temp",
-    "deviceTime": "2014-03-13T00:27:56",
-    "deviceId": "Paradigm Veo - 723",
-    "percent": 0.70,
-    "duration": 7200000,
-    "source": "carelink"
-  },
-  {
-    "type": "basal",
-    "deliveryType": "temp-stop",
-    "deviceTime": "2014-03-13T00:29:00",
-    "deviceId": "Paradigm Veo - 723",
-    "tempId": "682gvv1l1bp2hd7a3o6abfe3jd8ht817",
-    "source": "carelink"
-  },
-  {
     "type": "deviceMeta",
     "subType": "status",
     "status": "suspended",
@@ -278,6 +261,23 @@
     "reason": "manual",
     "deviceTime": "2014-03-14T15:51:39",
     "deviceId": "Paradigm Revel - 723",
+    "source": "carelink"
+  },
+  {
+    "type": "basal",
+    "deliveryType": "temp",
+    "deviceTime": "2014-03-13T00:27:56",
+    "deviceId": "Paradigm Veo - 723",
+    "percent": 0.70,
+    "duration": 7200000,
+    "source": "carelink"
+  },
+  {
+    "type": "basal",
+    "deliveryType": "temp-stop",
+    "deviceTime": "2014-03-13T00:29:00",
+    "deviceId": "Paradigm Veo - 723",
+    "tempId": "682gvv1l1bp2hd7a3o6abfe3jd8ht817",
     "source": "carelink"
   },
   {
