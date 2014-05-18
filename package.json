@@ -36,7 +36,7 @@
     "event-stream": "3.1.0",
     "lodash": "2.4.1",
     "moment": "2.5.1",
-    "ms-viewstate", "0.1.0",
+    "ms-viewstate": "0.1.0",
     "optimist": "0.6.0",
     "request": "2.33.0",
     "rx": "2.2.13",
