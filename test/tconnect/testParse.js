@@ -25,7 +25,7 @@ var indigestion = require('../../lib');
 
 function testParser(dir) {
   it('should parse as expected', function (done) {
-    indigestion.diasend.parse(fs.createReadStream(dir + '/input.xml'))
+    indigestion.tconnect.parse(fs.createReadStream(dir + '/input.xml'))
       .toArray()
       .subscribe(
       function(e) {
