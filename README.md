@@ -53,3 +53,19 @@ You can parse data fetched from diasend with
 node bin/diasend/parse.js <xls_file_to_parse>
 ```
 
+### t:connect
+
+#### Fetch
+You can fetch data from t:connect with
+
+```bash
+node bin/tconnect/fetch.js -u <username> -p <password> -d <num_days> stdout
+```
+
+#### Parse
+You can parse data fetched from t:connect with
+
+```bash
+node bin/tconnect/parse.js <xml_file_to_parse>
+```
+
