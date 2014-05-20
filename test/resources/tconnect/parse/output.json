@@ -1,30 +1,29 @@
-parsing
-{"type":"smbg","value":"134","time":"2014-05-18T02:52:58","deviceId":"Pump:t:slim:123456","source":"t:connect"}
-{"type":"smbg","value":"172","time":"2014-05-18T12:45:15","deviceId":"Meter:Verio IQ:TCFRFAKE1","source":"t:connect"}
-{"type":"smbg","value":"135","time":"2014-05-18T14:35:46","deviceId":"Pump:t:slim:123456","source":"t:connect"}
-{"type":"smbg","value":"141","time":"2014-05-18T16:53:31","deviceId":"Meter:Verio IQ:TCFRFAKE1","source":"t:connect"}
-{"type":"basal","deliveryType":"scheduled","value":"1.050","duration":0,"time":"2014-05-18T22:26:11","deviceId":"Pump:t:slim","scheduleName":"unknown","source":"t:connect"}
-{"type":"basal","deliveryType":"scheduled","value":"0.000","duration":0,"time":"2014-05-18T22:26:01","deviceId":"Pump:t:slim","scheduleName":"unknown","source":"t:connect"}
-{"type":"basal","deliveryType":"scheduled","value":"1.050","duration":0,"time":"2014-05-18T21:37:23","deviceId":"Pump:t:slim","scheduleName":"unknown","source":"t:connect"}
-{"type":"basal","deliveryType":"scheduled","value":"1.225","duration":0,"time":"2014-05-18T09:59:34","deviceId":"Pump:t:slim","scheduleName":"unknown","source":"t:connect"}
-{"type":"basal","deliveryType":"scheduled","value":"0.000","duration":0,"time":"2014-05-18T09:59:24","deviceId":"Pump:t:slim","scheduleName":"unknown","source":"t:connect"}
-{"type":"basal","deliveryType":"scheduled","value":"1.225","duration":0,"time":"2014-05-18T05:28:30","deviceId":"Pump:t:slim","scheduleName":"unknown","source":"t:connect"}
-{"type":"basal","deliveryType":"temp","value":"2.450","duration":"120","time":"2014-05-18T03:23:30","deviceId":"Pump:t:slim","scheduleName":"unknown","source":"t:connect"}
-{"type":"basal","deliveryType":"scheduled","value":"1.225","duration":0,"time":"2014-05-18T03:03:30","deviceId":"Pump:t:slim","scheduleName":"unknown","source":"t:connect"}
-{"type":"basal","deliveryType":"temp","value":"2.380","duration":"180","time":"2014-05-18T02:43:30","deviceId":"Pump:t:slim","scheduleName":"unknown","source":"t:connect"}
-{"type":"basal","deliveryType":"temp","value":"1.785","duration":"120","time":"2014-05-18T02:33:30","deviceId":"Pump:t:slim","scheduleName":"unknown","source":"t:connect"}
-{"type":"basal","deliveryType":"scheduled","value":"1.190","duration":0,"time":"2014-05-18T02:28:30","deviceId":"Pump:t:slim","scheduleName":"unknown","source":"t:connect"}
-{"type":"basal","deliveryType":"temp","value":"0.000","duration":"60","time":"2014-05-18T02:13:30","deviceId":"Pump:t:slim","scheduleName":"unknown","source":"t:connect"}
-{"type":"basal","deliveryType":"scheduled","value":"1.190","duration":0,"time":"2014-05-18T02:08:30","deviceId":"Pump:t:slim","scheduleName":"unknown","source":"t:connect"}
-{"type":"basal","deliveryType":"temp","value":"1.785","duration":"180","time":"2014-05-18T01:53:30","deviceId":"Pump:t:slim","scheduleName":"unknown","source":"t:connect"}
-{"type":"basal","deliveryType":"scheduled","value":"1.190","duration":0,"time":"2014-05-18T00:02:40","deviceId":"Pump:t:slim","scheduleName":"unknown","source":"t:connect"}
-{"type":"basal","deliveryType":"scheduled","value":"1.000","duration":0,"time":"2014-05-18T00:00:00","deviceId":"Pump:t:slim","scheduleName":"unknown","source":"t:connect"}
-{"type":"bolus","subType":"normal","time":"2014-05-18T22:02:22","deviceId":"Pump:t:slim","source":"tconnect","value":2.36}
-{"type":"bolus","subType":"normal","time":"2014-05-18T22:04:10","value":"2.36","deviceId":"Pump:t:slim","source":"tconnect","previous":{"type":"bolus","subType":"normal","time":"2014-05-18T22:02:22","deviceId":"Pump:t:slim","source":"tconnect","value":2.36}}
-{"type":"wizard","recommended":2.36,"payload":{"targetHigh":"95","targetLow":"95","insulinSensitivity":"22.00","bgInput":"172","bgUnits":"mg dL","foodInput":"0","foodUnits":"g","foodEstimate":"0.00","correctionEstimate":"2.36","activeInsulin":"1.14"},"time":"2014-05-18T22:02:22","deviceId":"Pump:t:slim","source":"tconnect"}
-{"type":"bolus","subType":"normal","time":"2014-05-18T18:34:57","deviceId":"Pump:t:slim","source":"tconnect","value":5.9}
-{"type":"bolus","subType":"normal","time":"2014-05-18T18:37:22","value":"5.90","deviceId":"Pump:t:slim","source":"tconnect","previous":{"type":"bolus","subType":"normal","time":"2014-05-18T18:34:57","deviceId":"Pump:t:slim","source":"tconnect","value":5.9}}
-{"type":"wizard","recommended":6.52,"payload":{"targetHigh":"95","targetLow":"95","insulinSensitivity":"22.00","bgUnits":"mg dL","foodInput":"43","foodUnits":"g","foodEstimate":"6.52","correctionEstimate":"0.00","activeInsulin":"2.10"},"time":"2014-05-18T18:34:57","deviceId":"Pump:t:slim","source":"tconnect"}
-{"type":"bolus","subType":"normal","time":"2014-05-18T01:41:49","deviceId":"Pump:t:slim","source":"tconnect","value":4}
-{"type":"bolus","subType":"normal","time":"2014-05-18T01:43:30","value":"4.00","deviceId":"Pump:t:slim","source":"tconnect","previous":{"type":"bolus","subType":"normal","time":"2014-05-18T01:41:49","deviceId":"Pump:t:slim","source":"tconnect","value":4}}
-{"type":"wizard","recommended":0,"payload":{"targetHigh":"120","targetLow":"120","insulinSensitivity":"23.00","bgInput":"175","bgUnits":"mg dL","foodInput":"0","foodUnits":"g","foodEstimate":"0.00","correctionEstimate":"0.00","activeInsulin":"2.80"},"time":"2014-05-18T01:41:49","deviceId":"Pump:t:slim","source":"tconnect"}
+[{"type":"smbg","value":"134","time":"2014-05-18T02:52:58","deviceId":"Pump:t:slim:123456","source":"t:connect"},
+{"type":"smbg","value":"172","time":"2014-05-18T12:45:15","deviceId":"Meter:Verio IQ:TCFRFAKE1","source":"t:connect"},
+{"type":"smbg","value":"135","time":"2014-05-18T14:35:46","deviceId":"Pump:t:slim:123456","source":"t:connect"},
+{"type":"smbg","value":"141","time":"2014-05-18T16:53:31","deviceId":"Meter:Verio IQ:TCFRFAKE1","source":"t:connect"},
+{"type":"basal","deliveryType":"scheduled","value":"1.050","duration":0,"time":"2014-05-18T22:26:11","deviceId":"Pump:t:slim","scheduleName":"unknown","source":"t:connect"},
+{"type":"basal","deliveryType":"scheduled","value":"0.000","duration":0,"time":"2014-05-18T22:26:01","deviceId":"Pump:t:slim","scheduleName":"unknown","source":"t:connect"},
+{"type":"basal","deliveryType":"scheduled","value":"1.050","duration":0,"time":"2014-05-18T21:37:23","deviceId":"Pump:t:slim","scheduleName":"unknown","source":"t:connect"},
+{"type":"basal","deliveryType":"scheduled","value":"1.225","duration":0,"time":"2014-05-18T09:59:34","deviceId":"Pump:t:slim","scheduleName":"unknown","source":"t:connect"},
+{"type":"basal","deliveryType":"scheduled","value":"0.000","duration":0,"time":"2014-05-18T09:59:24","deviceId":"Pump:t:slim","scheduleName":"unknown","source":"t:connect"},
+{"type":"basal","deliveryType":"scheduled","value":"1.225","duration":0,"time":"2014-05-18T05:28:30","deviceId":"Pump:t:slim","scheduleName":"unknown","source":"t:connect"},
+{"type":"basal","deliveryType":"temp","value":"2.450","duration":"120","time":"2014-05-18T03:23:30","deviceId":"Pump:t:slim","scheduleName":"unknown","source":"t:connect"},
+{"type":"basal","deliveryType":"scheduled","value":"1.225","duration":0,"time":"2014-05-18T03:03:30","deviceId":"Pump:t:slim","scheduleName":"unknown","source":"t:connect"},
+{"type":"basal","deliveryType":"temp","value":"2.380","duration":"180","time":"2014-05-18T02:43:30","deviceId":"Pump:t:slim","scheduleName":"unknown","source":"t:connect"},
+{"type":"basal","deliveryType":"temp","value":"1.785","duration":"120","time":"2014-05-18T02:33:30","deviceId":"Pump:t:slim","scheduleName":"unknown","source":"t:connect"},
+{"type":"basal","deliveryType":"scheduled","value":"1.190","duration":0,"time":"2014-05-18T02:28:30","deviceId":"Pump:t:slim","scheduleName":"unknown","source":"t:connect"},
+{"type":"basal","deliveryType":"temp","value":"0.000","duration":"60","time":"2014-05-18T02:13:30","deviceId":"Pump:t:slim","scheduleName":"unknown","source":"t:connect"},
+{"type":"basal","deliveryType":"scheduled","value":"1.190","duration":0,"time":"2014-05-18T02:08:30","deviceId":"Pump:t:slim","scheduleName":"unknown","source":"t:connect"},
+{"type":"basal","deliveryType":"temp","value":"1.785","duration":"180","time":"2014-05-18T01:53:30","deviceId":"Pump:t:slim","scheduleName":"unknown","source":"t:connect"},
+{"type":"basal","deliveryType":"scheduled","value":"1.190","duration":0,"time":"2014-05-18T00:02:40","deviceId":"Pump:t:slim","scheduleName":"unknown","source":"t:connect"},
+{"type":"basal","deliveryType":"scheduled","value":"1.000","duration":0,"time":"2014-05-18T00:00:00","deviceId":"Pump:t:slim","scheduleName":"unknown","source":"t:connect"},
+{"type":"bolus","subType":"normal","time":"2014-05-18T22:02:22","deviceId":"Pump:t:slim","source":"tconnect","value":2.36},
+{"type":"bolus","subType":"normal","time":"2014-05-18T22:04:10","value":"2.36","deviceId":"Pump:t:slim","source":"tconnect","previous":{"type":"bolus","subType":"normal","time":"2014-05-18T22:02:22","deviceId":"Pump:t:slim","source":"tconnect","value":2.36}},
+{"type":"wizard","recommended":2.36,"payload":{"targetHigh":"95","targetLow":"95","insulinSensitivity":"22.00","bgInput":"172","bgUnits":"mg dL","foodInput":"0","foodUnits":"g","foodEstimate":"0.00","correctionEstimate":"2.36","activeInsulin":"1.14"},"time":"2014-05-18T22:02:22","deviceId":"Pump:t:slim","source":"tconnect"},
+{"type":"bolus","subType":"normal","time":"2014-05-18T18:34:57","deviceId":"Pump:t:slim","source":"tconnect","value":5.9},
+{"type":"bolus","subType":"normal","time":"2014-05-18T18:37:22","value":"5.90","deviceId":"Pump:t:slim","source":"tconnect","previous":{"type":"bolus","subType":"normal","time":"2014-05-18T18:34:57","deviceId":"Pump:t:slim","source":"tconnect","value":5.9}},
+{"type":"wizard","recommended":6.52,"payload":{"targetHigh":"95","targetLow":"95","insulinSensitivity":"22.00","bgUnits":"mg dL","foodInput":"43","foodUnits":"g","foodEstimate":"6.52","correctionEstimate":"0.00","activeInsulin":"2.10"},"time":"2014-05-18T18:34:57","deviceId":"Pump:t:slim","source":"tconnect"},
+{"type":"bolus","subType":"normal","time":"2014-05-18T01:41:49","deviceId":"Pump:t:slim","source":"tconnect","value":4},
+{"type":"bolus","subType":"normal","time":"2014-05-18T01:43:30","value":"4.00","deviceId":"Pump:t:slim","source":"tconnect","previous":{"type":"bolus","subType":"normal","time":"2014-05-18T01:41:49","deviceId":"Pump:t:slim","source":"tconnect","value":4}},
+{"type":"wizard","recommended":0,"payload":{"targetHigh":"120","targetLow":"120","insulinSensitivity":"23.00","bgInput":"175","bgUnits":"mg dL","foodInput":"0","foodUnits":"g","foodEstimate":"0.00","correctionEstimate":"0.00","activeInsulin":"2.80"},"time":"2014-05-18T01:41:49","deviceId":"Pump:t:slim","source":"tconnect"}]
