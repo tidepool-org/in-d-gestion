@@ -60,7 +60,7 @@ if (opts.interval != null) {
 } else {
   console.log('Downloading %s\'s t:connect %s to include %s days of data.', opts.username, opts.format, opts.days);
 }
-console.log('Saving %s in %s', opts.format opts.name);
+console.log('Saving %s in %s', opts.format, opts.name);
 var out = fs.createWriteStream(opts.name);
 ingestion.tconnect.fetch(opts, function (err, stream) {
   if (err) {
