@@ -263,7 +263,7 @@
             units</EventHistoryReportDetails>
         <Note NoteID="0" IndexID="21118" EventTypeID="64" />
     </Event>
-    <!--<Event Type="Bolus" Description="Standard" SourceRecID="5464072">
+    <Event Type="Bolus" Description="Standard" SourceRecID="5464072">
         <EventDateTime>2014-05-18T01:41:49</EventDateTime>
         <RequestDateTime>2014-05-18T01:41:49</RequestDateTime>
         <BolusType>Carb</BolusType>
@@ -306,5 +306,99 @@
     <GapInData>0</GapInData>
     <NoData>0</NoData>
     <DataOutOfRange>0</DataOutOfRange>
-    <DST>0</DST>  -->
+    <DST>0</DST>
+    <Event Type="Bolus" Description="Extended 33.00%/0.00"
+           SourceRecID="5464070">
+        <EventDateTime>2014-05-17T23:14:50</EventDateTime>
+        <RequestDateTime>2014-05-17T23:14:50</RequestDateTime>
+        <BolusType>Carb</BolusType>
+        <BolusRequestOptions>Extended</BolusRequestOptions>
+        <BG>139</BG>
+        <IOB>3.66</IOB>
+        <StandardPercent>33.00</StandardPercent>
+        <Duration>300</Duration>
+        <CarbSize>0</CarbSize>
+        <UserOverride>1</UserOverride>
+        <TargetBG>95</TargetBG>
+        <CorrectionFactor>22.00</CorrectionFactor>
+        <FoodBolusSize>0.00</FoodBolusSize>
+        <CorrectionBolusSize>0.00</CorrectionBolusSize>
+        <ActualTotalBolusRequested>6.00</ActualTotalBolusRequested>
+        <DeclinedCorrection>0</DeclinedCorrection>
+        <Standard BolusRequestID="458.000" BolusCompletionID="458.000">
+            <InsulinDelivered CompletionDateTime="2014-05-17T23:16:15">
+                1.98</InsulinDelivered>
+            <FoodDelivered>0.00</FoodDelivered>
+            <CorrectionDelivered>0.00</CorrectionDelivered>
+            <InsulinRequested>1.98</InsulinRequested>
+            <CompletionStatusID>3</CompletionStatusID>
+            <CompletionStatusDesc>Completed</CompletionStatusDesc>
+            <BolusIsComplete>1</BolusIsComplete>
+        </Standard>
+        <Bolex BolexCompletionID="144676">
+            <Size>4.02</Size>
+            <BolexStartDateTime>2014-05-17T23:16:15</BolexStartDateTime>
+            <InsulinDelivered CompletionDateTime="2014-05-18T04:18:30">
+                4.02</InsulinDelivered>
+            <IOB>3.3</IOB>
+            <CompletionStatusID>3.00</CompletionStatusID>
+            <CompletionStatusDesc>Completed</CompletionStatusDesc>
+            <ExtendedBolusIsComplete>1</ExtendedBolusIsComplete>
+            <InsulinRequested>4.02</InsulinRequested>
+        </Bolex>
+        <IsQuickBolus>0</IsQuickBolus>
+        <EventHistoryReportEventDesc>Food Bolus: 33&amp;#37; Extended
+            5.0 hrs</EventHistoryReportEventDesc>
+        <EventHistoryReportDetails>CF 1:22 - Carb Ratio 1:7 - Target BG
+            95&lt;br/&gt;Override: Pump calculated Bolus = 0.0
+            units</EventHistoryReportDetails>
+        <Note NoteID="0" IndexID="20530" EventTypeID="64" />
+    </Event>
+    <Event Type="Bolus" Description="Extended 74.00%/18.50"
+           SourceRecID="5464068">
+        <EventDateTime>2014-05-17T19:31:19</EventDateTime>
+        <RequestDateTime>2014-05-17T19:31:19</RequestDateTime>
+        <BolusType>Carb</BolusType>
+        <BolusRequestOptions>Extended</BolusRequestOptions>
+        <IOB>2.90</IOB>
+        <StandardPercent>74.00</StandardPercent>
+        <Duration>480</Duration>
+        <CarbSize>111</CarbSize>
+        <UserOverride>1</UserOverride>
+        <TargetBG>95</TargetBG>
+        <CorrectionFactor>22.00</CorrectionFactor>
+        <FoodBolusSize>18.50</FoodBolusSize>
+        <CorrectionBolusSize>0.00</CorrectionBolusSize>
+        <ActualTotalBolusRequested>22.00</ActualTotalBolusRequested>
+        <DeclinedCorrection>0</DeclinedCorrection>
+        <Standard BolusRequestID="455.000" BolusCompletionID="455.000">
+            <InsulinDelivered CompletionDateTime="2014-05-17T19:37:18">
+                16.28</InsulinDelivered>
+            <FoodDelivered>0.00</FoodDelivered>
+            <CorrectionDelivered>0.00</CorrectionDelivered>
+            <InsulinRequested>16.28</InsulinRequested>
+            <CompletionStatusID>3</CompletionStatusID>
+            <CompletionStatusDesc>Completed</CompletionStatusDesc>
+            <BolusIsComplete>1</BolusIsComplete>
+        </Standard>
+        <Bolex BolexCompletionID="144675">
+            <Size>5.72</Size>
+            <BolexStartDateTime>2014-05-17T19:37:18</BolexStartDateTime>
+            <InsulinDelivered CompletionDateTime="2014-05-17T20:53:26">
+                0.94</InsulinDelivered>
+            <IOB>18.9</IOB>
+            <CompletionStatusID>0.00</CompletionStatusID>
+            <CompletionStatusDesc>User Aborted</CompletionStatusDesc>
+            <ExtendedBolusIsComplete>0</ExtendedBolusIsComplete>
+            <InsulinRequested>5.72</InsulinRequested>
+        </Bolex>
+        <IsQuickBolus>0</IsQuickBolus>
+        <EventHistoryReportEventDesc>Food Bolus: 74&amp;#37; Extended
+            8.0 hrs</EventHistoryReportEventDesc>
+        <EventHistoryReportDetails>CF 1:22 - Carb Ratio 1:6 - Target BG
+            95&lt;br/&gt;Override: Pump calculated Bolus = 18.5
+            units</EventHistoryReportDetails>
+        <Note NoteID="0" IndexID="20405" EventTypeID="64" />
+    </Event>
+
 </GetTherapyData>
