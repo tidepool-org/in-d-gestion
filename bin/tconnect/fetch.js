@@ -41,21 +41,26 @@ argv = argv
              alias: 'days',
              describe: 'Number of recent days to fetch',
              default: 14
-           });
+           })
+  .options('f', {
+            alias: 'format',
+            describe: 'Retrieve XML or CSV data',
+            default: 'XML'
+    });
 var opts = argv.argv;
 opts.name = opts._.shift();
 opts.daysAgo = opts.days;
-
+opts.format = opts.format.toUpperCase();
 if (!opts.name || !opts.username || !opts.password) {
   argv.showHelp();
   process.exit(1);
 }
 if (opts.interval != null) {
-  console.log('Downloading %s\'s t:connect XML for dates[%s]', opts.username, opts.interval);
+  console.log('Downloading %s\'s t:connect %s for dates[%s]', opts.username, opts.format, opts.interval);
 } else {
-  console.log('Downloading %s\'s t:connect XML to include %s days of data.', opts.username, opts.days);
+  console.log('Downloading %s\'s t:connect %s to include %s days of data.', opts.username, opts.format, opts.days);
 }
-console.log('Saving xml in %s', opts.name);
+console.log('Saving %s in %s', opts.format opts.name);
 var out = fs.createWriteStream(opts.name);
 ingestion.tconnect.fetch(opts, function (err, stream) {
   if (err) {
