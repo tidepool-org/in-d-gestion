@@ -1,0 +1,404 @@
+<GetTherapyData>
+    <Devices>T-Slim 4.3 (sn:000172), One-Touch BG Meter</Devices>
+    <Event Type="BG" Description="BG" SourceRecID="6127410"
+           EventTypeID="16" DeviceType="Pump:t:slim" SerialNumber="123456"
+           IndexID="20755" UploadID="110780">
+        <EventDateTime>2014-05-18T02:52:58</EventDateTime>
+        <BG>134</BG>
+        <IOB>5.39</IOB>
+        <Note NoteID="0" IndexID="" EventTypeID="16" />
+    </Event>
+    <Event Type="BG" Description="BG" SourceRecID="6127401"
+           EventTypeID="16" DeviceType="Meter:Verio IQ"
+           SerialNumber="TCFRFAKE1" IndexID="4" UploadID="110779">
+        <EventDateTime>2014-05-18T12:45:15</EventDateTime>
+        <BG>172</BG>
+        <Note NoteID="0" IndexID="" EventTypeID="16" />
+    </Event>
+    <Event Type="BG" Description="BG" SourceRecID="6127415"
+           EventTypeID="16" DeviceType="Pump:t:slim" SerialNumber="123456"
+           IndexID="21006" UploadID="110780">
+        <EventDateTime>2014-05-18T14:35:46</EventDateTime>
+        <BG>135</BG>
+        <IOB>0.76</IOB>
+        <Note NoteID="0" IndexID="" EventTypeID="16" />
+    </Event>
+    <Event Type="BG" Description="BG" SourceRecID="6127403"
+           EventTypeID="16" DeviceType="Meter:Verio IQ"
+           SerialNumber="TCFRFAKE1" IndexID="2" UploadID="110779">
+        <EventDateTime>2014-05-18T16:53:31</EventDateTime>
+        <BG>141</BG>
+        <Note NoteID="0" IndexID="" EventTypeID="16" />
+    </Event>
+    <Event Type="Basal" Description="" SourceRecID="5274163"
+           Interactive="0">
+        <EventDateTime>2014-05-18T23:59:59</EventDateTime>
+        <BasalRate Duration="0">1.050</BasalRate>
+        <DisplayInHistory>0</DisplayInHistory>
+    </Event>
+    <Event Type="Basal" Description="" SourceRecID="5274163"
+           Interactive="1">
+        <EventDateTime>2014-05-18T22:26:11</EventDateTime>
+        <BasalRate Duration="0">1.050</BasalRate>
+        <DisplayInHistory>0</DisplayInHistory>
+        <NoteDate />
+        <Note NoteID="0" IndexID="21303" EventTypeID="3" />
+    </Event>
+    <Event Type="Basal" Description="" SourceRecID="5274162"
+           Interactive="1">
+        <EventDateTime>2014-05-18T22:26:01</EventDateTime>
+        <BasalRate Duration="0">0.000</BasalRate>
+        <DisplayInHistory>0</DisplayInHistory>
+        <NoteDate />
+        <Note NoteID="0" IndexID="21300" EventTypeID="3" />
+    </Event>
+    <Event Type="Basal" Description="" SourceRecID="5272760"
+           Interactive="1">
+        <EventDateTime>2014-05-18T21:37:23</EventDateTime>
+        <BasalRate Duration="0">1.050</BasalRate>
+        <DisplayInHistory>0</DisplayInHistory>
+        <NoteDate />
+        <Note NoteID="0" IndexID="21207" EventTypeID="3" />
+    </Event>
+    <Event Type="Basal" Description="" SourceRecID="5272757"
+           Interactive="1">
+        <EventDateTime>2014-05-18T09:59:34</EventDateTime>
+        <BasalRate Duration="0">1.225</BasalRate>
+        <DisplayInHistory>0</DisplayInHistory>
+        <NoteDate />
+        <Note NoteID="0" IndexID="20888" EventTypeID="3" />
+    </Event>
+    <Event Type="Basal" Description="" SourceRecID="5272756"
+           Interactive="1">
+        <EventDateTime>2014-05-18T09:59:24</EventDateTime>
+        <BasalRate Duration="0">0.000</BasalRate>
+        <DisplayInHistory>0</DisplayInHistory>
+        <NoteDate />
+        <Note NoteID="0" IndexID="20885" EventTypeID="3" />
+    </Event>
+    <Event Type="Basal" Description="" SourceRecID="5272755"
+           TempRateID="45" TempRateCompleted="1" Interactive="1">
+        <EventDateTime>2014-05-18T05:28:30</EventDateTime>
+        <BasalRate Duration="120" Percent="200">1.225</BasalRate>
+        <DisplayInHistory>0</DisplayInHistory>
+        <NoteDate />
+        <Note NoteID="0" IndexID="20808" EventTypeID="3" />
+    </Event>
+    <Event Type="Basal" Description="" SourceRecID="5272754"
+           TempRateID="45" TempRateActivated="1" Interactive="1">
+        <EventDateTime>2014-05-18T03:23:30</EventDateTime>
+        <BasalRate Duration="120" Percent="200">2.450</BasalRate>
+        <DisplayInHistory>0</DisplayInHistory>
+        <NoteDate />
+        <Note NoteID="0" IndexID="20782" EventTypeID="3" />
+    </Event>
+    <Event Type="Basal" Description="" SourceRecID="5272754"
+           Interactive="0">
+        <EventDateTime>2014-05-18T03:23:30</EventDateTime>
+        <BasalRate Duration="0">2.450</BasalRate>
+        <DisplayInHistory>0</DisplayInHistory>
+    </Event>
+    <Event Type="Basal" Description="" SourceRecID="5272753"
+           TempRateID="44" TempRateCompleted="1" Interactive="1">
+        <EventDateTime>2014-05-18T03:03:30</EventDateTime>
+        <BasalRate Duration="180" Percent="200">1.225</BasalRate>
+        <DisplayInHistory>0</DisplayInHistory>
+        <NoteDate />
+        <Note NoteID="0" IndexID="20773" EventTypeID="3" />
+    </Event>
+    <Event Type="Basal" Description="" SourceRecID="5272752"
+           TempRateID="44" TempRateActivated="1" Interactive="1">
+        <EventDateTime>2014-05-18T02:43:30</EventDateTime>
+        <BasalRate Duration="180" Percent="200">2.380</BasalRate>
+        <DisplayInHistory>0</DisplayInHistory>
+        <NoteDate />
+        <Note NoteID="0" IndexID="20750" EventTypeID="3" />
+    </Event>
+    <Event Type="Basal" Description="" SourceRecID="5272752"
+           Interactive="0">
+        <EventDateTime>2014-05-18T02:43:30</EventDateTime>
+        <BasalRate Duration="0">2.380</BasalRate>
+        <DisplayInHistory>0</DisplayInHistory>
+    </Event>
+    <Event Type="Basal" Description="" SourceRecID="5272751"
+           TempRateID="43" TempRateActivated="1" Interactive="1">
+        <EventDateTime>2014-05-18T02:33:30</EventDateTime>
+        <BasalRate Duration="120" Percent="150">1.785</BasalRate>
+        <DisplayInHistory>0</DisplayInHistory>
+        <NoteDate />
+        <Note NoteID="0" IndexID="20737" EventTypeID="3" />
+    </Event>
+    <Event Type="Basal" Description="" SourceRecID="5272751"
+           Interactive="0">
+        <EventDateTime>2014-05-18T02:33:30</EventDateTime>
+        <BasalRate Duration="0">1.785</BasalRate>
+        <DisplayInHistory>0</DisplayInHistory>
+    </Event>
+    <Event Type="Basal" Description="" SourceRecID="5272750"
+           TempRateID="42" TempRateCompleted="1" Interactive="1">
+        <EventDateTime>2014-05-18T02:28:30</EventDateTime>
+        <BasalRate Duration="60" Percent="0">1.190</BasalRate>
+        <DisplayInHistory>0</DisplayInHistory>
+        <NoteDate />
+        <Note NoteID="0" IndexID="20725" EventTypeID="3" />
+    </Event>
+    <Event Type="Basal" Description="" SourceRecID="5272749"
+           TempRateID="42" TempRateActivated="1" Interactive="1">
+        <EventDateTime>2014-05-18T02:13:30</EventDateTime>
+        <BasalRate Duration="60" Percent="0">0.000</BasalRate>
+        <DisplayInHistory>0</DisplayInHistory>
+        <NoteDate />
+        <Note NoteID="0" IndexID="20711" EventTypeID="3" />
+    </Event>
+    <Event Type="Basal" Description="" SourceRecID="5272749"
+           Interactive="0">
+        <EventDateTime>2014-05-18T02:13:30</EventDateTime>
+        <BasalRate Duration="0">0.000</BasalRate>
+        <DisplayInHistory>0</DisplayInHistory>
+    </Event>
+    <Event Type="Basal" Description="" SourceRecID="5272748"
+           TempRateID="40" TempRateCompleted="1" Interactive="1">
+        <EventDateTime>2014-05-18T02:08:30</EventDateTime>
+        <BasalRate Duration="180" Percent="150">1.190</BasalRate>
+        <DisplayInHistory>0</DisplayInHistory>
+        <NoteDate />
+        <Note NoteID="0" IndexID="20690" EventTypeID="3" />
+    </Event>
+    <Event Type="Basal" Description="" SourceRecID="5272747"
+           TempRateID="40" TempRateActivated="1" Interactive="1">
+        <EventDateTime>2014-05-18T01:53:30</EventDateTime>
+        <BasalRate Duration="180" Percent="150">1.785</BasalRate>
+        <DisplayInHistory>0</DisplayInHistory>
+        <NoteDate />
+        <Note NoteID="0" IndexID="20665" EventTypeID="3" />
+    </Event>
+    <Event Type="Basal" Description="" SourceRecID="5272747"
+           Interactive="0">
+        <EventDateTime>2014-05-18T01:53:30</EventDateTime>
+        <BasalRate Duration="0">1.785</BasalRate>
+        <DisplayInHistory>0</DisplayInHistory>
+    </Event>
+    <Event Type="Basal" Description="" SourceRecID="5272746"
+           Interactive="1">
+        <EventDateTime>2014-05-18T00:02:40</EventDateTime>
+        <BasalRate Duration="0">1.190</BasalRate>
+        <DisplayInHistory>0</DisplayInHistory>
+        <NoteDate />
+        <Note NoteID="0" IndexID="20564" EventTypeID="3" />
+    </Event>
+    <Event Type="Basal" Description="" SourceRecID="1213220"
+           Interactive="1">
+        <EventDateTime>2014-05-18T00:00:00</EventDateTime>
+        <BasalRate Duration="0">1.000</BasalRate>
+        <DisplayInHistory>0</DisplayInHistory>
+        <NoteDate />
+        <Note NoteID="0" IndexID="20562" EventTypeID="90" />
+    </Event>
+    <Event Type="Bolus" Description="Standard/Correction"
+           SourceRecID="5465476">
+        <EventDateTime>2014-05-18T22:02:22</EventDateTime>
+        <RequestDateTime>2014-05-18T22:02:22</RequestDateTime>
+        <BolusType>Carb</BolusType>
+        <BolusRequestOptions>Standard/Correction</BolusRequestOptions>
+        <BG>172</BG>
+        <IOB>1.14</IOB>
+        <StandardPercent>100.00</StandardPercent>
+        <Duration>0</Duration>
+        <CarbSize>0</CarbSize>
+        <UserOverride>0</UserOverride>
+        <TargetBG>95</TargetBG>
+        <CorrectionFactor>22.00</CorrectionFactor>
+        <FoodBolusSize>0.00</FoodBolusSize>
+        <CorrectionBolusSize>2.36</CorrectionBolusSize>
+        <ActualTotalBolusRequested>2.36</ActualTotalBolusRequested>
+        <DeclinedCorrection>0</DeclinedCorrection>
+        <Standard BolusRequestID="475.000" BolusCompletionID="475.000">
+            <InsulinDelivered CompletionDateTime="2014-05-18T22:04:10">
+                2.36</InsulinDelivered>
+            <FoodDelivered>0.00</FoodDelivered>
+            <CorrectionDelivered>2.36</CorrectionDelivered>
+            <InsulinRequested>2.36</InsulinRequested>
+            <CompletionStatusID>3</CompletionStatusID>
+            <CompletionStatusDesc>Completed</CompletionStatusDesc>
+            <BolusIsComplete>1</BolusIsComplete>
+        </Standard>
+        <IsQuickBolus>0</IsQuickBolus>
+        <EventHistoryReportEventDesc>Correction &amp; Food
+            Bolus</EventHistoryReportEventDesc>
+        <EventHistoryReportDetails>CF 1:22 - Carb Ratio 1:6 - Target BG
+            95</EventHistoryReportDetails>
+        <Note NoteID="0" IndexID="21256" EventTypeID="64" />
+    </Event>
+    <Event Type="Bolus" Description="Standard" SourceRecID="5464081">
+        <EventDateTime>2014-05-18T18:34:57</EventDateTime>
+        <RequestDateTime>2014-05-18T18:34:57</RequestDateTime>
+        <BolusType>Carb</BolusType>
+        <BolusRequestOptions>Standard</BolusRequestOptions>
+        <IOB>2.10</IOB>
+        <StandardPercent>100.00</StandardPercent>
+        <Duration>0</Duration>
+        <CarbSize>43</CarbSize>
+        <UserOverride>1</UserOverride>
+        <TargetBG>95</TargetBG>
+        <CorrectionFactor>22.00</CorrectionFactor>
+        <FoodBolusSize>6.52</FoodBolusSize>
+        <CorrectionBolusSize>0.00</CorrectionBolusSize>
+        <ActualTotalBolusRequested>5.90</ActualTotalBolusRequested>
+        <DeclinedCorrection>0</DeclinedCorrection>
+        <Standard BolusRequestID="473.000" BolusCompletionID="473.000">
+            <InsulinDelivered CompletionDateTime="2014-05-18T18:37:22">
+                5.90</InsulinDelivered>
+            <FoodDelivered>0.00</FoodDelivered>
+            <CorrectionDelivered>0.00</CorrectionDelivered>
+            <InsulinRequested>5.90</InsulinRequested>
+            <CompletionStatusID>3</CompletionStatusID>
+            <CompletionStatusDesc>Completed</CompletionStatusDesc>
+            <BolusIsComplete>1</BolusIsComplete>
+        </Standard>
+        <IsQuickBolus>0</IsQuickBolus>
+        <EventHistoryReportEventDesc>Food
+            Bolus</EventHistoryReportEventDesc>
+        <EventHistoryReportDetails>CF 1:22 - Carb Ratio 1:7 - Target BG
+            95&lt;br/&gt;Override: Pump calculated Bolus = 6.5
+            units</EventHistoryReportDetails>
+        <Note NoteID="0" IndexID="21118" EventTypeID="64" />
+    </Event>
+    <Event Type="Bolus" Description="Standard" SourceRecID="5464072">
+        <EventDateTime>2014-05-18T01:41:49</EventDateTime>
+        <RequestDateTime>2014-05-18T01:41:49</RequestDateTime>
+        <BolusType>Carb</BolusType>
+        <BolusRequestOptions>Standard</BolusRequestOptions>
+        <BG>175</BG>
+        <IOB>2.80</IOB>
+        <StandardPercent>100.00</StandardPercent>
+        <Duration>0</Duration>
+        <CarbSize>0</CarbSize>
+        <UserOverride>1</UserOverride>
+        <TargetBG>120</TargetBG>
+        <CorrectionFactor>23.00</CorrectionFactor>
+        <FoodBolusSize>0.00</FoodBolusSize>
+        <CorrectionBolusSize>0.00</CorrectionBolusSize>
+        <ActualTotalBolusRequested>4.00</ActualTotalBolusRequested>
+        <DeclinedCorrection>0</DeclinedCorrection>
+        <Standard BolusRequestID="462.000" BolusCompletionID="462.000">
+            <InsulinDelivered CompletionDateTime="2014-05-18T01:43:30">
+                4.00</InsulinDelivered>
+            <FoodDelivered>0.00</FoodDelivered>
+            <CorrectionDelivered>0.00</CorrectionDelivered>
+            <InsulinRequested>4.00</InsulinRequested>
+            <CompletionStatusID>3</CompletionStatusID>
+            <CompletionStatusDesc>Completed</CompletionStatusDesc>
+            <BolusIsComplete>1</BolusIsComplete>
+        </Standard>
+        <IsQuickBolus>0</IsQuickBolus>
+        <EventHistoryReportEventDesc>Food
+            Bolus</EventHistoryReportEventDesc>
+        <EventHistoryReportDetails>CF 1:23 - Carb Ratio 1:6 - Target BG
+            120&lt;br/&gt;Override: Pump calculated Bolus = 0.0
+            units</EventHistoryReportDetails>
+        <Note NoteID="0" IndexID="20622" EventTypeID="64" />
+    </Event>
+    <Event Type="IOB">
+        <EventID>81</EventID>
+        <EventDateTime>2014-05-18T00:02:40</EventDateTime>
+        <IOB>5.04</IOB>
+    </Event>
+    <GapInData>0</GapInData>
+    <NoData>0</NoData>
+    <DataOutOfRange>0</DataOutOfRange>
+    <DST>0</DST>
+    <Event Type="Bolus" Description="Extended 33.00%/0.00"
+           SourceRecID="5464070">
+        <EventDateTime>2014-05-17T23:14:50</EventDateTime>
+        <RequestDateTime>2014-05-17T23:14:50</RequestDateTime>
+        <BolusType>Carb</BolusType>
+        <BolusRequestOptions>Extended</BolusRequestOptions>
+        <BG>139</BG>
+        <IOB>3.66</IOB>
+        <StandardPercent>33.00</StandardPercent>
+        <Duration>300</Duration>
+        <CarbSize>0</CarbSize>
+        <UserOverride>1</UserOverride>
+        <TargetBG>95</TargetBG>
+        <CorrectionFactor>22.00</CorrectionFactor>
+        <FoodBolusSize>0.00</FoodBolusSize>
+        <CorrectionBolusSize>0.00</CorrectionBolusSize>
+        <ActualTotalBolusRequested>6.00</ActualTotalBolusRequested>
+        <DeclinedCorrection>0</DeclinedCorrection>
+        <Standard BolusRequestID="458.000" BolusCompletionID="458.000">
+            <InsulinDelivered CompletionDateTime="2014-05-17T23:16:15">
+                1.98</InsulinDelivered>
+            <FoodDelivered>0.00</FoodDelivered>
+            <CorrectionDelivered>0.00</CorrectionDelivered>
+            <InsulinRequested>1.98</InsulinRequested>
+            <CompletionStatusID>3</CompletionStatusID>
+            <CompletionStatusDesc>Completed</CompletionStatusDesc>
+            <BolusIsComplete>1</BolusIsComplete>
+        </Standard>
+        <Bolex BolexCompletionID="144676">
+            <Size>4.02</Size>
+            <BolexStartDateTime>2014-05-17T23:16:15</BolexStartDateTime>
+            <InsulinDelivered CompletionDateTime="2014-05-18T04:18:30">
+                4.02</InsulinDelivered>
+            <IOB>3.3</IOB>
+            <CompletionStatusID>3.00</CompletionStatusID>
+            <CompletionStatusDesc>Completed</CompletionStatusDesc>
+            <ExtendedBolusIsComplete>1</ExtendedBolusIsComplete>
+            <InsulinRequested>4.02</InsulinRequested>
+        </Bolex>
+        <IsQuickBolus>0</IsQuickBolus>
+        <EventHistoryReportEventDesc>Food Bolus: 33&amp;#37; Extended
+            5.0 hrs</EventHistoryReportEventDesc>
+        <EventHistoryReportDetails>CF 1:22 - Carb Ratio 1:7 - Target BG
+            95&lt;br/&gt;Override: Pump calculated Bolus = 0.0
+            units</EventHistoryReportDetails>
+        <Note NoteID="0" IndexID="20530" EventTypeID="64" />
+    </Event>
+    <Event Type="Bolus" Description="Extended 74.00%/18.50"
+           SourceRecID="5464068">
+        <EventDateTime>2014-05-17T19:31:19</EventDateTime>
+        <RequestDateTime>2014-05-17T19:31:19</RequestDateTime>
+        <BolusType>Carb</BolusType>
+        <BolusRequestOptions>Extended</BolusRequestOptions>
+        <IOB>2.90</IOB>
+        <StandardPercent>74.00</StandardPercent>
+        <Duration>480</Duration>
+        <CarbSize>111</CarbSize>
+        <UserOverride>1</UserOverride>
+        <TargetBG>95</TargetBG>
+        <CorrectionFactor>22.00</CorrectionFactor>
+        <FoodBolusSize>18.50</FoodBolusSize>
+        <CorrectionBolusSize>0.00</CorrectionBolusSize>
+        <ActualTotalBolusRequested>22.00</ActualTotalBolusRequested>
+        <DeclinedCorrection>0</DeclinedCorrection>
+        <Standard BolusRequestID="455.000" BolusCompletionID="455.000">
+            <InsulinDelivered CompletionDateTime="2014-05-17T19:37:18">
+                16.28</InsulinDelivered>
+            <FoodDelivered>0.00</FoodDelivered>
+            <CorrectionDelivered>0.00</CorrectionDelivered>
+            <InsulinRequested>16.28</InsulinRequested>
+            <CompletionStatusID>3</CompletionStatusID>
+            <CompletionStatusDesc>Completed</CompletionStatusDesc>
+            <BolusIsComplete>1</BolusIsComplete>
+        </Standard>
+        <Bolex BolexCompletionID="144675">
+            <Size>5.72</Size>
+            <BolexStartDateTime>2014-05-17T19:37:18</BolexStartDateTime>
+            <InsulinDelivered CompletionDateTime="2014-05-17T20:53:26">
+                0.94</InsulinDelivered>
+            <IOB>18.9</IOB>
+            <CompletionStatusID>0.00</CompletionStatusID>
+            <CompletionStatusDesc>User Aborted</CompletionStatusDesc>
+            <ExtendedBolusIsComplete>0</ExtendedBolusIsComplete>
+            <InsulinRequested>5.72</InsulinRequested>
+        </Bolex>
+        <IsQuickBolus>0</IsQuickBolus>
+        <EventHistoryReportEventDesc>Food Bolus: 74&amp;#37; Extended
+            8.0 hrs</EventHistoryReportEventDesc>
+        <EventHistoryReportDetails>CF 1:22 - Carb Ratio 1:6 - Target BG
+            95&lt;br/&gt;Override: Pump calculated Bolus = 18.5
+            units</EventHistoryReportDetails>
+        <Note NoteID="0" IndexID="20405" EventTypeID="64" />
+    </Event>
+
+</GetTherapyData>
