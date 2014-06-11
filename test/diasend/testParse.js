@@ -25,7 +25,7 @@ var indigestion = require('../../lib');
 
 function testParser(dir) {
   it('should parse as expected', function (done) {
-    indigestion.diasend.parse(fs.createReadStream(dir + '/input.xls'), { timezone: 'Pacific/Honolulu' })
+    indigestion.diasend.parse(fs.createReadStream(dir + '/input.xls'), { timezone: 'America/New_York' })
       .toArray()
       .subscribe(
       function(e) {
