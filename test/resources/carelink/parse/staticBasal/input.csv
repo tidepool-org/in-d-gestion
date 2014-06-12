@@ -1,0 +1,26 @@
+Data Range,3/13/14 00:00:00,to,3/9/14 22:36:32
+Index,Date,Time,Timestamp,New Device Time,BG Reading (mg/dL),Linked BG Meter ID,Temp Basal Amount (U/h),Temp Basal Type,Temp Basal Duration (hh:mm:ss),Bolus Type,Bolus Volume Selected (U),Bolus Volume Delivered (U),Programmed Bolus Duration (hh:mm:ss),Prime Type,Prime Volume Delivered (U),Suspend,Rewind,BWZ Estimate (U),BWZ Target High BG (mg/dL),BWZ Target Low BG (mg/dL),BWZ Carb Ratio (grams),BWZ Insulin Sensitivity (mg/dL),BWZ Carb Input (grams),BWZ BG Input (mg/dL),BWZ Correction Estimate (U),BWZ Food Estimate (U),BWZ Active Insulin (U),Alarm,Sensor Calibration BG (mg/dL),Sensor Glucose (mg/dL),ISIG Value,Daily Insulin Total (U),Raw-Type,Raw-Values,Raw-ID,Raw-Upload ID,Raw-Seq Num,Raw-Device Type
+29923,3/13/14,00:01:00,3/13/14 00:01:00,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,BasalProfileStart,"PATTERN_NAME=standard, PROFILE_INDEX=0, RATE=0.8, START_TIME=0, ACTION_REQUESTOR=pump",12498294158,53021863,635,Paradigm Revel - 723
+51,3/15/14,22:21:19,3/15/14 22:21:19,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,CurrentActiveBasalProfilePattern,PATTERN_NAME=standard,12498293539,53021863,8,Paradigm Revel - 723
+9052,3/15/14,22:21:19,3/15/14 22:21:19,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,CurrentBasalProfilePattern,"PATTERN_NAME=standard, NUM_PROFILES=1",12498293540,53021863,9,Paradigm Revel - 723
+9053,3/15/14,22:21:19,3/15/14 22:21:19,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,CurrentBasalProfile,"PATTERN_DATUM=12498293540, PROFILE_INDEX=0, RATE=0.8, START_TIME=0",12498293541,53021863,10,Paradigm Revel - 723
+9062,3/15/14,22:21:19,3/15/14 22:21:19,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,CurrentBasalProfilePattern,"PATTERN_NAME=pattern a, NUM_PROFILES=1",12498293550,53021863,19,Paradigm Revel - 723
+9063,3/15/14,22:21:19,3/15/14 22:21:19,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,CurrentBasalProfile,"PATTERN_DATUM=12498293550, PROFILE_INDEX=0, RATE=0.95, START_TIME=0",12498293551,53021863,20,Paradigm Revel - 723
+9072,3/15/14,22:21:19,3/15/14 22:21:19,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,CurrentBasalProfilePattern,"PATTERN_NAME=pattern b, NUM_PROFILES=0",12498293560,53021863,29,Paradigm Revel - 723
+9100,3/15/14,22:21:19,3/15/14 22:21:19,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,CurrentBolusWizardSetupStatus,"IS_SETUP_COMPLETE=true, IS_BOLUS_WIZARD_ENABLED=true, IS_CARB_UNITS_COMPLETE=true, IS_CARB_RATIOS_COMPLETE=true, IS_BG_UNITS_COMPLETE=true, IS_INSULIN_SENSITIVITIES_COMPLETE=true, IS_BG_TARGETS_COMPLETE=true",12498293586,53021863,55,Paradigm Revel - 723
+9101,3/15/14,22:21:19,3/15/14 22:21:19,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,CurrentBGTargetRangePattern,"ORIGINAL_UNITS=mg dl, SIZE=3",12498293587,53021863,56,Paradigm Revel - 723
+9102,3/15/14,22:21:19,3/15/14 22:21:19,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,CurrentBGTargetRange,"PATTERN_DATUM=12498293587, INDEX=0, AMOUNT_LOW=100, AMOUNT_HIGH=120, START_TIME=0",12498293588,53021863,57,Paradigm Revel - 723
+9103,3/15/14,22:21:19,3/15/14 22:21:19,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,CurrentBGTargetRange,"PATTERN_DATUM=12498293587, INDEX=1, AMOUNT_LOW=90, AMOUNT_HIGH=110, START_TIME=18000000",12498293589,53021863,58,Paradigm Revel - 723
+9104,3/15/14,22:21:19,3/15/14 22:21:19,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,CurrentBGTargetRange,"PATTERN_DATUM=12498293587, INDEX=2, AMOUNT_LOW=100, AMOUNT_HIGH=120, START_TIME=82800000",12498293590,53021863,59,Paradigm Revel - 723
+9105,3/15/14,22:21:19,3/15/14 22:21:19,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,CurrentCarbRatioPattern,SIZE=5,12498293591,53021863,60,Paradigm Revel - 723
+9106,3/15/14,22:21:19,3/15/14 22:21:19,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,CurrentCarbRatio,"PATTERN_DATUM=12498293591, INDEX=0, AMOUNT=12, UNITS=grams, START_TIME=0",12498293592,53021863,61,Paradigm Revel - 723
+9107,3/15/14,22:21:19,3/15/14 22:21:19,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,CurrentCarbRatio,"PATTERN_DATUM=12498293591, INDEX=1, AMOUNT=10, UNITS=grams, START_TIME=21600000",12498293593,53021863,62,Paradigm Revel - 723
+9108,3/15/14,22:21:19,3/15/14 22:21:19,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,CurrentCarbRatio,"PATTERN_DATUM=12498293591, INDEX=2, AMOUNT=11, UNITS=grams, START_TIME=32400000",12498293594,53021863,63,Paradigm Revel - 723
+9109,3/15/14,22:21:19,3/15/14 22:21:19,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,CurrentCarbRatio,"PATTERN_DATUM=12498293591, INDEX=3, AMOUNT=10, UNITS=grams, START_TIME=61200000",12498293595,53021863,64,Paradigm Revel - 723
+9110,3/15/14,22:21:19,3/15/14 22:21:19,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,CurrentCarbRatio,"PATTERN_DATUM=12498293591, INDEX=4, AMOUNT=12, UNITS=grams, START_TIME=81000000",12498293596,53021863,65,Paradigm Revel - 723
+9111,3/15/14,22:21:19,3/15/14 22:21:19,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,CurrentInsulinSensitivityPattern,"ORIGINAL_UNITS=mg dl, SIZE=3",12498293597,53021863,66,Paradigm Revel - 723
+9112,3/15/14,22:21:19,3/15/14 22:21:19,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,CurrentInsulinSensitivity,"PATTERN_DATUM=12498293597, INDEX=0, AMOUNT=65, START_TIME=0",12498293598,53021863,67,Paradigm Revel - 723
+9113,3/15/14,22:21:19,3/15/14 22:21:19,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,CurrentInsulinSensitivity,"PATTERN_DATUM=12498293597, INDEX=1, AMOUNT=45, START_TIME=18000000",12498293599,53021863,68,Paradigm Revel - 723
+9114,3/15/14,22:21:19,3/15/14 22:21:19,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,CurrentInsulinSensitivity,"PATTERN_DATUM=12498293597, INDEX=2, AMOUNT=65, START_TIME=82800000",12498293600,53021863,69,Paradigm Revel - 723
+
+

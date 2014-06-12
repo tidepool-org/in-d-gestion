@@ -50,6 +50,10 @@ function testParser(dir) {
 }
 
 describe('carelink/parse', function () {
+  describe('staticBasal', function(){
+    testParser(__dirname + '/../resources/carelink/parse/staticBasal');
+  });
+
   describe('withSettingsChanges', function(){
     testParser(__dirname + '/../resources/carelink/parse/withSettingsChanges');
   });
