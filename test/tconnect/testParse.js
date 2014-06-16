@@ -25,7 +25,7 @@ var indigestion = require('../../lib');
 
 function testParser(dir) {
   it('should parse as expected', function (done) {
-    indigestion.tconnect.parse(fs.createReadStream(dir + '/input.xml'))
+    indigestion.tconnect.parse(fs.createReadStream(dir + '/input.xml'), {timezone: 'Pacific/Honolulu'})
       .toArray()
       .subscribe(
       function(e) {
