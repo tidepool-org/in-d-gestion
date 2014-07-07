@@ -25,7 +25,7 @@ var indigestion = require('../../lib');
 
 function testParser(dir) {
   it('should parse as expected', function (done) {
-    indigestion.carelink.parse(fs.createReadStream(dir + '/input.csv'))
+    indigestion.carelink.parse(fs.createReadStream(dir + '/input.csv'), { timezone: 'Pacific/Honolulu' })
       .toArray()
       .subscribe(
       function(e) {

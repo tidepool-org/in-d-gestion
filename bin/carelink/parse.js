@@ -26,8 +26,13 @@ var rx = require('rx');
 var ingestion = require('../..');
 
 var file = process.argv[2];
+var timezone = process.argv[3];
 
-ingestion.carelink.parse(fs.createReadStream(file))
+if (timezone == null) {
+  timezone = 'America/Los_Angeles';
+}
+
+ingestion.carelink.parse(fs.createReadStream(file), {timezone: timezone})
   .subscribe(
   function (e) {
     console.log('%j', e);
