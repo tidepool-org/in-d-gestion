@@ -4,7 +4,7 @@
     "deviceTime": "2014-03-13T00:04:00",
     "source": "carelink",
     "timezoneOffset": -600,
-    "ts": "2014-03-13T10:04:00.000Z",
+    "time": "2014-03-13T10:04:00.000Z",
     "type": "cbg",
     "value": 120
   },
@@ -13,7 +13,7 @@
     "deviceTime": "2014-03-13T21:03:51",
     "source": "carelink",
     "timezoneOffset": -600,
-    "ts": "2014-03-14T07:03:51.000Z",
+    "time": "2014-03-14T07:03:51.000Z",
     "type": "smbg",
     "value": 90
   },
@@ -21,60 +21,46 @@
     "deviceId": "Paradigm Revel - 723",
     "deviceTime": "2014-03-13T20:17:54",
     "joinKey": "a7r99em36csv25ndafuga5b6sofq0c33",
-    "programmed": 5.4,
     "source": "carelink",
     "subType": "normal",
     "timezoneOffset": -600,
-    "ts": "2014-03-14T06:17:54.000Z",
+    "time": "2014-03-14T06:17:54.000Z",
     "type": "bolus",
-    "value": 5.4
+    "normal": 5.4
   },
   {
     "deviceId": "Paradigm Revel - 723",
     "deviceTime": "2014-03-13T23:35:12",
     "joinKey": "9anteoqd0f52bifcd3trjof3c7vvraac",
-    "programmed": 3.6,
+    "normal": 3.6,
+    "extended": 1.7,
+    "expectedExtended": 2.3,
+    "duration": 3600000,
     "source": "carelink",
     "subType": "dual/normal",
     "timezoneOffset": -600,
-    "ts": "2014-03-14T09:35:12.000Z",
-    "type": "bolus",
-    "value": 3.6
+    "time": "2014-03-14T09:35:12.000Z",
+    "type": "bolus"
   },
   {
-    "deviceId": "Paradigm Revel - 723",
-    "deviceTime": "2014-03-13T23:37:34",
-    "duration": 3600000,
-    "joinKey": "9anteoqd0f52bifcd3trjof3c7vvraac",
-    "programmed": 2.3,
-    "source": "carelink",
-    "subType": "dual/square",
-    "timezoneOffset": -600,
-    "ts": "2014-03-14T09:37:34.000Z",
-    "type": "bolus",
-    "value": 1.7
-  },
-  {
+    "recommended": {
+      "carb": 4.9,
+      "correction": 0.2
+    },
+    "bgInput": 137,
+    "units": "mg/dL",
+    "carbInput": 64,
+    "insulinOnBoard": 0,
+    "insulinCarbRatio": 13,
+    "insulinSensitivity": 45,
+    "bgTarget": { "high": 125,  "low": 106 },
     "deviceId": "Paradigm Revel - 723",
     "deviceTime": "2014-03-13T20:45:16",
     "joinKey": "9anteoqd0f52bifcd3trjof3c7vvraac",
-    "payload": {
-      "activeInsulin": 0,
-      "bgInput": 137,
-      "bgUnits": "mg dl",
-      "carbInput": 64,
-      "carbRatio": 13,
-      "carbUnits": "grams",
-      "correctionEstimate": 0.2,
-      "estimate": 5.1,
-      "foodEstimate": 4.9,
-      "insulinSensitivity": 45,
-      "targetHigh": 125,
-      "targetLow": 106
-    },
+    "payload": {},
     "source": "carelink",
     "timezoneOffset": -600,
-    "ts": "2014-03-14T06:45:16.000Z",
+    "time": "2014-03-14T06:45:16.000Z",
     "type": "wizard"
   },
   {
@@ -91,7 +77,7 @@
     "insulinSensitivity": [],
     "source": "carelink",
     "timezoneOffset": -600,
-    "ts": "2014-03-13T10:04:00.000Z",
+    "time": "2014-03-13T10:04:00.000Z",
     "type": "settings",
     "units": {
       "bg": "mg dL"
@@ -109,7 +95,7 @@
     "scheduleName": "standard",
     "source": "carelink",
     "timezoneOffset": -600,
-    "ts": "2014-03-13T12:00:00.000Z",
+    "time": "2014-03-13T12:00:00.000Z",
     "type": "basal",
     "value": 0.65
   },
@@ -120,7 +106,7 @@
     "duration": 7200000,
     "source": "carelink",
     "timezoneOffset": -600,
-    "ts": "2014-03-13T13:27:14.000Z",
+    "time": "2014-03-13T13:27:14.000Z",
     "type": "basal",
     "value": 0.55
   },
@@ -138,7 +124,7 @@
     "insulinSensitivity": [],
     "source": "carelink",
     "timezoneOffset": -600,
-    "ts": "2014-03-13T21:51:05.000Z",
+    "time": "2014-03-13T21:51:05.000Z",
     "type": "settings",
     "units": {
       "bg": "mg dL"
@@ -152,7 +138,7 @@
     "status": "suspended",
     "subType": "status",
     "timezoneOffset": -600,
-    "ts": "2014-03-14T01:40:32.000Z",
+    "time": "2014-03-14T01:40:32.000Z",
     "type": "deviceMeta"
   },
   {
@@ -163,7 +149,7 @@
     "status": "suspended",
     "subType": "status",
     "timezoneOffset": -600,
-    "ts": "2014-03-14T01:40:34.000Z",
+    "time": "2014-03-14T01:40:34.000Z",
     "type": "deviceMeta"
   },
   {
@@ -175,7 +161,7 @@
     "status": "resumed",
     "subType": "status",
     "timezoneOffset": -600,
-    "ts": "2014-03-14T01:40:43.000Z",
+    "time": "2014-03-14T01:40:43.000Z",
     "type": "deviceMeta"
   },
   {
@@ -190,7 +176,7 @@
     "scheduleName": "standard",
     "source": "carelink",
     "timezoneOffset": -600,
-    "ts": "2014-03-14T10:00:00.000Z",
+    "time": "2014-03-14T10:00:00.000Z",
     "type": "basal",
     "value": 0.8
   },
@@ -202,7 +188,7 @@
     "percent": 0.7,
     "source": "carelink",
     "timezoneOffset": -600,
-    "ts": "2014-03-14T10:28:56.000Z",
+    "time": "2014-03-14T10:28:56.000Z",
     "type": "basal"
   },
   {
@@ -212,7 +198,7 @@
     "source": "carelink",
     "tempId": "td5ds19u4nnfu8qbet0ai3os6c0q72q8",
     "timezoneOffset": -600,
-    "ts": "2014-03-14T10:29:03.000Z",
+    "time": "2014-03-14T10:29:03.000Z",
     "type": "basal"
   },
   {
@@ -223,7 +209,7 @@
     "percent": 0.7,
     "source": "carelink",
     "timezoneOffset": -600,
-    "ts": "2014-03-14T10:29:15.000Z",
+    "time": "2014-03-14T10:29:15.000Z",
     "type": "basal"
   },
   {
@@ -239,7 +225,7 @@
     "scheduleName": "standard",
     "source": "carelink",
     "timezoneOffset": -600,
-    "ts": "2014-03-14T11:00:00.000Z",
+    "time": "2014-03-14T11:00:00.000Z",
     "type": "basal",
     "value": 0.75
   },
@@ -249,42 +235,15 @@
       "pattern a": [],
       "pattern b": [],
       "standard": [
-        {
-          "rate": 0.8,
-          "start": 0
-        },
-        {
-          "rate": 0.75,
-          "start": 3600000
-        },
-        {
-          "rate": 0.85,
-          "start": 10800000
-        },
-        {
-          "rate": 0.9,
-          "start": 14400000
-        },
-        {
-          "rate": 0.9,
-          "start": 18000000
-        },
-        {
-          "rate": 0.95,
-          "start": 21600000
-        },
-        {
-          "rate": 0.9,
-          "start": 32400000
-        },
-        {
-          "rate": 0.95,
-          "start": 54000000
-        },
-        {
-          "rate": 0.9,
-          "start": 61200000
-        }
+        { "rate": 0.8, "start": 0 },
+        { "rate": 0.75, "start": 3600000 },
+        { "rate": 0.85, "start": 10800000 },
+        { "rate": 0.9, "start": 14400000 },
+        { "rate": 0.9, "start": 18000000 },
+        { "rate": 0.95, "start": 21600000 },
+        { "rate": 0.9, "start": 32400000 },
+        { "rate": 0.95, "start": 54000000 },
+        { "rate": 0.9, "start": 61200000 }
       ]
     },
     "bgTarget": [],
@@ -294,7 +253,7 @@
     "insulinSensitivity": [],
     "source": "carelink",
     "timezoneOffset": -600,
-    "ts": "2014-03-14T11:01:27.000Z",
+    "time": "2014-03-14T11:01:27.000Z",
     "type": "settings",
     "units": {
       "bg": "mg dL"
@@ -304,49 +263,19 @@
     "activeBasalSchedule": "standard",
     "basalSchedules": {
       "pattern a": [
-        {
-          "rate": 0.95,
-          "start": 0
-        }
+        { "rate": 0.95, "start": 0 }
       ],
       "pattern b": [],
       "standard": [
-        {
-          "rate": 0.8,
-          "start": 0
-        },
-        {
-          "rate": 0.75,
-          "start": 3600000
-        },
-        {
-          "rate": 0.85,
-          "start": 10800000
-        },
-        {
-          "rate": 0.9,
-          "start": 14400000
-        },
-        {
-          "rate": 0.9,
-          "start": 18000000
-        },
-        {
-          "rate": 0.95,
-          "start": 21600000
-        },
-        {
-          "rate": 0.9,
-          "start": 32400000
-        },
-        {
-          "rate": 0.95,
-          "start": 54000000
-        },
-        {
-          "rate": 0.9,
-          "start": 61200000
-        }
+        { "rate": 0.8, "start": 0 },
+        { "rate": 0.75, "start": 3600000 },
+        { "rate": 0.85, "start": 10800000 },
+        { "rate": 0.9, "start": 14400000 },
+        { "rate": 0.9, "start": 18000000 },
+        { "rate": 0.95, "start": 21600000 },
+        { "rate": 0.9, "start": 32400000 },
+        { "rate": 0.95, "start": 54000000 },
+        { "rate": 0.9, "start": 61200000 }
       ]
     },
     "bgTarget": [],
@@ -356,7 +285,7 @@
     "insulinSensitivity": [],
     "source": "carelink",
     "timezoneOffset": -600,
-    "ts": "2014-03-14T11:02:02.000Z",
+    "time": "2014-03-14T11:02:02.000Z",
     "type": "settings",
     "units": {
       "bg": "mg dL"
@@ -366,81 +295,27 @@
     "activeBasalSchedule": "standard",
     "basalSchedules": {
       "pattern a": [
-        {
-          "rate": 0.95,
-          "start": 0
-        },
-        {
-          "rate": 0.9,
-          "start": 3600000
-        },
-        {
-          "rate": 1,
-          "start": 10800000
-        },
-        {
-          "rate": 1,
-          "start": 14400000
-        },
-        {
-          "rate": 1.1,
-          "start": 18000000
-        },
-        {
-          "rate": 1.15,
-          "start": 21600000
-        },
-        {
-          "rate": 1.05,
-          "start": 32400000
-        },
-        {
-          "rate": 1.1,
-          "start": 54000000
-        },
-        {
-          "rate": 1.05,
-          "start": 61200000
-        }
+        { "rate": 0.95, "start": 0 },
+        { "rate": 0.9, "start": 3600000 },
+        { "rate": 1, "start": 10800000 },
+        { "rate": 1, "start": 14400000 },
+        { "rate": 1.1, "start": 18000000 },
+        { "rate": 1.15, "start": 21600000 },
+        { "rate": 1.05, "start": 32400000 },
+        { "rate": 1.1, "start": 54000000 },
+        { "rate": 1.05, "start": 61200000 }
       ],
       "pattern b": [],
       "standard": [
-        {
-          "rate": 0.8,
-          "start": 0
-        },
-        {
-          "rate": 0.75,
-          "start": 3600000
-        },
-        {
-          "rate": 0.85,
-          "start": 10800000
-        },
-        {
-          "rate": 0.9,
-          "start": 14400000
-        },
-        {
-          "rate": 0.9,
-          "start": 18000000
-        },
-        {
-          "rate": 0.95,
-          "start": 21600000
-        },
-        {
-          "rate": 0.9,
-          "start": 32400000
-        },
-        {
-          "rate": 0.95,
-          "start": 54000000
-        },
-        {
-          "rate": 0.9,
-          "start": 61200000
-        }
+        { "rate": 0.8, "start": 0 },
+        { "rate": 0.75, "start": 3600000 },
+        { "rate": 0.85, "start": 10800000 },
+        { "rate": 0.9, "start": 14400000 },
+        { "rate": 0.9, "start": 18000000 },
+        { "rate": 0.95, "start": 21600000 },
+        { "rate": 0.9, "start": 32400000 },
+        { "rate": 0.95, "start": 54000000 },
+        { "rate": 0.9, "start": 61200000 }
       ]
     },
     "bgTarget": [],
@@ -450,7 +325,7 @@
     "insulinSensitivity": [],
     "source": "carelink",
     "timezoneOffset": -600,
-    "ts": "2014-03-14T11:03:59.000Z",
+    "time": "2014-03-14T11:03:59.000Z",
     "type": "settings",
     "units": {
       "bg": "mg dL"
@@ -460,141 +335,51 @@
     "activeBasalSchedule": "standard",
     "basalSchedules": {
       "pattern a": [
-        {
-          "rate": 0.95,
-          "start": 0
-        },
-        {
-          "rate": 0.9,
-          "start": 3600000
-        },
-        {
-          "rate": 1,
-          "start": 10800000
-        },
-        {
-          "rate": 1,
-          "start": 14400000
-        },
-        {
-          "rate": 1.1,
-          "start": 18000000
-        },
-        {
-          "rate": 1.15,
-          "start": 21600000
-        },
-        {
-          "rate": 1.05,
-          "start": 32400000
-        },
-        {
-          "rate": 1.1,
-          "start": 54000000
-        },
-        {
-          "rate": 1.05,
-          "start": 61200000
-        }
+        { "rate": 0.95, "start": 0 },
+        { "rate": 0.9, "start": 3600000 },
+        { "rate": 1, "start": 10800000 },
+        { "rate": 1, "start": 14400000 },
+        { "rate": 1.1, "start": 18000000 },
+        { "rate": 1.15, "start": 21600000 },
+        { "rate": 1.05, "start": 32400000 },
+        { "rate": 1.1, "start": 54000000 },
+        { "rate": 1.05, "start": 61200000 }
       ],
       "pattern b": [],
       "standard": [
-        {
-          "rate": 0.8,
-          "start": 0
-        },
-        {
-          "rate": 0.75,
-          "start": 3600000
-        },
-        {
-          "rate": 0.85,
-          "start": 10800000
-        },
-        {
-          "rate": 0.9,
-          "start": 14400000
-        },
-        {
-          "rate": 0.9,
-          "start": 18000000
-        },
-        {
-          "rate": 0.95,
-          "start": 21600000
-        },
-        {
-          "rate": 0.9,
-          "start": 32400000
-        },
-        {
-          "rate": 0.95,
-          "start": 54000000
-        },
-        {
-          "rate": 0.9,
-          "start": 61200000
-        }
+        { "rate": 0.8, "start": 0 },
+        { "rate": 0.75, "start": 3600000 },
+        { "rate": 0.85, "start": 10800000 },
+        { "rate": 0.9, "start": 14400000 },
+        { "rate": 0.9, "start": 18000000 },
+        { "rate": 0.95, "start": 21600000 },
+        { "rate": 0.9, "start": 32400000 },
+        { "rate": 0.95, "start": 54000000 },
+        { "rate": 0.9, "start": 61200000 }
       ]
     },
     "bgTarget": [
-      {
-        "high": 120,
-        "low": 100,
-        "start": 0
-      },
-      {
-        "high": 110,
-        "low": 90,
-        "start": 18000000
-      },
-      {
-        "high": 120,
-        "low": 100,
-        "start": 82800000
-      }
+      { "high": 120, "low": 100, "start": 0 },
+      { "high": 110, "low": 90, "start": 18000000 },
+      { "high": 120, "low": 100, "start": 82800000 }
     ],
     "carbRatio": [
-      {
-        "amount": 12,
-        "start": 0
-      },
-      {
-        "amount": 10,
-        "start": 21600000
-      },
-      {
-        "amount": 11,
-        "start": 32400000
-      },
-      {
-        "amount": 10,
-        "start": 61200000
-      },
-      {
-        "amount": 12,
-        "start": 81000000
-      }
+      { "amount": 12, "start": 0 },
+      { "amount": 10, "start": 21600000 },
+      { "amount": 11, "start": 32400000 },
+      { "amount": 10, "start": 61200000 },
+      { "amount": 12, "start": 81000000 }
     ],
     "deviceId": "Paradigm Revel - 723",
     "deviceTime": "2014-03-14T01:08:07",
     "insulinSensitivity": [
-      {
-        "amount": 65,
-        "start": 0
-      },
-      {
-        "amount": 45,
-        "start": 18000000
-      },
-      {
-        "amount": 65,
-        "start": 82800000
-      }
+      { "amount": 65, "start": 0 },
+      { "amount": 45, "start": 18000000 },
+      { "amount": 65, "start": 82800000 }
     ],
     "source": "carelink",
     "timezoneOffset": -600,
-    "ts": "2014-03-14T11:08:07.000Z",
+    "time": "2014-03-14T11:08:07.000Z",
     "type": "settings",
     "units": {
       "bg": "mg dL",
@@ -602,11 +387,7 @@
     }
   },
   {
-    "annotations": [
-      {
-        "code": "carelink/basal/temp-percent-create-scheduled"
-      }
-    ],
+    "annotations": [{ "code": "carelink/basal/temp-percent-create-scheduled" }],
     "deliveryType": "scheduled",
     "deviceId": "Paradigm Revel - 723",
     "deviceTime": "2014-03-14T03:00:00",
@@ -614,7 +395,7 @@
     "scheduleName": "standard",
     "source": "carelink",
     "timezoneOffset": -600,
-    "ts": "2014-03-14T13:00:00.000Z",
+    "time": "2014-03-14T13:00:00.000Z",
     "type": "basal",
     "value": 0.85
   },
@@ -626,15 +407,11 @@
     "status": "suspended",
     "subType": "status",
     "timezoneOffset": -600,
-    "ts": "2014-03-14T13:32:32.000Z",
+    "time": "2014-03-14T13:32:32.000Z",
     "type": "deviceMeta"
   },
   {
-    "annotations": [
-      {
-        "code": "carelink/basal/temp-percent-create-scheduled"
-      }
-    ],
+    "annotations": [{ "code": "carelink/basal/temp-percent-create-scheduled" }],
     "deliveryType": "scheduled",
     "deviceId": "Paradigm Revel - 723",
     "deviceTime": "2014-03-14T04:00:00",
@@ -642,16 +419,12 @@
     "scheduleName": "standard",
     "source": "carelink",
     "timezoneOffset": -600,
-    "ts": "2014-03-14T14:00:00.000Z",
+    "time": "2014-03-14T14:00:00.000Z",
     "type": "basal",
     "value": 0.9
   },
   {
-    "annotations": [
-      {
-        "code": "carelink/basal/temp-percent-create-scheduled"
-      }
-    ],
+    "annotations": [{ "code": "carelink/basal/temp-percent-create-scheduled" }],
     "deliveryType": "scheduled",
     "deviceId": "Paradigm Revel - 723",
     "deviceTime": "2014-03-14T05:00:00",
@@ -659,16 +432,12 @@
     "scheduleName": "standard",
     "source": "carelink",
     "timezoneOffset": -600,
-    "ts": "2014-03-14T15:00:00.000Z",
+    "time": "2014-03-14T15:00:00.000Z",
     "type": "basal",
     "value": 0.9
   },
   {
-    "annotations": [
-      {
-        "code": "carelink/basal/temp-percent-create-scheduled"
-      }
-    ],
+    "annotations": [{ "code": "carelink/basal/temp-percent-create-scheduled" }],
     "deliveryType": "scheduled",
     "deviceId": "Paradigm Revel - 723",
     "deviceTime": "2014-03-14T06:00:00",
@@ -676,7 +445,7 @@
     "scheduleName": "standard",
     "source": "carelink",
     "timezoneOffset": -600,
-    "ts": "2014-03-14T16:00:00.000Z",
+    "time": "2014-03-14T16:00:00.000Z",
     "type": "basal",
     "value": 0.95
   },
@@ -689,7 +458,7 @@
     "status": "resumed",
     "subType": "status",
     "timezoneOffset": -600,
-    "ts": "2014-03-14T17:32:43.000Z",
+    "time": "2014-03-14T17:32:43.000Z",
     "type": "deviceMeta"
   },
   {
@@ -700,7 +469,7 @@
     "scheduleName": "standard",
     "source": "carelink",
     "timezoneOffset": -600,
-    "ts": "2014-03-14T19:00:00.000Z",
+    "time": "2014-03-14T19:00:00.000Z",
     "type": "basal",
     "value": 0.9
   },
@@ -708,141 +477,51 @@
     "activeBasalSchedule": "pattern a",
     "basalSchedules": {
       "pattern a": [
-        {
-          "rate": 0.95,
-          "start": 0
-        },
-        {
-          "rate": 0.9,
-          "start": 3600000
-        },
-        {
-          "rate": 1,
-          "start": 10800000
-        },
-        {
-          "rate": 1,
-          "start": 14400000
-        },
-        {
-          "rate": 1.1,
-          "start": 18000000
-        },
-        {
-          "rate": 1.15,
-          "start": 21600000
-        },
-        {
-          "rate": 1.05,
-          "start": 32400000
-        },
-        {
-          "rate": 1.1,
-          "start": 54000000
-        },
-        {
-          "rate": 1.05,
-          "start": 61200000
-        }
+        { "rate": 0.95, "start": 0 },
+        { "rate": 0.9, "start": 3600000 },
+        { "rate": 1, "start": 10800000 },
+        { "rate": 1, "start": 14400000 },
+        { "rate": 1.1, "start": 18000000 },
+        { "rate": 1.15, "start": 21600000 },
+        { "rate": 1.05, "start": 32400000 },
+        { "rate": 1.1, "start": 54000000 },
+        { "rate": 1.05, "start": 61200000 }
       ],
       "pattern b": [],
       "standard": [
-        {
-          "rate": 0.8,
-          "start": 0
-        },
-        {
-          "rate": 0.75,
-          "start": 3600000
-        },
-        {
-          "rate": 0.85,
-          "start": 10800000
-        },
-        {
-          "rate": 0.9,
-          "start": 14400000
-        },
-        {
-          "rate": 0.9,
-          "start": 18000000
-        },
-        {
-          "rate": 0.95,
-          "start": 21600000
-        },
-        {
-          "rate": 0.9,
-          "start": 32400000
-        },
-        {
-          "rate": 0.95,
-          "start": 54000000
-        },
-        {
-          "rate": 0.9,
-          "start": 61200000
-        }
+        { "rate": 0.8, "start": 0 },
+        { "rate": 0.75, "start": 3600000 },
+        { "rate": 0.85, "start": 10800000 },
+        { "rate": 0.9, "start": 14400000 },
+        { "rate": 0.9, "start": 18000000 },
+        { "rate": 0.95, "start": 21600000 },
+        { "rate": 0.9, "start": 32400000 },
+        { "rate": 0.95, "start": 54000000 },
+        { "rate": 0.9, "start": 61200000 }
       ]
     },
     "bgTarget": [
-      {
-        "high": 120,
-        "low": 100,
-        "start": 0
-      },
-      {
-        "high": 110,
-        "low": 90,
-        "start": 18000000
-      },
-      {
-        "high": 120,
-        "low": 100,
-        "start": 82800000
-      }
+      { "high": 120, "low": 100, "start": 0 },
+      { "high": 110, "low": 90, "start": 18000000 },
+      { "high": 120, "low": 100, "start": 82800000 }
     ],
     "carbRatio": [
-      {
-        "amount": 12,
-        "start": 0
-      },
-      {
-        "amount": 10,
-        "start": 21600000
-      },
-      {
-        "amount": 11,
-        "start": 32400000
-      },
-      {
-        "amount": 10,
-        "start": 61200000
-      },
-      {
-        "amount": 12,
-        "start": 81000000
-      }
+      { "amount": 12, "start": 0 },
+      { "amount": 10, "start": 21600000 },
+      { "amount": 11, "start": 32400000 },
+      { "amount": 10, "start": 61200000 },
+      { "amount": 12, "start": 81000000 }
     ],
     "deviceId": "Paradigm Revel - 723",
     "deviceTime": "2014-03-14T11:51:05",
     "insulinSensitivity": [
-      {
-        "amount": 65,
-        "start": 0
-      },
-      {
-        "amount": 45,
-        "start": 18000000
-      },
-      {
-        "amount": 65,
-        "start": 82800000
-      }
+      { "amount": 65, "start": 0 },
+      { "amount": 45, "start": 18000000 },
+      { "amount": 65, "start": 82800000 }
     ],
     "source": "carelink",
     "timezoneOffset": -600,
-    "ts": "2014-03-14T21:51:05.000Z",
+    "time": "2014-03-14T21:51:05.000Z",
     "type": "settings",
     "units": {
       "bg": "mg dL",
@@ -857,7 +536,7 @@
     "scheduleName": "pattern a",
     "source": "carelink",
     "timezoneOffset": -600,
-    "ts": "2014-03-14T21:51:05.000Z",
+    "time": "2014-03-14T21:51:05.000Z",
     "type": "basal",
     "value": 1.05
   }
