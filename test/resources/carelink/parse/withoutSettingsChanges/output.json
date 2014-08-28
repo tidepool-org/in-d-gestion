@@ -116,7 +116,7 @@
     "time": "2014-03-13T10:00:00.000Z",
     "type": "settings",
     "units": {
-      "bg": "mg dL",
+      "bg": "mg/dL",
       "carb": "grams"
     }
   },
