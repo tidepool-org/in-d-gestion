@@ -148,7 +148,6 @@
       "deviceTime": "2014-03-13T00:00:00",
       "duration": 3600000,
       "scheduleName": "standard",
-      "source": "carelink",
       "timezoneOffset": -600,
       "time": "2014-03-13T10:00:00.000Z",
       "type": "basal",
@@ -160,11 +159,10 @@
       "deviceTime": "2014-03-13T00:00:00",
       "duration": 3600000,
       "scheduleName": "standard",
-      "source": "carelink",
       "timezoneOffset": -600,
       "time": "2014-03-13T10:00:00.000Z",
       "type": "basal",
-      "value": 0.8
+      "rate": 0.8
     }
   },
   {
@@ -175,7 +173,7 @@
     "scheduleName": "standard",
     "source": "carelink",
     "timezoneOffset": -600,
-    "time": "2014-03-13T10:00:00.000Z",
+    "time": "2014-03-13T10:29:03.000Z",
     "type": "basal",
     "rate": 0.8,
     "previous":   {
@@ -184,7 +182,6 @@
       "deviceTime": "2014-03-13T00:28:56",
       "duration": 7200000,
       "percent": 0.7,
-      "source": "carelink",
       "timezoneOffset": -600,
       "time": "2014-03-13T10:28:56.000Z",
       "type": "basal",
@@ -194,11 +191,10 @@
         "deviceTime": "2014-03-13T00:00:00",
         "duration": 3600000,
         "scheduleName": "standard",
-        "source": "carelink",
         "timezoneOffset": -600,
         "time": "2014-03-13T10:00:00.000Z",
         "type": "basal",
-        "value": 0.8
+        "rate": 0.8
       }
     }
   },
@@ -218,9 +214,8 @@
       "deviceTime": "2014-03-13T00:29:03",
       "duration": 1857000,
       "scheduleName": "standard",
-      "source": "carelink",
       "timezoneOffset": -600,
-      "time": "2014-03-13T10:00:00.000Z",
+      "time": "2014-03-13T10:29:03.000Z",
       "type": "basal",
       "rate": 0.8
     },
@@ -230,9 +225,8 @@
       "deviceTime": "2014-03-13T00:29:03",
       "duration": 1857000,
       "scheduleName": "standard",
-      "source": "carelink",
       "timezoneOffset": -600,
-      "time": "2014-03-13T10:00:00.000Z",
+      "time": "2014-03-13T10:29:03.000Z",
       "type": "basal",
       "rate": 0.8
     }
@@ -245,7 +239,7 @@
     "percent": 0.7,
     "source": "carelink",
     "timezoneOffset": -600,
-    "time": "2014-03-13T10:29:15.000Z",
+    "time": "2014-03-13T11:00:00.000Z",
     "type": "basal",
     "previous":   {
       "deliveryType": "temp",
@@ -253,7 +247,6 @@
       "deviceTime": "2014-03-13T00:29:15",
       "duration": 10800000,
       "percent": 0.7,
-      "source": "carelink",
       "timezoneOffset": -600,
       "time": "2014-03-13T10:29:15.000Z",
       "type": "basal",
@@ -263,9 +256,8 @@
         "deviceTime": "2014-03-13T00:29:03",
         "duration": 1857000,
         "scheduleName": "standard",
-        "source": "carelink",
         "timezoneOffset": -600,
-        "time": "2014-03-13T10:00:00.000Z",
+        "time": "2014-03-13T10:29:03.000Z",
         "type": "basal",
         "rate": 0.8
       }
@@ -276,13 +268,12 @@
       "deviceTime": "2014-03-13T01:00:00",
       "duration": 7200000,
       "scheduleName": "standard",
-      "source": "carelink",
       "timezoneOffset": -600,
       "time": "2014-03-13T11:00:00.000Z",
       "type": "basal",
-      "value": 0.75
-    },
-    "annotations": [{ "code": "carelink/basal/temp-percent-create-scheduled" }]
+      "rate": 0.75,
+      "annotations": [{ "code": "carelink/basal/temp-percent-create-scheduled" }]
+    }
   },
   {
     "deliveryType": "temp",
@@ -292,7 +283,7 @@
     "percent": 0.7,
     "source": "carelink",
     "timezoneOffset": -600,
-    "time": "2014-03-13T10:29:15.000Z",
+    "time": "2014-03-13T13:00:00.000Z",
     "type": "basal",
     "previous":     {
       "deliveryType": "temp",
@@ -300,9 +291,8 @@
       "deviceTime": "2014-03-13T01:00:00",
       "duration": 8955000,
       "percent": 0.7,
-      "source": "carelink",
       "timezoneOffset": -600,
-      "time": "2014-03-13T10:29:15.000Z",
+      "time": "2014-03-13T11:00:00.000Z",
       "type": "basal",
       "suppressed": {
         "deliveryType": "scheduled",
@@ -310,13 +300,12 @@
         "deviceTime": "2014-03-13T01:00:00",
         "duration": 7200000,
         "scheduleName": "standard",
-        "source": "carelink",
         "timezoneOffset": -600,
         "time": "2014-03-13T11:00:00.000Z",
         "type": "basal",
-        "value": 0.75
-      },
-      "annotations": [{ "code": "carelink/basal/temp-percent-create-scheduled" }]
+        "rate": 0.75,
+        "annotations": [{ "code": "carelink/basal/temp-percent-create-scheduled" }]
+      }
     },
     "suppressed": {
       "deliveryType": "scheduled",
@@ -324,13 +313,12 @@
       "deviceTime": "2014-03-13T03:00:00",
       "duration": 3600000,
       "scheduleName": "standard",
-      "source": "carelink",
       "timezoneOffset": -600,
       "time": "2014-03-13T13:00:00.000Z",
       "type": "basal",
-      "value": 0.85
-    },
-    "annotations": [{ "code": "carelink/basal/temp-percent-create-scheduled" }]
+      "rate": 0.85,
+      "annotations": [{ "code": "carelink/basal/temp-percent-create-scheduled" }]
+    }
   },
   {
     "deliveryType": "temp",
@@ -341,16 +329,15 @@
     "timezoneOffset": -600,
     "time": "2014-03-13T13:27:14.000Z",
     "type": "basal",
-    "value": 0.55,
+    "rate": 0.55,
     "previous":   {
       "deliveryType": "temp",
       "deviceId": "Paradigm Revel - 723",
       "deviceTime": "2014-03-13T03:00:00",
       "duration": 1755000,
       "percent": 0.7,
-      "source": "carelink",
       "timezoneOffset": -600,
-      "time": "2014-03-13T10:29:15.000Z",
+      "time": "2014-03-13T13:00:00.000Z",
       "type": "basal",
       "suppressed": {
         "deliveryType": "scheduled",
@@ -358,95 +345,34 @@
         "deviceTime": "2014-03-13T03:00:00",
         "duration": 3600000,
         "scheduleName": "standard",
-        "source": "carelink",
         "timezoneOffset": -600,
         "time": "2014-03-13T13:00:00.000Z",
         "type": "basal",
-        "value": 0.85
-      },
-      "annotations": [{ "code": "carelink/basal/temp-percent-create-scheduled" }]
-    },
-    "suppressed":   {
-      "deliveryType": "temp",
-      "deviceId": "Paradigm Revel - 723",
-      "deviceTime": "2014-03-13T03:00:00",
-      "duration": 1755000,
-      "percent": 0.7,
-      "source": "carelink",
-      "timezoneOffset": -600,
-      "time": "2014-03-13T10:29:15.000Z",
-      "type": "basal",
-      "suppressed": {
-        "deliveryType": "scheduled",
-        "deviceId": "Paradigm Revel - 723",
-        "deviceTime": "2014-03-13T03:00:00",
-        "duration": 3600000,
-        "scheduleName": "standard",
-        "source": "carelink",
-        "timezoneOffset": -600,
-        "time": "2014-03-13T13:00:00.000Z",
-        "type": "basal",
-        "value": 0.85
-      },
-      "annotations": [{ "code": "carelink/basal/temp-percent-create-scheduled" }]
-    }
-  },
-  {
-    "deliveryType": "temp",
-    "deviceId": "Paradigm Revel - 723",
-    "deviceTime": "2014-03-13T03:29:15",
-    "duration": 7079000,
-    "source": "carelink",
-    "timezoneOffset": -600,
-    "time": "2014-03-13T13:27:14.000Z",
-    "type": "basal",
-    "value": 0.55,
-    "previous":   {
-      "deliveryType": "temp",
-      "deviceId": "Paradigm Revel - 723",
-      "deviceTime": "2014-03-13T03:27:14",
-      "duration": 7200000,
-      "source": "carelink",
-      "timezoneOffset": -600,
-      "time": "2014-03-13T13:27:14.000Z",
-      "type": "basal",
-      "value": 0.55,
-      "suppressed":   {
-        "deliveryType": "temp",
-        "deviceId": "Paradigm Revel - 723",
-        "deviceTime": "2014-03-13T03:00:00",
-        "duration": 1755000,
-        "percent": 0.7,
-        "source": "carelink",
-        "timezoneOffset": -600,
-        "time": "2014-03-13T10:29:15.000Z",
-        "type": "basal",
-        "suppressed": {
-          "deliveryType": "scheduled",
-          "deviceId": "Paradigm Revel - 723",
-          "deviceTime": "2014-03-13T03:00:00",
-          "duration": 3600000,
-          "scheduleName": "standard",
-          "source": "carelink",
-          "timezoneOffset": -600,
-          "time": "2014-03-13T13:00:00.000Z",
-          "type": "basal",
-          "value": 0.85
-        },
+        "rate": 0.85,
         "annotations": [{ "code": "carelink/basal/temp-percent-create-scheduled" }]
       }
     },
     "suppressed":   {
-      "deliveryType": "scheduled",
+      "deliveryType": "temp",
       "deviceId": "Paradigm Revel - 723",
       "deviceTime": "2014-03-13T03:00:00",
-      "duration": 3600000,
-      "scheduleName": "standard",
-      "source": "carelink",
+      "duration": 1755000,
+      "percent": 0.7,
       "timezoneOffset": -600,
       "time": "2014-03-13T13:00:00.000Z",
       "type": "basal",
-      "value": 0.85
+      "suppressed": {
+        "deliveryType": "scheduled",
+        "deviceId": "Paradigm Revel - 723",
+        "deviceTime": "2014-03-13T03:00:00",
+        "duration": 3600000,
+        "scheduleName": "standard",
+        "timezoneOffset": -600,
+        "time": "2014-03-13T13:00:00.000Z",
+        "type": "basal",
+        "rate": 0.85,
+        "annotations": [{ "code": "carelink/basal/temp-percent-create-scheduled" }]
+      }
     }
   },
   {
@@ -456,28 +382,26 @@
     "duration": 5234000,
     "source": "carelink",
     "timezoneOffset": -600,
-    "time": "2014-03-13T13:27:14.000Z",
+    "time": "2014-03-13T14:00:00.000Z",
     "type": "basal",
-    "value": 0.55,
+    "rate": 0.55,
     "previous":   {
       "deliveryType": "temp",
       "deviceId": "Paradigm Revel - 723",
-      "deviceTime": "2014-03-13T03:29:15",
-      "duration": 7079000,
-      "source": "carelink",
+      "deviceTime": "2014-03-13T03:27:14",
+      "duration": 7200000,
       "timezoneOffset": -600,
-      "time": "2014-03-13T13:29:15.000Z",
+      "time": "2014-03-13T13:27:14.000Z",
       "type": "basal",
-      "value": 0.55,
+      "rate": 0.55,
       "suppressed":   {
         "deliveryType": "temp",
         "deviceId": "Paradigm Revel - 723",
         "deviceTime": "2014-03-13T03:00:00",
         "duration": 1755000,
         "percent": 0.7,
-        "source": "carelink",
         "timezoneOffset": -600,
-        "time": "2014-03-13T10:29:15.000Z",
+        "time": "2014-03-13T13:00:00.000Z",
         "type": "basal",
         "suppressed": {
           "deliveryType": "scheduled",
@@ -485,13 +409,12 @@
           "deviceTime": "2014-03-13T03:00:00",
           "duration": 3600000,
           "scheduleName": "standard",
-          "source": "carelink",
           "timezoneOffset": -600,
           "time": "2014-03-13T13:00:00.000Z",
           "type": "basal",
-          "value": 0.85
-        },
-        "annotations": [{ "code": "carelink/basal/temp-percent-create-scheduled" }]
+          "rate": 0.85,
+          "annotations": [{ "code": "carelink/basal/temp-percent-create-scheduled" }]
+        }
       }
     },
     "suppressed": {
@@ -500,13 +423,12 @@
       "deviceTime": "2014-03-13T04:00:00",
       "duration": 3600000,
       "scheduleName": "standard",
-      "source": "carelink",
       "timezoneOffset": -600,
       "time": "2014-03-13T14:00:00.000Z",
       "type": "basal",
-      "value": 0.9
-    },
-    "annotations": [{ "code": "carelink/basal/temp-percent-create-scheduled" }]
+      "rate": 0.9,
+      "annotations": [{ "code": "carelink/basal/temp-percent-create-scheduled" }]
+    }
   },
   {
     "deliveryType": "temp",
@@ -517,30 +439,28 @@
     "timezoneOffset": -600,
     "time": "2014-03-13T15:00:00.000Z",
     "type": "basal",
-    "value": 0.55,
+    "rate": 0.55,
     "previous":     {
       "deliveryType": "temp",
       "deviceId": "Paradigm Revel - 723",
       "deviceTime": "2014-03-13T04:00:00",
       "duration": 5234000,
-      "source": "carelink",
       "timezoneOffset": -600,
-      "time": "2014-03-13T13:27:14.000Z",
+      "time": "2014-03-13T14:00:00.000Z",
       "type": "basal",
-      "value": 0.55,
+      "rate": 0.55,
       "suppressed": {
         "deliveryType": "scheduled",
         "deviceId": "Paradigm Revel - 723",
         "deviceTime": "2014-03-13T04:00:00",
         "duration": 3600000,
         "scheduleName": "standard",
-        "source": "carelink",
         "timezoneOffset": -600,
         "time": "2014-03-13T14:00:00.000Z",
         "type": "basal",
-        "value": 0.9
-      },
-      "annotations": [{ "code": "carelink/basal/temp-percent-create-scheduled" }]
+        "rate": 0.9,
+        "annotations": [{ "code": "carelink/basal/temp-percent-create-scheduled" }]
+      }
     },
     "suppressed":   {
       "deliveryType": "scheduled",
@@ -548,13 +468,12 @@
       "deviceTime": "2014-03-13T05:00:00",
       "duration": 3600000,
       "scheduleName": "standard",
-      "source": "carelink",
       "timezoneOffset": -600,
       "time": "2014-03-13T15:00:00.000Z",
       "type": "basal",
-      "value": 0.9
-    },
-    "annotations": [{ "code": "carelink/basal/temp-percent-create-scheduled" }]
+      "rate": 0.9,
+      "annotations": [{ "code": "carelink/basal/temp-percent-create-scheduled" }]
+    }
   },
   {
     "annotations": [{ "code": "carelink/basal/off-schedule-rate" }],
@@ -566,7 +485,7 @@
     "timezoneOffset": -600,
     "time": "2014-03-14T12:00:00.000Z",
     "type": "basal",
-    "value": 0.65
+    "rate": 0.65
   },
   {
     "deviceId": "Paradigm Revel - 723",
@@ -702,16 +621,6 @@
     "source": "carelink",
     "timezoneOffset": -600,
     "time": "2014-03-13T10:27:56.000Z",
-    "type": "basal"
-  },
-  {
-    "deliveryType": "temp-stop",
-    "deviceId": "Paradigm Veo - 723",
-    "deviceTime": "2014-03-13T00:29:00",
-    "source": "carelink",
-    "tempId": "hhcfcnnt0nmuaasu0c559dspf4r6516l",
-    "timezoneOffset": -600,
-    "time": "2014-03-13T10:29:00.000Z",
     "type": "basal"
   },
   {
