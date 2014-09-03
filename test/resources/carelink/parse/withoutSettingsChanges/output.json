@@ -39,7 +39,7 @@
     "expectedExtended": 2.3,
     "duration": 3600000,
     "source": "carelink",
-    "subType": "dual/normal",
+    "subType": "dual/square",
     "timezoneOffset": -600,
     "time": "2014-03-14T09:35:12.000Z",
     "type": "bolus"

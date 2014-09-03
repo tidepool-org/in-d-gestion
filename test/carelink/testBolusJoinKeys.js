@@ -76,8 +76,7 @@ var expectSuccess = [
       { type: 'wizard', payload: 'a_value', uploadId: '1', uploadSeqNum: 25, deviceId: 'abc' }
     ],
     [
-      { type: 'bolus', subType: 'dual/normal', payload: 'something', deviceId: 'abc', joinKey: '9fhgr60koraej00e1knajr4vm07fl23r' },
-      { type: 'bolus', subType: 'dual/square', payload: '1234', deviceId: 'abc', joinKey: '9fhgr60koraej00e1knajr4vm07fl23r' },
+      { type: 'bolus', subType: 'dual/square', payload: 'something', deviceId: 'abc', joinKey: '9fhgr60koraej00e1knajr4vm07fl23r' },
       { type: 'wizard', payload: 'a_value', deviceId: 'abc', joinKey: '9fhgr60koraej00e1knajr4vm07fl23r' }
     ]
   ],
