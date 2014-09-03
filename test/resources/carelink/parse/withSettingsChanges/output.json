@@ -6,6 +6,7 @@
     "timezoneOffset": -600,
     "time": "2014-03-13T10:04:00.000Z",
     "type": "cbg",
+    "units": "mg/dL",
     "value": 120
   },
   {
@@ -15,6 +16,7 @@
     "timezoneOffset": -600,
     "time": "2014-03-14T07:03:51.000Z",
     "type": "smbg",
+    "units": "mg/dL",
     "value": 90
   },
   {
@@ -80,15 +82,11 @@
     "time": "2014-03-13T10:04:00.000Z",
     "type": "settings",
     "units": {
-      "bg": "mg dL"
+      "bg": "mg/dL"
     }
   },
   {
-    "annotations": [
-      {
-        "code": "carelink/basal/off-schedule-rate"
-      }
-    ],
+    "annotations": [{ "code": "carelink/basal/off-schedule-rate" }],
     "deliveryType": "scheduled",
     "deviceId": "Paradigm Revel - 723",
     "deviceTime": "2014-03-13T02:00:00",
@@ -97,18 +95,40 @@
     "timezoneOffset": -600,
     "time": "2014-03-13T12:00:00.000Z",
     "type": "basal",
-    "value": 0.65
+    "rate": 0.65
   },
   {
     "deliveryType": "temp",
     "deviceId": "Paradigm Revel - 723",
     "deviceTime": "2014-03-13T03:27:14",
     "duration": 7200000,
+    "previous": {
+      "annotations": [{ "code": "carelink/basal/off-schedule-rate" }],
+      "deliveryType": "scheduled",
+      "deviceId": "Paradigm Revel - 723",
+      "deviceTime": "2014-03-13T02:00:00",
+      "rate": 0.65,
+      "scheduleName": "standard",
+      "time": "2014-03-13T12:00:00.000Z",
+      "timezoneOffset": -600,
+      "type": "basal"
+    },
+    "rate": 0.55,
     "source": "carelink",
-    "timezoneOffset": -600,
+    "suppressed": {
+      "annotations": [{ "code": "carelink/basal/off-schedule-rate" }],
+      "deliveryType": "scheduled",
+      "deviceId": "Paradigm Revel - 723",
+      "deviceTime": "2014-03-13T02:00:00",
+      "rate": 0.65,
+      "scheduleName": "standard",
+      "time": "2014-03-13T12:00:00.000Z",
+      "timezoneOffset": -600,
+      "type": "basal"
+    },
     "time": "2014-03-13T13:27:14.000Z",
-    "type": "basal",
-    "value": 0.55
+    "timezoneOffset": -600,
+    "type": "basal"
   },
   {
     "activeBasalSchedule": "standard",
@@ -127,7 +147,7 @@
     "time": "2014-03-13T21:51:05.000Z",
     "type": "settings",
     "units": {
-      "bg": "mg dL"
+      "bg": "mg/dL"
     }
   },
   {
@@ -144,32 +164,47 @@
   {
     "deviceId": "Paradigm Revel - 723",
     "deviceTime": "2014-03-13T15:40:34",
+    "previous": {
+      "deviceId": "Paradigm Revel - 723",
+      "deviceTime": "2014-03-13T15:40:32",
+      "reason": "alarm",
+      "status": "suspended",
+      "subType": "status",
+      "time": "2014-03-14T01:40:32.000Z",
+      "timezoneOffset": -600,
+      "type": "deviceMeta"
+    },
     "reason": "alarm",
     "source": "carelink",
     "status": "suspended",
     "subType": "status",
-    "timezoneOffset": -600,
     "time": "2014-03-14T01:40:34.000Z",
+    "timezoneOffset": -600,
     "type": "deviceMeta"
   },
   {
     "deviceId": "Paradigm Revel - 723",
     "deviceTime": "2014-03-13T15:40:43",
-    "joinKey": "hpvvhgo1hrv2k52ao6pei53quo830kds",
+    "previous": {
+      "deviceId": "Paradigm Revel - 723",
+      "deviceTime": "2014-03-13T15:40:34",
+      "reason": "alarm",
+      "status": "suspended",
+      "subType": "status",
+      "time": "2014-03-14T01:40:34.000Z",
+      "timezoneOffset": -600,
+      "type": "deviceMeta"
+    },
     "reason": "user_override",
     "source": "carelink",
     "status": "resumed",
     "subType": "status",
-    "timezoneOffset": -600,
     "time": "2014-03-14T01:40:43.000Z",
+    "timezoneOffset": -600,
     "type": "deviceMeta"
   },
   {
-    "annotations": [
-      {
-        "code": "carelink/basal/off-schedule-rate"
-      }
-    ],
+    "annotations": [{ "code": "carelink/basal/off-schedule-rate" }],
     "deliveryType": "scheduled",
     "deviceId": "Paradigm Revel - 723",
     "deviceTime": "2014-03-14T00:00:00",
@@ -178,7 +213,7 @@
     "timezoneOffset": -600,
     "time": "2014-03-14T10:00:00.000Z",
     "type": "basal",
-    "value": 0.8
+    "rate": 0.8
   },
   {
     "deliveryType": "temp",
@@ -186,19 +221,64 @@
     "deviceTime": "2014-03-14T00:28:56",
     "duration": 7200000,
     "percent": 0.7,
+    "previous": {
+      "annotations": [{ "code": "carelink/basal/off-schedule-rate" }],
+      "deliveryType": "scheduled",
+      "deviceId": "Paradigm Revel - 723",
+      "deviceTime": "2014-03-14T00:00:00",
+      "rate": 0.8,
+      "scheduleName": "standard",
+      "time": "2014-03-14T10:00:00.000Z",
+      "timezoneOffset": -600,
+      "type": "basal"
+    },
     "source": "carelink",
-    "timezoneOffset": -600,
+    "suppressed": {
+      "annotations": [{ "code": "carelink/basal/off-schedule-rate" }],
+      "deliveryType": "scheduled",
+      "deviceId": "Paradigm Revel - 723",
+      "deviceTime": "2014-03-14T00:00:00",
+      "rate": 0.8,
+      "scheduleName": "standard",
+      "time": "2014-03-14T10:00:00.000Z",
+      "timezoneOffset": -600,
+      "type": "basal"
+    },
     "time": "2014-03-14T10:28:56.000Z",
+    "timezoneOffset": -600,
     "type": "basal"
   },
   {
-    "deliveryType": "temp-stop",
+    "annotations": [{ "code": "carelink/basal/off-schedule-rate" }],
+    "deliveryType": "scheduled",
     "deviceId": "Paradigm Revel - 723",
     "deviceTime": "2014-03-14T00:29:03",
+    "previous": {
+      "deliveryType": "temp",
+      "deviceId": "Paradigm Revel - 723",
+      "deviceTime": "2014-03-14T00:28:56",
+      "duration": 7200000,
+      "percent": 0.7,
+      "suppressed": {
+        "annotations": [{ "code": "carelink/basal/off-schedule-rate" }],
+        "deliveryType": "scheduled",
+        "deviceId": "Paradigm Revel - 723",
+        "deviceTime": "2014-03-14T00:00:00",
+        "rate": 0.8,
+        "scheduleName": "standard",
+        "time": "2014-03-14T10:00:00.000Z",
+        "timezoneOffset": -600,
+        "type": "basal"
+      },
+      "time": "2014-03-14T10:28:56.000Z",
+      "timezoneOffset": -600,
+      "type": "basal"
+    },
+    "rate": 0.8,
+    "scheduleName": "standard",
     "source": "carelink",
-    "tempId": "td5ds19u4nnfu8qbet0ai3os6c0q72q8",
-    "timezoneOffset": -600,
     "time": "2014-03-14T10:29:03.000Z",
+    "timezoneOffset": -600,
     "type": "basal"
   },
   {
@@ -210,24 +290,73 @@
     "source": "carelink",
     "timezoneOffset": -600,
     "time": "2014-03-14T10:29:15.000Z",
-    "type": "basal"
+    "type": "basal",
+    "previous": {
+      "annotations": [{ "code": "carelink/basal/off-schedule-rate" }],
+      "deliveryType": "scheduled",
+      "deviceId": "Paradigm Revel - 723",
+      "deviceTime": "2014-03-14T00:29:03",
+      "scheduleName": "standard",
+      "timezoneOffset": -600,
+      "time": "2014-03-14T10:29:03.000Z",
+      "type": "basal",
+      "rate": 0.8
+    },
+    "suppressed": {
+      "annotations": [{ "code": "carelink/basal/off-schedule-rate" }],
+      "deliveryType": "scheduled",
+      "deviceId": "Paradigm Revel - 723",
+      "deviceTime": "2014-03-14T00:29:03",
+      "scheduleName": "standard",
+      "timezoneOffset": -600,
+      "time": "2014-03-14T10:29:03.000Z",
+      "type": "basal",
+      "rate": 0.8
+    }
   },
   {
-    "annotations": [
-      {
-        "code": "carelink/basal/temp-percent-create-scheduled"
-      }
-    ],
-    "deliveryType": "scheduled",
+    "deliveryType": "temp",
     "deviceId": "Paradigm Revel - 723",
     "deviceTime": "2014-03-14T01:00:00",
-    "duration": 7200000,
-    "scheduleName": "standard",
+    "duration": 8955000,
+    "percent": 0.7,
     "source": "carelink",
     "timezoneOffset": -600,
     "time": "2014-03-14T11:00:00.000Z",
     "type": "basal",
-    "value": 0.75
+    "previous":   {
+      "deliveryType": "temp",
+      "deviceId": "Paradigm Revel - 723",
+      "deviceTime": "2014-03-14T00:29:15",
+      "duration": 10800000,
+      "percent": 0.7,
+      "timezoneOffset": -600,
+      "time": "2014-03-14T10:29:15.000Z",
+      "type": "basal",
+      "suppressed": {
+        "annotations": [{ "code": "carelink/basal/off-schedule-rate" }],
+        "deliveryType": "scheduled",
+        "deviceId": "Paradigm Revel - 723",
+        "deviceTime": "2014-03-14T00:29:03",
+        "scheduleName": "standard",
+        "timezoneOffset": -600,
+        "time": "2014-03-14T10:29:03.000Z",
+        "type": "basal",
+        "rate": 0.8
+      }
+    },
+    "suppressed": {
+      "deliveryType": "scheduled",
+      "deviceId": "Paradigm Revel - 723",
+      "deviceTime": "2014-03-14T01:00:00",
+      "duration": 7200000,
+      "scheduleName": "standard",
+      "timezoneOffset": -600,
+      "time": "2014-03-14T11:00:00.000Z",
+      "type": "basal",
+      "rate": 0.75,
+      "annotations": [{ "code": "carelink/basal/temp-percent-create-scheduled" }]
+    }
   },
   {
     "activeBasalSchedule": "standard",
@@ -256,7 +385,7 @@
     "time": "2014-03-14T11:01:27.000Z",
     "type": "settings",
     "units": {
-      "bg": "mg dL"
+      "bg": "mg/dL"
     }
   },
   {
@@ -288,7 +417,7 @@
     "time": "2014-03-14T11:02:02.000Z",
     "type": "settings",
     "units": {
-      "bg": "mg dL"
+      "bg": "mg/dL"
     }
   },
   {
@@ -328,7 +457,7 @@
     "time": "2014-03-14T11:03:59.000Z",
     "type": "settings",
     "units": {
-      "bg": "mg dL"
+      "bg": "mg/dL"
     }
   },
   {
@@ -382,22 +511,54 @@
     "time": "2014-03-14T11:08:07.000Z",
     "type": "settings",
     "units": {
-      "bg": "mg dL",
+      "bg": "mg/dL",
       "carb": "grams"
     }
   },
   {
-    "annotations": [{ "code": "carelink/basal/temp-percent-create-scheduled" }],
-    "deliveryType": "scheduled",
+    "deliveryType": "temp",
     "deviceId": "Paradigm Revel - 723",
     "deviceTime": "2014-03-14T03:00:00",
-    "duration": 3600000,
-    "scheduleName": "standard",
+    "duration": 1755000,
+    "percent": 0.7,
     "source": "carelink",
     "timezoneOffset": -600,
     "time": "2014-03-14T13:00:00.000Z",
     "type": "basal",
-    "value": 0.85
+    "previous":     {
+      "deliveryType": "temp",
+      "deviceId": "Paradigm Revel - 723",
+      "deviceTime": "2014-03-14T01:00:00",
+      "duration": 8955000,
+      "percent": 0.7,
+      "timezoneOffset": -600,
+      "time": "2014-03-14T11:00:00.000Z",
+      "type": "basal",
+      "suppressed": {
+        "deliveryType": "scheduled",
+        "deviceId": "Paradigm Revel - 723",
+        "deviceTime": "2014-03-14T01:00:00",
+        "duration": 7200000,
+        "scheduleName": "standard",
+        "timezoneOffset": -600,
+        "time": "2014-03-14T11:00:00.000Z",
+        "type": "basal",
+        "rate": 0.75,
+        "annotations": [{ "code": "carelink/basal/temp-percent-create-scheduled" }]
+      }
+    },
+    "suppressed": {
+      "deliveryType": "scheduled",
+      "deviceId": "Paradigm Revel - 723",
+      "deviceTime": "2014-03-14T03:00:00",
+      "duration": 3600000,
+      "scheduleName": "standard",
+      "timezoneOffset": -600,
+      "time": "2014-03-14T13:00:00.000Z",
+      "type": "basal",
+      "rate": 0.85,
+      "annotations": [{ "code": "carelink/basal/temp-percent-create-scheduled" }]
+    }
   },
   {
     "deviceId": "Paradigm Revel - 723",
@@ -408,7 +569,17 @@
     "subType": "status",
     "timezoneOffset": -600,
     "time": "2014-03-14T13:32:32.000Z",
-    "type": "deviceMeta"
+    "type": "deviceMeta",
+    "previous": {
+      "deviceId": "Paradigm Revel - 723",
+      "deviceTime": "2014-03-13T15:40:43",
+      "reason": "user_override",
+      "status": "resumed",
+      "subType": "status",
+      "time": "2014-03-14T01:40:43.000Z",
+      "timezoneOffset": -600,
+      "type": "deviceMeta"
+    }
   },
   {
     "annotations": [{ "code": "carelink/basal/temp-percent-create-scheduled" }],
@@ -421,7 +592,7 @@
     "timezoneOffset": -600,
     "time": "2014-03-14T14:00:00.000Z",
     "type": "basal",
-    "value": 0.9
+    "rate": 0.9
   },
   {
     "annotations": [{ "code": "carelink/basal/temp-percent-create-scheduled" }],
@@ -434,7 +605,7 @@
     "timezoneOffset": -600,
     "time": "2014-03-14T15:00:00.000Z",
     "type": "basal",
-    "value": 0.9
+    "rate": 0.9
   },
   {
     "annotations": [{ "code": "carelink/basal/temp-percent-create-scheduled" }],
@@ -447,12 +618,21 @@
     "timezoneOffset": -600,
     "time": "2014-03-14T16:00:00.000Z",
     "type": "basal",
-    "value": 0.95
+    "rate": 0.95
   },
   {
     "deviceId": "Paradigm Revel - 723",
     "deviceTime": "2014-03-14T07:32:43",
-    "joinKey": "1c4l7rv009l75ldrvj88t4pjand2bqtk",
+    "previous": {
+      "deviceId": "Paradigm Revel - 723",
+      "deviceTime": "2014-03-14T03:32:32",
+      "reason": "alarm",
+      "status": "suspended",
+      "subType": "status",
+      "time": "2014-03-14T13:32:32.000Z",
+      "timezoneOffset": -600,
+      "type": "deviceMeta"
+    },
     "reason": "user_override",
     "source": "carelink",
     "status": "resumed",
@@ -471,7 +651,7 @@
     "timezoneOffset": -600,
     "time": "2014-03-14T19:00:00.000Z",
     "type": "basal",
-    "value": 0.9
+    "rate": 0.9
   },
   {
     "activeBasalSchedule": "pattern a",
@@ -524,7 +704,7 @@
     "time": "2014-03-14T21:51:05.000Z",
     "type": "settings",
     "units": {
-      "bg": "mg dL",
+      "bg": "mg/dL",
       "carb": "grams"
     }
   },
@@ -538,6 +718,17 @@
     "timezoneOffset": -600,
     "time": "2014-03-14T21:51:05.000Z",
     "type": "basal",
-    "value": 1.05
+    "rate": 1.05,
+    "previous": {
+      "deliveryType": "scheduled",
+      "deviceId": "Paradigm Revel - 723",
+      "deviceTime": "2014-03-14T09:00:00",
+      "duration": 21600000,
+      "rate": 0.9,
+      "scheduleName": "standard",
+      "time": "2014-03-14T19:00:00.000Z",
+      "timezoneOffset": -600,
+      "type": "basal"
+    }
   }
 ]
