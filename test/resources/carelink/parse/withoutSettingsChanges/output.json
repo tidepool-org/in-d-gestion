@@ -528,17 +528,7 @@
     "subType": "status",
     "timezoneOffset": -600,
     "time": "2014-03-15T01:40:47.000Z",
-    "type": "deviceMeta",
-    "previous":   {
-      "deviceId": "Paradigm Revel - 723",
-      "deviceTime": "2014-03-14T10:11:06",
-      "reason": "manual",
-      "status": "resumed",
-      "subType": "status",
-      "timezoneOffset": -600,
-      "time": "2014-03-14T20:11:06.000Z",
-      "type": "deviceMeta"
-    }
+    "type": "deviceMeta"
   },
   {
     "deviceId": "Paradigm Revel - 723",
@@ -549,17 +539,7 @@
     "subType": "status",
     "timezoneOffset": -600,
     "time": "2014-03-15T01:42:38.000Z",
-    "type": "deviceMeta",
-    "previous":   {
-      "deviceId": "Paradigm Revel - 723",
-      "deviceTime": "2014-03-14T15:40:47",
-      "reason": "manual",
-      "status": "suspended",
-      "subType": "status",
-      "timezoneOffset": -600,
-      "time": "2014-03-15T01:40:47.000Z",
-      "type": "deviceMeta"
-    }
+    "type": "deviceMeta"
   },
   {
     "deviceId": "Paradigm Revel - 723",
@@ -571,7 +551,7 @@
     "timezoneOffset": -600,
     "time": "2014-03-15T01:42:52.000Z",
     "type": "deviceMeta",
-    "previous":   {
+    "previous": {
       "deviceId": "Paradigm Revel - 723",
       "deviceTime": "2014-03-14T15:42:38",
       "reason": "manual",
@@ -591,17 +571,7 @@
     "subType": "status",
     "timezoneOffset": -600,
     "time": "2014-03-15T01:51:39.000Z",
-    "type": "deviceMeta",
-    "previous":   {
-      "deviceId": "Paradigm Revel - 723",
-      "deviceTime": "2014-03-14T15:42:52",
-      "reason": "manual",
-      "status": "resumed",
-      "subType": "status",
-      "timezoneOffset": -600,
-      "time": "2014-03-15T01:42:52.000Z",
-      "type": "deviceMeta"
-    }
+    "type": "deviceMeta"
   },
   {
     "deliveryType": "temp",

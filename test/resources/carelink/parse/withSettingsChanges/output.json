@@ -164,16 +164,6 @@
   {
     "deviceId": "Paradigm Revel - 723",
     "deviceTime": "2014-03-13T15:40:34",
-    "previous": {
-      "deviceId": "Paradigm Revel - 723",
-      "deviceTime": "2014-03-13T15:40:32",
-      "reason": "alarm",
-      "status": "suspended",
-      "subType": "status",
-      "time": "2014-03-14T01:40:32.000Z",
-      "timezoneOffset": -600,
-      "type": "deviceMeta"
-    },
     "reason": "alarm",
     "source": "carelink",
     "status": "suspended",
@@ -185,6 +175,13 @@
   {
     "deviceId": "Paradigm Revel - 723",
     "deviceTime": "2014-03-13T15:40:43",
+    "reason": "user_override",
+    "source": "carelink",
+    "status": "resumed",
+    "subType": "status",
+    "time": "2014-03-14T01:40:43.000Z",
+    "timezoneOffset": -600,
+    "type": "deviceMeta",
     "previous": {
       "deviceId": "Paradigm Revel - 723",
       "deviceTime": "2014-03-13T15:40:34",
@@ -194,14 +191,7 @@
       "time": "2014-03-14T01:40:34.000Z",
       "timezoneOffset": -600,
       "type": "deviceMeta"
-    },
-    "reason": "user_override",
-    "source": "carelink",
-    "status": "resumed",
-    "subType": "status",
-    "time": "2014-03-14T01:40:43.000Z",
-    "timezoneOffset": -600,
-    "type": "deviceMeta"
+    }
   },
   {
     "annotations": [{ "code": "carelink/basal/off-schedule-rate" }],
@@ -569,17 +559,7 @@
     "subType": "status",
     "timezoneOffset": -600,
     "time": "2014-03-14T13:32:32.000Z",
-    "type": "deviceMeta",
-    "previous": {
-      "deviceId": "Paradigm Revel - 723",
-      "deviceTime": "2014-03-13T15:40:43",
-      "reason": "user_override",
-      "status": "resumed",
-      "subType": "status",
-      "time": "2014-03-14T01:40:43.000Z",
-      "timezoneOffset": -600,
-      "type": "deviceMeta"
-    }
+    "type": "deviceMeta"
   },
   {
     "annotations": [{ "code": "carelink/basal/temp-percent-create-scheduled" }],
@@ -623,6 +603,13 @@
   {
     "deviceId": "Paradigm Revel - 723",
     "deviceTime": "2014-03-14T07:32:43",
+    "reason": "user_override",
+    "source": "carelink",
+    "status": "resumed",
+    "subType": "status",
+    "timezoneOffset": -600,
+    "time": "2014-03-14T17:32:43.000Z",
+    "type": "deviceMeta",
     "previous": {
       "deviceId": "Paradigm Revel - 723",
       "deviceTime": "2014-03-14T03:32:32",
@@ -632,14 +619,7 @@
       "time": "2014-03-14T13:32:32.000Z",
       "timezoneOffset": -600,
       "type": "deviceMeta"
-    },
-    "reason": "user_override",
-    "source": "carelink",
-    "status": "resumed",
-    "subType": "status",
-    "timezoneOffset": -600,
-    "time": "2014-03-14T17:32:43.000Z",
-    "type": "deviceMeta"
+    }
   },
   {
     "deliveryType": "scheduled",
