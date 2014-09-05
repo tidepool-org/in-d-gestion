@@ -66,7 +66,7 @@
     "type": "wizard"
   },
   {
-    "activeBasalSchedule": "pattern a",
+    "activeSchedule": "pattern a",
     "basalSchedules": {
       "pattern a": [],
       "pattern b": [],
@@ -131,7 +131,7 @@
     "type": "basal"
   },
   {
-    "activeBasalSchedule": "standard",
+    "activeSchedule": "standard",
     "basalSchedules": {
       "pattern a": [],
       "pattern b": [],
@@ -349,7 +349,7 @@
     }
   },
   {
-    "activeBasalSchedule": "standard",
+    "activeSchedule": "standard",
     "basalSchedules": {
       "pattern a": [],
       "pattern b": [],
@@ -379,7 +379,7 @@
     }
   },
   {
-    "activeBasalSchedule": "standard",
+    "activeSchedule": "standard",
     "basalSchedules": {
       "pattern a": [
         { "rate": 0.95, "start": 0 }
@@ -411,7 +411,7 @@
     }
   },
   {
-    "activeBasalSchedule": "standard",
+    "activeSchedule": "standard",
     "basalSchedules": {
       "pattern a": [
         { "rate": 0.95, "start": 0 },
@@ -451,7 +451,7 @@
     }
   },
   {
-    "activeBasalSchedule": "standard",
+    "activeSchedule": "standard",
     "basalSchedules": {
       "pattern a": [
         { "rate": 0.95, "start": 0 },
@@ -551,6 +551,19 @@
     }
   },
   {
+    "deliveryType": "scheduled",
+    "deviceId": "Paradigm Revel - 723",
+    "deviceTime": "2014-03-14T03:29:15",
+    "duration": 1845000,
+    "scheduleName": "standard",
+    "timezoneOffset": -600,
+    "time": "2014-03-14T13:29:15.000Z",
+    "type": "basal",
+    "rate": 0.85,
+    "source": "carelink",
+    "annotations": [{ "code": "carelink/basal/temp-percent-create-scheduled" }]
+  },
+  {
     "deviceId": "Paradigm Revel - 723",
     "deviceTime": "2014-03-14T03:32:32",
     "reason": "alarm",
@@ -634,7 +647,7 @@
     "rate": 0.9
   },
   {
-    "activeBasalSchedule": "pattern a",
+    "activeSchedule": "pattern a",
     "basalSchedules": {
       "pattern a": [
         { "rate": 0.95, "start": 0 },

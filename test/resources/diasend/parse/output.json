@@ -502,7 +502,7 @@
     "value": 0
   },
   {
-    "activeBasalSchedule": "Program 1",
+    "activeSchedule": "Program 1",
     "basalSchedules": {
       "Program 1": [
         {

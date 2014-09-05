@@ -5,7 +5,7 @@
     "time": "2014-03-13T10:01:00.000Z",
     "timezoneOffset": -600,
     "deviceId": "Paradigm Revel - 723",
-    "activeBasalSchedule": "standard",
+    "activeSchedule": "standard",
     "basalSchedules": {
       "standard": [{ "rate": 0.8, "start": 0 }],
       "pattern a": [{ "rate": 0.95, "start": 0 }],

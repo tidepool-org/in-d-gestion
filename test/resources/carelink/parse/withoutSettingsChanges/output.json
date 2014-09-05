@@ -66,7 +66,7 @@
     "type": "wizard"
   },
   {
-    "activeBasalSchedule": "standard",
+    "activeSchedule": "standard",
     "basalSchedules": {
       "pattern a": [
         { "rate": 0.95, "start": 0 },
@@ -474,6 +474,19 @@
       "rate": 0.9,
       "annotations": [{ "code": "carelink/basal/temp-percent-create-scheduled" }]
     }
+  },
+  {
+    "deliveryType": "scheduled",
+    "deviceId": "Paradigm Revel - 723",
+    "deviceTime": "2014-03-13T05:27:14",
+    "duration": 1966000,
+    "scheduleName": "standard",
+    "timezoneOffset": -600,
+    "time": "2014-03-13T15:27:14.000Z",
+    "type": "basal",
+    "rate": 0.9,
+    "source": "carelink",
+    "annotations": [{ "code": "carelink/basal/temp-percent-create-scheduled" }]
   },
   {
     "annotations": [{ "code": "carelink/basal/off-schedule-rate" }],
