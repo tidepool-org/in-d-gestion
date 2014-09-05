@@ -4,7 +4,7 @@
     "deviceTime": "2014-03-13T00:20:00",
     "source": "diasend",
     "timezoneOffset": -600,
-    "ts": "2014-03-13T10:20:00.000Z",
+    "time": "2014-03-13T10:20:00.000Z",
     "type": "smbg",
     "units": "mmol/L",
     "value": 5.1
@@ -14,7 +14,7 @@
     "deviceTime": "2014-03-13T03:28:00",
     "source": "diasend",
     "timezoneOffset": -600,
-    "ts": "2014-03-13T13:28:00.000Z",
+    "time": "2014-03-13T13:28:00.000Z",
     "type": "smbg",
     "units": "mmol/L",
     "value": 5.5
@@ -24,7 +24,7 @@
     "deviceTime": "2014-03-13T05:09:00",
     "source": "diasend",
     "timezoneOffset": -600,
-    "ts": "2014-03-13T15:09:00.000Z",
+    "time": "2014-03-13T15:09:00.000Z",
     "type": "smbg",
     "units": "mmol/L",
     "value": 5.6
@@ -34,7 +34,7 @@
     "deviceTime": "2014-03-13T07:38:00",
     "source": "diasend",
     "timezoneOffset": -600,
-    "ts": "2014-03-13T17:38:00.000Z",
+    "time": "2014-03-13T17:38:00.000Z",
     "type": "smbg",
     "units": "mmol/L",
     "value": 12.9
@@ -44,7 +44,7 @@
     "deviceTime": "2014-03-13T08:52:00",
     "source": "diasend",
     "timezoneOffset": -600,
-    "ts": "2014-03-13T18:52:00.000Z",
+    "time": "2014-03-13T18:52:00.000Z",
     "type": "smbg",
     "units": "mmol/L",
     "value": 5.8
@@ -54,7 +54,7 @@
     "deviceTime": "2014-03-13T22:26:00",
     "source": "diasend",
     "timezoneOffset": -600,
-    "ts": "2014-03-14T08:26:00.000Z",
+    "time": "2014-03-14T08:26:00.000Z",
     "type": "smbg",
     "units": "mmol/L",
     "value": 3.1
@@ -64,7 +64,7 @@
     "deviceTime": "2014-03-13T23:52:00",
     "source": "diasend",
     "timezoneOffset": -600,
-    "ts": "2014-03-14T09:52:00.000Z",
+    "time": "2014-03-14T09:52:00.000Z",
     "type": "smbg",
     "units": "mmol/L",
     "value": 16.3
@@ -74,7 +74,7 @@
     "deviceTime": "2014-03-14T00:58:00",
     "source": "diasend",
     "timezoneOffset": -600,
-    "ts": "2014-03-14T10:58:00.000Z",
+    "time": "2014-03-14T10:58:00.000Z",
     "type": "smbg",
     "units": "mmol/L",
     "value": 13.7
@@ -84,7 +84,7 @@
     "deviceTime": "2014-03-14T01:10:00",
     "source": "diasend",
     "timezoneOffset": -600,
-    "ts": "2014-03-14T11:10:00.000Z",
+    "time": "2014-03-14T11:10:00.000Z",
     "type": "smbg",
     "units": "mmol/L",
     "value": 7.5
@@ -94,7 +94,7 @@
     "deviceTime": "2014-03-13T22:26:00",
     "source": "diasend",
     "timezoneOffset": -600,
-    "ts": "2014-03-14T08:26:00.000Z",
+    "time": "2014-03-14T08:26:00.000Z",
     "type": "cbg",
     "units": "mmol/L",
     "value": 2.8
@@ -104,7 +104,7 @@
     "deviceTime": "2014-03-13T22:31:00",
     "source": "diasend",
     "timezoneOffset": -600,
-    "ts": "2014-03-14T08:31:00.000Z",
+    "time": "2014-03-14T08:31:00.000Z",
     "type": "cbg",
     "units": "mmol/L",
     "value": 3.1
@@ -114,7 +114,7 @@
     "deviceTime": "2014-03-13T22:36:00",
     "source": "diasend",
     "timezoneOffset": -600,
-    "ts": "2014-03-14T08:36:00.000Z",
+    "time": "2014-03-14T08:36:00.000Z",
     "type": "cbg",
     "units": "mmol/L",
     "value": 3
@@ -124,7 +124,7 @@
     "deviceTime": "2014-03-14T00:51:00",
     "source": "diasend",
     "timezoneOffset": -600,
-    "ts": "2014-03-14T10:51:00.000Z",
+    "time": "2014-03-14T10:51:00.000Z",
     "type": "cbg",
     "units": "mmol/L",
     "value": 11.9
@@ -134,7 +134,7 @@
     "deviceTime": "2014-03-14T00:56:00",
     "source": "diasend",
     "timezoneOffset": -600,
-    "ts": "2014-03-14T10:56:00.000Z",
+    "time": "2014-03-14T10:56:00.000Z",
     "type": "cbg",
     "units": "mmol/L",
     "value": 10.9
@@ -144,7 +144,7 @@
     "deviceTime": "2014-03-14T01:01:00",
     "source": "diasend",
     "timezoneOffset": -600,
-    "ts": "2014-03-14T11:01:00.000Z",
+    "time": "2014-03-14T11:01:00.000Z",
     "type": "cbg",
     "units": "mmol/L",
     "value": 9.6
@@ -154,7 +154,7 @@
     "deviceTime": "2014-03-14T03:26:00",
     "source": "diasend",
     "timezoneOffset": -600,
-    "ts": "2014-03-14T13:26:00.000Z",
+    "time": "2014-03-14T13:26:00.000Z",
     "type": "cbg",
     "units": "mmol/L",
     "value": 3.4
@@ -164,7 +164,7 @@
     "deviceTime": "2014-03-14T03:31:00",
     "source": "diasend",
     "timezoneOffset": -600,
-    "ts": "2014-03-14T13:31:00.000Z",
+    "time": "2014-03-14T13:31:00.000Z",
     "type": "cbg",
     "units": "mmol/L",
     "value": 3.2
@@ -174,7 +174,7 @@
     "deviceTime": "2014-03-14T06:01:00",
     "source": "diasend",
     "timezoneOffset": -600,
-    "ts": "2014-03-14T16:01:00.000Z",
+    "time": "2014-03-14T16:01:00.000Z",
     "type": "cbg",
     "units": "mmol/L",
     "value": 8.3
@@ -184,7 +184,7 @@
     "deviceTime": "2014-03-14T06:06:00",
     "source": "diasend",
     "timezoneOffset": -600,
-    "ts": "2014-03-14T16:06:00.000Z",
+    "time": "2014-03-14T16:06:00.000Z",
     "type": "cbg",
     "units": "mmol/L",
     "value": 8.3
@@ -198,7 +198,7 @@
     },
     "source": "diasend",
     "timezoneOffset": -600,
-    "ts": "2014-03-13T10:20:00.000Z",
+    "time": "2014-03-13T10:20:00.000Z",
     "type": "wizard"
   },
   {
@@ -207,7 +207,7 @@
     "source": "diasend",
     "subType": "normal",
     "timezoneOffset": -600,
-    "ts": "2014-03-13T10:20:00.000Z",
+    "time": "2014-03-13T10:20:00.000Z",
     "type": "bolus",
     "value": 1.85
   },
@@ -219,7 +219,7 @@
     "scheduleName": "unknown",
     "source": "diasend",
     "timezoneOffset": -600,
-    "ts": "2014-03-13T10:00:00.000Z",
+    "time": "2014-03-13T10:00:00.000Z",
     "type": "basal",
     "value": 0.65
   },
@@ -232,7 +232,7 @@
     },
     "source": "diasend",
     "timezoneOffset": -600,
-    "ts": "2014-03-13T13:28:00.000Z",
+    "time": "2014-03-13T13:28:00.000Z",
     "type": "wizard"
   },
   {
@@ -241,7 +241,7 @@
     "source": "diasend",
     "subType": "normal",
     "timezoneOffset": -600,
-    "ts": "2014-03-13T13:28:00.000Z",
+    "time": "2014-03-13T13:28:00.000Z",
     "type": "bolus",
     "value": 1.25
   },
@@ -253,7 +253,7 @@
     "scheduleName": "unknown",
     "source": "diasend",
     "timezoneOffset": -600,
-    "ts": "2014-03-13T12:05:00.000Z",
+    "time": "2014-03-13T12:05:00.000Z",
     "type": "basal",
     "value": 1.35
   },
@@ -266,7 +266,7 @@
     },
     "source": "diasend",
     "timezoneOffset": -600,
-    "ts": "2014-03-13T15:09:00.000Z",
+    "time": "2014-03-13T15:09:00.000Z",
     "type": "wizard"
   },
   {
@@ -275,7 +275,7 @@
     "source": "diasend",
     "subType": "normal",
     "timezoneOffset": -600,
-    "ts": "2014-03-13T15:09:00.000Z",
+    "time": "2014-03-13T15:09:00.000Z",
     "type": "bolus",
     "value": 1.35
   },
@@ -285,7 +285,7 @@
     "source": "diasend",
     "subType": "normal",
     "timezoneOffset": -600,
-    "ts": "2014-03-13T17:38:00.000Z",
+    "time": "2014-03-13T17:38:00.000Z",
     "type": "bolus",
     "value": 3.25
   },
@@ -297,7 +297,7 @@
     "scheduleName": "unknown",
     "source": "diasend",
     "timezoneOffset": -600,
-    "ts": "2014-03-13T14:00:00.000Z",
+    "time": "2014-03-13T14:00:00.000Z",
     "type": "basal",
     "value": 0.6
   },
@@ -310,7 +310,7 @@
     },
     "source": "diasend",
     "timezoneOffset": -600,
-    "ts": "2014-03-13T18:52:00.000Z",
+    "time": "2014-03-13T18:52:00.000Z",
     "type": "wizard"
   },
   {
@@ -319,7 +319,7 @@
     "source": "diasend",
     "subType": "normal",
     "timezoneOffset": -600,
-    "ts": "2014-03-13T18:52:00.000Z",
+    "time": "2014-03-13T18:52:00.000Z",
     "type": "bolus",
     "value": 3.5
   },
@@ -331,7 +331,7 @@
     "scheduleName": "unknown",
     "source": "diasend",
     "timezoneOffset": -600,
-    "ts": "2014-03-13T18:00:00.000Z",
+    "time": "2014-03-13T18:00:00.000Z",
     "type": "basal",
     "value": 0.725
   },
@@ -343,7 +343,7 @@
     "scheduleName": "unknown",
     "source": "diasend",
     "timezoneOffset": -600,
-    "ts": "2014-03-13T21:49:00.000Z",
+    "time": "2014-03-13T21:49:00.000Z",
     "type": "basal",
     "value": 0
   },
@@ -355,7 +355,7 @@
     "scheduleName": "unknown",
     "source": "diasend",
     "timezoneOffset": -600,
-    "ts": "2014-03-13T21:52:00.000Z",
+    "time": "2014-03-13T21:52:00.000Z",
     "type": "basal",
     "value": 0.725
   },
@@ -368,7 +368,7 @@
     },
     "source": "diasend",
     "timezoneOffset": -600,
-    "ts": "2014-03-14T08:26:00.000Z",
+    "time": "2014-03-14T08:26:00.000Z",
     "type": "wizard"
   },
   {
@@ -383,7 +383,7 @@
     "source": "diasend",
     "subType": "square",
     "timezoneOffset": -600,
-    "ts": "2014-03-14T08:26:00.000Z",
+    "time": "2014-03-14T08:26:00.000Z",
     "type": "bolus",
     "value": 1.2
   },
@@ -395,7 +395,7 @@
     "scheduleName": "unknown",
     "source": "diasend",
     "timezoneOffset": -600,
-    "ts": "2014-03-13T22:01:00.000Z",
+    "time": "2014-03-13T22:01:00.000Z",
     "type": "basal",
     "value": 0.775
   },
@@ -405,7 +405,7 @@
     "source": "diasend",
     "subType": "normal",
     "timezoneOffset": -600,
-    "ts": "2014-03-14T09:52:00.000Z",
+    "time": "2014-03-14T09:52:00.000Z",
     "type": "bolus",
     "value": 4.4
   },
@@ -417,7 +417,7 @@
     "scheduleName": "unknown",
     "source": "diasend",
     "timezoneOffset": -600,
-    "ts": "2014-03-14T08:46:00.000Z",
+    "time": "2014-03-14T08:46:00.000Z",
     "type": "basal",
     "value": 0.465
   },
@@ -430,7 +430,7 @@
     },
     "source": "diasend",
     "timezoneOffset": -600,
-    "ts": "2014-03-14T10:58:00.000Z",
+    "time": "2014-03-14T10:58:00.000Z",
     "type": "wizard"
   },
   {
@@ -439,7 +439,7 @@
     "source": "diasend",
     "subType": "normal",
     "timezoneOffset": -600,
-    "ts": "2014-03-14T10:58:00.000Z",
+    "time": "2014-03-14T10:58:00.000Z",
     "type": "bolus",
     "value": 3.4
   },
@@ -452,7 +452,7 @@
     },
     "source": "diasend",
     "timezoneOffset": -600,
-    "ts": "2014-03-14T11:10:00.000Z",
+    "time": "2014-03-14T11:10:00.000Z",
     "type": "wizard"
   },
   {
@@ -461,7 +461,7 @@
     "source": "diasend",
     "subType": "normal",
     "timezoneOffset": -600,
-    "ts": "2014-03-14T11:10:00.000Z",
+    "time": "2014-03-14T11:10:00.000Z",
     "type": "bolus",
     "value": 2
   },
@@ -473,7 +473,7 @@
     "scheduleName": "unknown",
     "source": "diasend",
     "timezoneOffset": -600,
-    "ts": "2014-03-14T10:01:00.000Z",
+    "time": "2014-03-14T10:01:00.000Z",
     "type": "basal",
     "value": 0.39
   },
@@ -485,7 +485,7 @@
     "scheduleName": "unknown",
     "source": "diasend",
     "timezoneOffset": -600,
-    "ts": "2014-03-14T14:01:00.000Z",
+    "time": "2014-03-14T14:01:00.000Z",
     "type": "basal",
     "value": 0.6
   },
@@ -497,12 +497,12 @@
     "scheduleName": "unknown",
     "source": "diasend",
     "timezoneOffset": -600,
-    "ts": "2014-03-14T16:28:00.000Z",
+    "time": "2014-03-14T16:28:00.000Z",
     "type": "basal",
     "value": 0
   },
   {
-    "activeBasalSchedule": "Program 1",
+    "activeSchedule": "Program 1",
     "basalSchedules": {
       "Program 1": [
         {
@@ -571,7 +571,7 @@
     ],
     "source": "diasend",
     "timezoneOffset": -600,
-    "ts": "2014-03-20T11:00:00.000Z",
+    "time": "2014-03-20T11:00:00.000Z",
     "type": "settings",
     "units": {
       "bg": "mmol/L"
