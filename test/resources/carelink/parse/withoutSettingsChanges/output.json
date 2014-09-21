@@ -66,18 +66,6 @@
     "type": "wizard"
   },
   {
-    "deliveryType": "scheduled",
-    "deviceId": "Paradigm Revel - 723",
-    "deviceTime": "2014-03-13T00:00:00",
-    "duration": 3600000,
-    "scheduleName": "standard",
-    "source": "carelink",
-    "timezoneOffset": -600,
-    "time": "2014-03-13T10:00:00.000Z",
-    "type": "basal",
-    "rate": 0.8
-  },
-  {
     "activeSchedule": "standard",
     "basalSchedules": {
       "pattern a": [
@@ -131,6 +119,18 @@
       "bg": "mg/dL",
       "carb": "grams"
     }
+  },
+  {
+    "deliveryType": "scheduled",
+    "deviceId": "Paradigm Revel - 723",
+    "deviceTime": "2014-03-13T00:00:00",
+    "duration": 3600000,
+    "scheduleName": "standard",
+    "source": "carelink",
+    "timezoneOffset": -600,
+    "time": "2014-03-13T10:00:00.000Z",
+    "type": "basal",
+    "rate": 0.8
   },
   {
     "deliveryType": "temp",
