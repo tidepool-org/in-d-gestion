@@ -87,8 +87,7 @@ var expectSuccess = [
       { type: 'wizard', payload: 'a_value', uploadId: '1', uploadSeqNum: 25, deviceId: 'abc' }
     ],
     [
-      { type: 'bolus', subType: 'dual/normal', payload: '1234', deviceId: 'abc', joinKey: 'sk9lk5f1fd6ofgcugjlcdu0n98hqecc7', value: 0, programmed: 0 },
-      { type: 'bolus', subType: 'dual/square', payload: '1234', deviceId: 'abc', joinKey: 'sk9lk5f1fd6ofgcugjlcdu0n98hqecc7' },
+      { type: 'bolus', subType: 'dual/square', payload: '1234', deviceId: 'abc', joinKey: 'sk9lk5f1fd6ofgcugjlcdu0n98hqecc7', value: 0, programmed: 0 },
       { type: 'wizard', payload: 'a_value', deviceId: 'abc', joinKey: 'sk9lk5f1fd6ofgcugjlcdu0n98hqecc7' }
     ]
   ],
@@ -99,8 +98,7 @@ var expectSuccess = [
       { type: 'wizard', payload: 'a_value', uploadId: '1', uploadSeqNum: 25, deviceId: 'abc' }
     ],
     [
-      { type: 'bolus', subType: 'dual/normal', payload: '1234', deviceId: 'abc', joinKey: 'sk9lk5f1fd6ofgcugjlcdu0n98hqecc7', value: 0, programmed: 0 },
-      { type: 'bolus', subType: 'dual/square', payload: '1234', deviceId: 'abc', joinKey: 'sk9lk5f1fd6ofgcugjlcdu0n98hqecc7' },
+      { type: 'bolus', subType: 'dual/square', payload: '1234', deviceId: 'abc', joinKey: 'sk9lk5f1fd6ofgcugjlcdu0n98hqecc7', value: 0, programmed: 0 },
       { type: 'wizard', payload: 'a_value', deviceId: 'abc', joinKey: 'sk9lk5f1fd6ofgcugjlcdu0n98hqecc7' }
     ]
   ]
