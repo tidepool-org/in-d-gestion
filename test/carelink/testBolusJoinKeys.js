@@ -81,24 +81,24 @@ var expectSuccess = [
     ]
   ],
   [
-    'on just dual/square and wizard, fabricates dual/normal and joins them, bolus -> wizard',
+    'on just dual/square and wizard, changes dual/square to square, bolus -> wizard',
     [
       { type: 'bolus', subType: 'dual/square', payload: '1234', uploadId: '1', uploadSeqNum: 24, deviceId: 'abc' },
       { type: 'wizard', payload: 'a_value', uploadId: '1', uploadSeqNum: 25, deviceId: 'abc' }
     ],
     [
-      { type: 'bolus', subType: 'dual/square', payload: '1234', deviceId: 'abc', joinKey: 'sk9lk5f1fd6ofgcugjlcdu0n98hqecc7', value: 0, programmed: 0 },
+      { type: 'bolus', subType: 'square', payload: '1234', deviceId: 'abc', joinKey: 'sk9lk5f1fd6ofgcugjlcdu0n98hqecc7' },
       { type: 'wizard', payload: 'a_value', deviceId: 'abc', joinKey: 'sk9lk5f1fd6ofgcugjlcdu0n98hqecc7' }
     ]
   ],
   [
-    'on just dual/square and wizard, fabricates dual/normal and joins them, wizard -> bolus',
+    'on just dual/square and wizard, changes dual/square to square, wizard -> bolus',
     [
       { type: 'bolus', subType: 'dual/square', payload: '1234', uploadId: '1', uploadSeqNum: 24, deviceId: 'abc' },
       { type: 'wizard', payload: 'a_value', uploadId: '1', uploadSeqNum: 25, deviceId: 'abc' }
     ],
     [
-      { type: 'bolus', subType: 'dual/square', payload: '1234', deviceId: 'abc', joinKey: 'sk9lk5f1fd6ofgcugjlcdu0n98hqecc7', value: 0, programmed: 0 },
+      { type: 'bolus', subType: 'square', payload: '1234', deviceId: 'abc', joinKey: 'sk9lk5f1fd6ofgcugjlcdu0n98hqecc7' },
       { type: 'wizard', payload: 'a_value', deviceId: 'abc', joinKey: 'sk9lk5f1fd6ofgcugjlcdu0n98hqecc7' }
     ]
   ]
